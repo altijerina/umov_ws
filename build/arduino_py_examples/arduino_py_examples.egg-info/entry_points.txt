@@ -1,0 +1,9 @@
+[console_scripts]
+simple_action_client = arduino_py_examples.simple_action_client:main
+simple_action_server = arduino_py_examples.simple_action_server:main
+simple_parameter = arduino_py_examples.simple_parameter:main
+simple_publisher = arduino_py_examples.simple_publisher:main
+simple_service_client = arduino_py_examples.simple_service_client:main
+simple_service_server = arduino_py_examples.simple_service_server:main
+simple_subscriber = arduino_py_examples.simple_subscriber:main
+

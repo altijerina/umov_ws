@@ -1,0 +1,124 @@
+[0.057s] Invoking command in '/home/albert/umov_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/umov_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/albert/umov_ws/install/arduinobot_controller
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.267s] -- The CXX compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.434s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.442s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.607s] -- Detecting CXX compile features
+[0.608s] -- Detecting CXX compile features - done
+[0.620s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.922s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.219s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.383s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.411s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.445s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.968s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.077s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.248s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.267s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.370s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.409s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.496s] -- Found Threads: TRUE
+[2.708s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[2.720s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[3.362s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")
+[3.364s] -- Checking for module 'libserial'
+[3.394s] --   Found libserial, version 1.0.0
+[3.588s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.757s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.758s] -- Configured cppcheck include dirs: /home/albert/umov_ws/src/arduinobot_controller/include;/home/albert/umov_ws/src/arduinobot_controller/
+[3.758s] -- Configured cppcheck exclude dirs and/or files: 
+[3.761s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.764s] -- Added test 'lint_cmake' to check CMake code style
+[3.767s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.771s] -- Added test 'uncrustify' to check C / C++ code style
+[3.771s] -- Configured uncrustify additional arguments: 
+[3.774s] -- Added test 'xmllint' to check XML markup files
+[3.780s] -- Configuring done (3.7s)
+[3.822s] -- Generating done (0.0s)
+[3.824s] -- Build files have been written to: /home/albert/umov_ws/build/arduinobot_controller
+[3.836s] Invoked command in '/home/albert/umov_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/umov_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/albert/umov_ws/install/arduinobot_controller
+[3.838s] Invoking command in '/home/albert/umov_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_controller -- -j8 -l8
+[3.881s] [ 50%] [32mBuilding CXX object CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[7.660s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[7.660s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:81:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.661s]    81 | nobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[7.661s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[7.661s] 
+[7.662s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[7.663s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:106:30:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[7.663s]   106 |         if(arduino_.IsOpen())[01;35m[K;[m[K
+[7.663s]       |                              [01;35m[K^[m[K
+[7.663s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:106:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[7.663s]   106 |         [01;35m[Kif[m[K(arduino_.IsOpen());
+[7.664s]       |         [01;35m[K^~[m[K
+[7.664s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:107:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[7.664s]   107 |         [01;36m[K{[m[K
+[7.664s]       |         [01;36m[K^[m[K
+[7.667s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:103:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.667s]   103 | botInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[7.667s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[7.667s] 
+[7.668s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[7.668s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:124:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.668s]   124 | :return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[7.668s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[7.669s] 
+[7.669s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:124:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.669s]   124 | rface::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[7.669s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.669s] 
+[7.673s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[7.674s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:131:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.674s]   131 | return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[7.674s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[7.674s] 
+[7.674s] [01m[K/home/albert/umov_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:131:116:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.675s]   131 | face::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[7.675s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.675s] 
+[10.834s] [100%] [32m[1mLinking CXX shared library libarduinobot_controller.so[0m
+[11.478s] [100%] Built target arduinobot_controller
+[11.510s] Invoked command in '/home/albert/umov_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_controller -- -j8 -l8
+[11.735s] Invoking command in '/home/albert/umov_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduinobot_controller
+[11.747s] -- Install configuration: ""
+[11.747s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/arduinobot_controller.xml
+[11.748s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+[11.749s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+[11.749s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/config
+[11.750s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[11.752s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/lib/libarduinobot_controller.so
+[11.753s] -- Set non-toolchain portion of runtime path of "/home/albert/umov_ws/install/arduinobot_controller/lib/libarduinobot_controller.so" to ""
+[11.754s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/include/include
+[11.754s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/include/include/arduinobot_controller
+[11.754s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+[11.755s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.sh
+[11.755s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.dsv
+[11.755s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[11.756s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[11.756s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[11.757s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[11.757s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[11.757s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[11.758s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[11.758s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[11.758s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[11.759s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[11.759s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[11.759s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[11.759s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduinobot_controller
+[11.760s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.760s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[11.760s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.761s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[11.761s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[11.761s] -- Installing: /home/albert/umov_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[11.764s] Invoked command in '/home/albert/umov_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduinobot_controller
