@@ -1,0 +1,18 @@
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_remote::TaskServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:152:46:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+  152 |     bool arm_within_bounds = (arm_joint_goal_[01;31m[K->[m[Ksize() == arm_move_group_->getActiveJoints()->size());
+      |                                              [01;31m[K^~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:152:92:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’
+  152 | nds = (arm_joint_goal_->size() == arm_move_group_->getActiveJoints()[01;31m[K->[m[Ksize());
+      |                                                                     [01;31m[K^~[m[K
+
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:153:54:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+  153 |     bool gripper_within_bounds = (gripper_joint_goal_[01;31m[K->[m[Ksize() == gripper_move_group_->getActiveJoints()->size());
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:153:104:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’
+  153 | ripper_joint_goal_->size() == gripper_move_group_->getActiveJoints()[01;31m[K->[m[Ksize());
+      |                                                                     [01;31m[K^~[m[K
+
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

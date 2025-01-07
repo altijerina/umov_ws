@@ -1,0 +1,8 @@
+setup.py
+arduino_firmware/__init__.py
+arduino_firmware/simple_serial_receiver.py
+arduino_firmware/simple_serial_transmitter.py
+arduino_firmware.egg-info/PKG-INFO
+arduino_firmware.egg-info/SOURCES.txt
+arduino_firmware.egg-info/dependency_links.txt
+arduino_firmware.egg-info/top_level.txt

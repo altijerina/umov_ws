@@ -92,16 +92,16 @@ simple_action_client_EXTERNAL_OBJECTS =
 
 libsimple_action_client.so: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o
 libsimple_action_client.so: CMakeFiles/simple_action_client.dir/build.make
-libsimple_action_client.so: /home/albert/umov_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so
-libsimple_action_client.so: /home/albert/umov_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so
-libsimple_action_client.so: /home/albert/umov_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_c.so
-libsimple_action_client.so: /home/albert/umov_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so
-libsimple_action_client.so: /home/albert/umov_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so
-libsimple_action_client.so: /home/albert/umov_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so
+libsimple_action_client.so: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_fastrtps_c.so
+libsimple_action_client.so: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_fastrtps_cpp.so
+libsimple_action_client.so: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_introspection_c.so
+libsimple_action_client.so: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_introspection_cpp.so
+libsimple_action_client.so: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_cpp.so
+libsimple_action_client.so: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_generator_py.so
 libsimple_action_client.so: /opt/ros/humble/lib/librclcpp_action.so
 libsimple_action_client.so: /opt/ros/humble/lib/libcomponent_manager.so
-libsimple_action_client.so: /home/albert/umov_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_c.so
-libsimple_action_client.so: /home/albert/umov_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_c.so
+libsimple_action_client.so: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_c.so
+libsimple_action_client.so: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_generator_c.so
 libsimple_action_client.so: /opt/ros/humble/lib/librcl_action.so
 libsimple_action_client.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
 libsimple_action_client.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so

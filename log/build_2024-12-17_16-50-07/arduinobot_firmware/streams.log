@@ -1,0 +1,11 @@
+[0.109s] Invoking command in '/home/albert/umov_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_firmware -- -j8 -l8
+[0.288s] [  0%] Built target ament_cmake_python_copy_arduinobot_firmware
+[0.290s] [ 50%] Built target simple_serial_transmitter
+[0.304s] [100%] Built target simple_serial_receiver
+[1.365s] running egg_info
+[1.367s] writing arduinobot_firmware.egg-info/PKG-INFO
+[1.367s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[1.367s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[1.373s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[1.374s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[1.429s] [100%] Built target ament_cmake_python_build_arduinobot_firmware_egg

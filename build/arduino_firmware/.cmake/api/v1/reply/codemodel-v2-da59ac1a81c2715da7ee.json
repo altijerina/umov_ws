@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a2d9b6e9033fca080846.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduino_firmware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arduino_firmware_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arduino_firmware_egg-804e4eb300316e81d22f.json",
+					"name" : "ament_cmake_python_build_arduino_firmware_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_arduino_firmware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_arduino_firmware-2abab2d6bd753722a370.json",
+					"name" : "ament_cmake_python_copy_arduino_firmware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduino_firmware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduino_firmware_uninstall-eba9a2c602ca289735ac.json",
+					"name" : "arduino_firmware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_serial_receiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_serial_receiver-b8d3899430f564cd719d.json",
+					"name" : "simple_serial_receiver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_serial_transmitter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_serial_transmitter-c80cf989f49f8afc91e1.json",
+					"name" : "simple_serial_transmitter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0f007a241551c91688f0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/albert/umov_ws/build/arduino_firmware",
+		"source" : "/home/albert/umov_ws/src/arduino_firmware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

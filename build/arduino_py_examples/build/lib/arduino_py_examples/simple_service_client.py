@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from arduinobot_msgs.srv import AddTwoInts
+from arduino_msgs.srv import AddTwoInts
 import sys
 
 class SimpleServiceClient(Node):

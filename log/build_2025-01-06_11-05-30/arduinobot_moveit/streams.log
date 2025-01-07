@@ -1,0 +1,56 @@
+[0.089s] Invoking command in '/home/albert/umov_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/umov_ws/src/arduinobot_moveit -DCMAKE_INSTALL_PREFIX=/home/albert/umov_ws/install/arduinobot_moveit
+[0.224s] -- The C compiler identification is GNU 11.4.0
+[0.355s] -- The CXX compiler identification is GNU 11.4.0
+[0.383s] -- Detecting C compiler ABI info
+[0.508s] -- Detecting C compiler ABI info - done
+[0.570s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.570s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.579s] -- Detecting CXX compiler ABI info
+[0.761s] -- Detecting CXX compiler ABI info - done
+[0.809s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.810s] -- Detecting CXX compile features
+[0.814s] -- Detecting CXX compile features - done
+[0.839s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.751s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.098s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.111s] -- Added test 'lint_cmake' to check CMake code style
+[2.119s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.132s] -- Added test 'xmllint' to check XML markup files
+[2.150s] -- Configuring done (2.1s)
+[2.162s] -- Generating done (0.0s)
+[2.167s] -- Build files have been written to: /home/albert/umov_ws/build/arduinobot_moveit
+[2.187s] Invoked command in '/home/albert/umov_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/umov_ws/src/arduinobot_moveit -DCMAKE_INSTALL_PREFIX=/home/albert/umov_ws/install/arduinobot_moveit
+[2.188s] Invoking command in '/home/albert/umov_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_moveit -- -j8 -l8
+[2.272s] Invoked command in '/home/albert/umov_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_moveit -- -j8 -l8
+[2.287s] Invoking command in '/home/albert/umov_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduinobot_moveit
+[2.297s] -- Install configuration: ""
+[2.297s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/launch
+[2.298s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/launch/moveit.launch.py
+[2.298s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config
+[2.298s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/planning_python_api.yaml
+[2.299s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/old_arduinobot.srdf
+[2.299s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/joint_limits.yaml
+[2.299s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit_controllers.yaml
+[2.299s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/initial_positions.yaml
+[2.299s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/pilz_cartesian_limits.yaml
+[2.299s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/arduinobot.srdf
+[2.300s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/kinematics.yaml
+[2.300s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit.rviz
+[2.300s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/ament_index/resource_index/package_run_dependencies/arduinobot_moveit
+[2.300s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/ament_index/resource_index/parent_prefix_path/arduinobot_moveit
+[2.300s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/ament_prefix_path.sh
+[2.300s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/ament_prefix_path.dsv
+[2.301s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/path.sh
+[2.301s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/path.dsv
+[2.301s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.bash
+[2.307s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.sh
+[2.307s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.zsh
+[2.308s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.dsv
+[2.308s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.dsv
+[2.308s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/ament_index/resource_index/packages/arduinobot_moveit
+[2.308s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/cmake/arduinobot_moveitConfig.cmake
+[2.308s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/cmake/arduinobot_moveitConfig-version.cmake
+[2.308s] -- Installing: /home/albert/umov_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.xml
+[2.318s] Invoked command in '/home/albert/umov_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduinobot_moveit

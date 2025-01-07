@@ -1,0 +1,401 @@
+[0.000000] (-) TimerEvent: {}
+[0.003589] (-) JobUnselected: {'identifier': 'MoveitAssistant'}
+[0.004495] (-) JobUnselected: {'identifier': 'arduino_py_examples'}
+[0.005806] (-) JobUnselected: {'identifier': 'arduinobot_bringup'}
+[0.006515] (-) JobUnselected: {'identifier': 'arduinobot_controller'}
+[0.007791] (-) JobUnselected: {'identifier': 'arduinobot_firmware'}
+[0.008027] (-) JobUnselected: {'identifier': 'arduinobot_moveit'}
+[0.008109] (-) JobUnselected: {'identifier': 'arduinobot_msgs'}
+[0.008170] (-) JobUnselected: {'identifier': 'arduinobot_remote'}
+[0.008225] (-) JobUnselected: {'identifier': 'arduinobot_utils'}
+[0.008279] (-) JobUnselected: {'identifier': 'description'}
+[0.008345] (arduino_cpp_examples) JobQueued: {'identifier': 'arduino_cpp_examples', 'dependencies': OrderedDict([('arduinobot_msgs', '/home/albert/umov_ws/install/arduinobot_msgs')])}
+[0.008426] (arduino_cpp_examples) JobStarted: {'identifier': 'arduino_cpp_examples'}
+[0.099409] (-) TimerEvent: {}
+[0.156665] (arduino_cpp_examples) JobProgress: {'identifier': 'arduino_cpp_examples', 'progress': 'cmake'}
+[0.156828] (arduino_cpp_examples) JobProgress: {'identifier': 'arduino_cpp_examples', 'progress': 'build'}
+[0.168658] (arduino_cpp_examples) Command: {'cmd': ['/home/albert/.local/bin/cmake', '--build', '/home/albert/umov_ws/build/arduino_cpp_examples', '--', '-j8', '-l8'], 'cwd': '/home/albert/umov_ws/build/arduino_cpp_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'albert'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/albert/umov_ws/install/arduinobot_msgs/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_visual_tools/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_core/lib:/home/albert/ws_moveit2/install/moveit_ros_control_interface/lib:/home/albert/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/albert/ws_moveit2/install/moveit_setup_assistant/lib:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_controllers/lib:/home/albert/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_framework/lib:/home/albert/ws_moveit2/install/moveit_servo/lib:/home/albert/ws_moveit2/install/moveit_ros_visualization/lib:/home/albert/ws_moveit2/install/moveit_hybrid_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/albert/ws_moveit2/install/moveit_ros_perception/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/home/albert/ws_moveit2/install/moveit_planners_ompl/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/albert/ws_moveit2/install/moveit_planners_chomp/lib:/home/albert/ws_moveit2/install/moveit_kinematics/lib:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/albert/ws_moveit2/install/chomp_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/home/albert/ws_moveit2/install/srdfdom/lib:/home/albert/ws_moveit2/install/rviz_marker_tools/lib:/home/albert/ws_moveit2/install/rosparam_shortcuts/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/albert/umov_ws/install/arduinobot_remote/lib:/home/albert/umov_ws/install/arduino_cpp_examples/lib:/home/albert/umov_ws/install/arduinobot_controller/lib:/home/albert/udem2_ws/install/final_project_cpp/lib:/home/albert/udem2_ws/install/robot_interfaces/lib:/home/albert/udem2_ws/install/components_cpp/lib:/home/albert/udem_ws/install/my_robot_interfaces/lib:/home/albert/bcdc_ws/install/aggiebot_msgs/lib:/home/albert/bcdc_ws/install/agbot_msgs/lib:/home/albert/arduinobot_ws/install/arduinobot_remote/lib:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples/lib:/home/albert/arduinobot_ws/install/arduinobot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/albert'), ('OLDPWD', '/home/albert'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2298'), ('SYSTEMD_EXEC_PID', '2480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '296416'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/albert/umov_ws/install:/home/albert/udem2_ws/install:/home/albert/bcdc_ws/install:/home/albert/ws_moveit2/install:/home/albert/unav_ws/install:/home/albert/udem_ws/install:/home/albert/arduinobot_ws/install:/home/albert/ag_arm_ws/install:/home/albert/rad_ws/install:/home/albert/dev_ws/install:/home/albert/ag_car_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albert'), ('JOURNAL_STREAM', '8:14334'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albert'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/albert/ag_car_ws/agbot_description/models:/home/albert/ag_car_ws/agbot_description/worlds:/home/albert/ag_car_ws/agbot_description/models/basic_agbot_description'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/albert/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/home/albert/Downloads/Install_Files/Doxygen/doxygen-1.10.0/bin:/home/albert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/albert-humble:@/tmp/.ICE-unix/2450,unix/albert-humble:/tmp/.ICE-unix/2450'), ('INVOCATION_ID', 'fdb9362c81ea49e2bb82ff884448ded5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.48BEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '001'), ('AMENT_PREFIX_PATH', '/home/albert/umov_ws/install/MoveitAssistant:/home/albert/ag_arm_ws/install/arm_setup_moveit:/home/albert/ag_arm_ws/install/arm_moveit:/home/albert/ag_arm_ws/install/arm_description:/home/albert/ag_arm_ws/install/arm_cpp:/home/albert/ag_arm_ws/install/arm_controller:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/albert/ws_moveit2/install/moveit_runtime:/home/albert/ws_moveit2/install/moveit2_tutorials:/home/albert/ws_moveit2/install/moveit:/home/albert/ws_moveit2/install/moveit_planners:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner:/home/albert/ws_moveit2/install/moveit_visual_tools:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization:/home/albert/ws_moveit2/install/moveit_task_constructor_demo:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities:/home/albert/ws_moveit2/install/moveit_task_constructor_core:/home/albert/ws_moveit2/install/moveit_ros_control_interface:/home/albert/ws_moveit2/install/moveit_plugins:/home/albert/ws_moveit2/install/moveit_simple_controller_manager:/home/albert/ws_moveit2/install/moveit_setup_assistant:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins:/home/albert/ws_moveit2/install/moveit_setup_core_plugins:/home/albert/ws_moveit2/install/moveit_setup_controllers:/home/albert/ws_moveit2/install/moveit_setup_app_plugins:/home/albert/ws_moveit2/install/moveit_setup_framework:/home/albert/ws_moveit2/install/moveit_servo:/home/albert/ws_moveit2/install/moveit_ros:/home/albert/ws_moveit2/install/moveit_ros_visualization:/home/albert/ws_moveit2/install/moveit_hybrid_planning:/home/albert/ws_moveit2/install/moveit_ros_planning_interface:/home/albert/ws_moveit2/install/moveit_ros_benchmarks:/home/albert/ws_moveit2/install/moveit_ros_warehouse:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction:/home/albert/ws_moveit2/install/moveit_ros_perception:/home/albert/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/albert/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/albert/ws_moveit2/install/moveit_ros_move_group:/home/albert/ws_moveit2/install/moveit_planners_ompl:/home/albert/ws_moveit2/install/moveit_ros_planning:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/albert/ws_moveit2/install/moveit_planners_chomp:/home/albert/ws_moveit2/install/moveit_kinematics:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/albert/ws_moveit2/install/chomp_motion_planner:/home/albert/ws_moveit2/install/moveit_core:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/srdfdom:/home/albert/ws_moveit2/install/rviz_marker_tools:/home/albert/ws_moveit2/install/rosparam_shortcuts:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs:/home/albert/ws_moveit2/install/moveit_resources_prbt_support:/home/albert/ws_moveit2/install/moveit_resources:/home/albert/ws_moveit2/install/moveit_resources_pr2_description:/home/albert/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_panda_description:/home/albert/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_fanuc_description:/home/albert/ws_moveit2/install/moveit_common:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/description:/home/albert/umov_ws/install/arduinobot_utils:/home/albert/umov_ws/install/arduinobot_remote:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/umov_ws/install/arduino_cpp_examples:/home/albert/umov_ws/install/arduinobot_msgs:/home/albert/umov_ws/install/arduinobot_moveit:/home/albert/umov_ws/install/arduinobot_firmware:/home/albert/umov_ws/install/arduinobot_controller:/home/albert/umov_ws/install/arduinobot_bringup:/home/albert/unav_ws/install/turtlebot3_fake_node:/home/albert/unav_ws/install/robot_bringup:/home/albert/unav_ws/install/nav2_robot_description:/home/albert/udem2_ws/install/robot_bringup:/home/albert/udem2_ws/install/my_robot_bringup:/home/albert/udem2_ws/install/lifecycle_cpp:/home/albert/udem2_ws/install/final_project_cpp:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/actions_cpp:/home/albert/udem2_ws/install/robot_interfaces:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/executors_cpp:/home/albert/udem2_ws/install/components_py:/home/albert/udem2_ws/install/components_cpp:/home/albert/udem_ws/install/my_robot_bringup:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/my_cpp_pkg:/home/albert/udem_ws/install/my_robot_interfaces:/home/albert/udem_ws/install/my_robot_description:/home/albert/udem_ws/install/lifecycle_py:/home/albert/udem_ws/install/lifecycle_cpp:/home/albert/bcdc_ws/install/aggiebot_cpp:/home/albert/bcdc_ws/install/aggiebot_msgs:/home/albert/bcdc_ws/install/aggiebot_description:/home/albert/bcdc_ws/install/aggiebot_controller:/home/albert/bcdc_ws/install/aggiebot_bringup:/home/albert/bcdc_ws/install/aggiebot_arm_moveit:/home/albert/bcdc_ws/install/aggiebot_arm_description:/home/albert/bcdc_ws/install/aggiebot_arm_controller:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_setup_moveit:/home/albert/bcdc_ws/install/agbot_py:/home/albert/bcdc_ws/install/agbot_cpp:/home/albert/bcdc_ws/install/agbot_msgs:/home/albert/bcdc_ws/install/agbot_moveit:/home/albert/bcdc_ws/install/agbot_description:/home/albert/bcdc_ws/install/agbot_controller:/home/albert/bcdc_ws/install/agbot_bringup:/home/albert/bcdc_ws/install/agbot_arm_controller:/home/albert/arduinobot_ws/install/arduinobot_utils:/home/albert/arduinobot_ws/install/arduinobot_remote:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples:/home/albert/arduinobot_ws/install/arduinobot_msgs:/home/albert/arduinobot_ws/install/arduinobot_moveit_setup:/home/albert/arduinobot_ws/install/arduinobot_moveit:/home/albert/arduinobot_ws/install/arduinobot_description:/home/albert/arduinobot_ws/install/arduinobot_controller:/home/albert/rad_ws/install/agbot_full_nav2:/home/albert/rad_ws/install/agbot_full_msgs:/home/albert/rad_ws/install/agbot_full_moveit_setup:/home/albert/rad_ws/install/agbot_full_moveit:/home/albert/rad_ws/install/agbot_full_description:/home/albert/rad_ws/install/agbot_full_cpp:/home/albert/rad_ws/install/agbot_full_controller:/home/albert/rad_ws/install/agbot_full_cartogropher:/home/albert/dev_ws/install/my_bot:/home/albert/ag_car_ws/install/car_nav2:/home/albert/ag_car_ws/install/car_description:/home/albert/ag_car_ws/install/car_controller:/home/albert/ag_car_ws/install/car_cartographer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:479e57e0-a589-4e66-b351-6afc6c552d4c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/albert/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albert/umov_ws/build/arduino_cpp_examples'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/albert/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/albert/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/albert/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/albert/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/albert/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/home/albert/umov_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages:/home/albert/umov_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages:/home/albert/umov_ws/install/arduino_py_examples/lib/python3.10/site-packages:/home/albert/umov_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:/home/albert/umov_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages:/home/albert/udem2_ws/install/actions_py/lib/python3.10/site-packages:/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages:/home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages:/home/albert/udem2_ws/install/components_py/lib/python3.10/site-packages:/home/albert/udem_ws/install/turtlesim_catcher/lib/python3.10/site-packages:/home/albert/udem_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/albert/udem_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/albert/udem_ws/install/lifecycle_py/lib/python3.10/site-packages:/home/albert/bcdc_ws/install/aggiebot_msgs/local/lib/python3.10/dist-packages:/home/albert/bcdc_ws/install/agbot_teleop/lib/python3.10/site-packages:/home/albert/bcdc_ws/install/agbot_py/lib/python3.10/site-packages:/home/albert/bcdc_ws/install/agbot_msgs/local/lib/python3.10/dist-packages:/home/albert/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages:/home/albert/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages:/home/albert/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/albert/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:/home/albert/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/albert/umov_ws/install/arduinobot_msgs:/home/albert/umov_ws/install/MoveitAssistant:/home/albert/ag_arm_ws/install/arm_setup_moveit:/home/albert/ag_arm_ws/install/arm_moveit:/home/albert/ag_arm_ws/install/arm_description:/home/albert/ag_arm_ws/install/arm_cpp:/home/albert/ag_arm_ws/install/arm_controller:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/albert/ws_moveit2/install/moveit_runtime:/home/albert/ws_moveit2/install/moveit2_tutorials:/home/albert/ws_moveit2/install/moveit:/home/albert/ws_moveit2/install/moveit_planners:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner:/home/albert/ws_moveit2/install/moveit_visual_tools:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization:/home/albert/ws_moveit2/install/moveit_task_constructor_demo:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities:/home/albert/ws_moveit2/install/moveit_task_constructor_core:/home/albert/ws_moveit2/install/moveit_ros_control_interface:/home/albert/ws_moveit2/install/moveit_plugins:/home/albert/ws_moveit2/install/moveit_simple_controller_manager:/home/albert/ws_moveit2/install/moveit_setup_assistant:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins:/home/albert/ws_moveit2/install/moveit_setup_core_plugins:/home/albert/ws_moveit2/install/moveit_setup_controllers:/home/albert/ws_moveit2/install/moveit_setup_app_plugins:/home/albert/ws_moveit2/install/moveit_setup_framework:/home/albert/ws_moveit2/install/moveit_servo:/home/albert/ws_moveit2/install/moveit_ros:/home/albert/ws_moveit2/install/moveit_ros_visualization:/home/albert/ws_moveit2/install/moveit_hybrid_planning:/home/albert/ws_moveit2/install/moveit_ros_planning_interface:/home/albert/ws_moveit2/install/moveit_ros_benchmarks:/home/albert/ws_moveit2/install/moveit_ros_warehouse:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction:/home/albert/ws_moveit2/install/moveit_ros_perception:/home/albert/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/albert/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/albert/ws_moveit2/install/moveit_ros_move_group:/home/albert/ws_moveit2/install/moveit_planners_ompl:/home/albert/ws_moveit2/install/moveit_ros_planning:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/albert/ws_moveit2/install/moveit_planners_chomp:/home/albert/ws_moveit2/install/moveit_kinematics:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/albert/ws_moveit2/install/chomp_motion_planner:/home/albert/ws_moveit2/install/moveit_core:/home/albert/ws_moveit2/install/srdfdom:/home/albert/ws_moveit2/install/rviz_marker_tools:/home/albert/ws_moveit2/install/rosparam_shortcuts:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs:/home/albert/ws_moveit2/install/moveit_resources_prbt_support:/home/albert/ws_moveit2/install/moveit_resources:/home/albert/ws_moveit2/install/moveit_resources_pr2_description:/home/albert/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_panda_description:/home/albert/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_fanuc_description:/home/albert/ws_moveit2/install/moveit_common:/home/albert/umov_ws/install/description:/home/albert/umov_ws/install/arduinobot_utils:/home/albert/umov_ws/install/arduinobot_remote:/home/albert/umov_ws/install/arduino_cpp_examples:/home/albert/umov_ws/install/arduinobot_moveit:/home/albert/umov_ws/install/arduinobot_firmware:/home/albert/umov_ws/install/arduinobot_controller:/home/albert/umov_ws/install/arduinobot_bringup:/home/albert/unav_ws/install/turtlebot3_fake_node:/home/albert/unav_ws/install/robot_bringup:/home/albert/unav_ws/install/nav2_robot_description:/home/albert/udem2_ws/install/robot_bringup:/home/albert/udem2_ws/install/my_robot_bringup:/home/albert/udem2_ws/install/lifecycle_cpp:/home/albert/udem2_ws/install/final_project_cpp:/home/albert/udem2_ws/install/actions_cpp:/home/albert/udem2_ws/install/robot_interfaces:/home/albert/udem2_ws/install/executors_cpp:/home/albert/udem2_ws/install/components_cpp:/home/albert/udem_ws/install/my_robot_bringup:/home/albert/udem_ws/install/my_cpp_pkg:/home/albert/udem_ws/install/my_robot_interfaces:/home/albert/udem_ws/install/my_robot_description:/home/albert/udem_ws/install/lifecycle_cpp:/home/albert/bcdc_ws/install/aggiebot_cpp:/home/albert/bcdc_ws/install/aggiebot_msgs:/home/albert/bcdc_ws/install/aggiebot_description:/home/albert/bcdc_ws/install/aggiebot_controller:/home/albert/bcdc_ws/install/aggiebot_bringup:/home/albert/bcdc_ws/install/aggiebot_arm_moveit:/home/albert/bcdc_ws/install/aggiebot_arm_description:/home/albert/bcdc_ws/install/aggiebot_arm_controller:/home/albert/bcdc_ws/install/agbot_setup_moveit:/home/albert/bcdc_ws/install/agbot_cpp:/home/albert/bcdc_ws/install/agbot_msgs:/home/albert/bcdc_ws/install/agbot_moveit:/home/albert/bcdc_ws/install/agbot_description:/home/albert/bcdc_ws/install/agbot_controller:/home/albert/bcdc_ws/install/agbot_bringup:/home/albert/bcdc_ws/install/agbot_arm_controller:/home/albert/arduinobot_ws/install/arduinobot_utils:/home/albert/arduinobot_ws/install/arduinobot_remote:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples:/home/albert/arduinobot_ws/install/arduinobot_msgs:/home/albert/arduinobot_ws/install/arduinobot_moveit_setup:/home/albert/arduinobot_ws/install/arduinobot_moveit:/home/albert/arduinobot_ws/install/arduinobot_description:/home/albert/arduinobot_ws/install/arduinobot_controller:/home/albert/rad_ws/install/agbot_full_nav2:/home/albert/rad_ws/install/agbot_full_msgs:/home/albert/rad_ws/install/agbot_full_moveit_setup:/home/albert/rad_ws/install/agbot_full_moveit:/home/albert/rad_ws/install/agbot_full_description:/home/albert/rad_ws/install/agbot_full_cpp:/home/albert/rad_ws/install/agbot_full_controller:/home/albert/rad_ws/install/agbot_full_cartogropher:/home/albert/dev_ws/install/my_bot:/home/albert/ag_car_ws/install/car_nav2:/home/albert/ag_car_ws/install/car_description:/home/albert/ag_car_ws/install/car_controller:/home/albert/ag_car_ws/install/car_cartographer:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble')]), 'shell': False}
+[0.201120] (-) TimerEvent: {}
+[0.301743] (-) TimerEvent: {}
+[0.370123] (arduino_cpp_examples) StdoutLine: {'line': b'[  8%] Built target simple_publisher\n'}
+[0.406910] (-) TimerEvent: {}
+[0.479911] (arduino_cpp_examples) StdoutLine: {'line': b'[ 16%] Built target simple_action_server_node\n'}
+[0.507039] (-) TimerEvent: {}
+[0.597461] (arduino_cpp_examples) StdoutLine: {'line': b'[ 25%] Built target simple_action_client\n'}
+[0.607182] (-) TimerEvent: {}
+[0.693198] (arduino_cpp_examples) StdoutLine: {'line': b'[ 33%] Built target simple_action_client_node\n'}
+[0.707362] (-) TimerEvent: {}
+[0.808297] (-) TimerEvent: {}
+[0.824755] (arduino_cpp_examples) StdoutLine: {'line': b'[ 41%] Built target simple_moveit_interface\n'}
+[0.909438] (-) TimerEvent: {}
+[1.003938] (arduino_cpp_examples) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o\x1b[0m\n'}
+[1.009662] (-) TimerEvent: {}
+[1.112066] (-) TimerEvent: {}
+[1.212642] (-) TimerEvent: {}
+[1.316036] (-) TimerEvent: {}
+[1.418692] (-) TimerEvent: {}
+[1.519200] (-) TimerEvent: {}
+[1.619774] (-) TimerEvent: {}
+[1.720369] (-) TimerEvent: {}
+[1.821280] (-) TimerEvent: {}
+[1.921903] (-) TimerEvent: {}
+[2.023744] (-) TimerEvent: {}
+[2.127657] (-) TimerEvent: {}
+[2.229295] (-) TimerEvent: {}
+[2.332048] (-) TimerEvent: {}
+[2.434682] (-) TimerEvent: {}
+[2.536855] (-) TimerEvent: {}
+[2.637472] (-) TimerEvent: {}
+[2.740921] (-) TimerEvent: {}
+[2.844457] (-) TimerEvent: {}
+[2.947735] (-) TimerEvent: {}
+[3.048307] (-) TimerEvent: {}
+[3.149907] (-) TimerEvent: {}
+[3.252828] (-) TimerEvent: {}
+[3.358781] (-) TimerEvent: {}
+[3.464041] (-) TimerEvent: {}
+[3.567936] (-) TimerEvent: {}
+[3.668467] (-) TimerEvent: {}
+[3.769129] (-) TimerEvent: {}
+[3.869689] (-) TimerEvent: {}
+[3.970205] (-) TimerEvent: {}
+[4.073389] (-) TimerEvent: {}
+[4.174064] (-) TimerEvent: {}
+[4.274778] (-) TimerEvent: {}
+[4.377885] (-) TimerEvent: {}
+[4.478446] (-) TimerEvent: {}
+[4.580190] (-) TimerEvent: {}
+[4.681717] (-) TimerEvent: {}
+[4.784063] (-) TimerEvent: {}
+[4.885027] (-) TimerEvent: {}
+[4.988769] (-) TimerEvent: {}
+[5.089365] (-) TimerEvent: {}
+[5.190031] (-) TimerEvent: {}
+[5.291410] (-) TimerEvent: {}
+[5.393538] (-) TimerEvent: {}
+[5.499651] (-) TimerEvent: {}
+[5.602774] (-) TimerEvent: {}
+[5.703383] (-) TimerEvent: {}
+[5.806179] (-) TimerEvent: {}
+[5.910240] (-) TimerEvent: {}
+[6.013185] (-) TimerEvent: {}
+[6.117687] (-) TimerEvent: {}
+[6.219401] (-) TimerEvent: {}
+[6.320189] (-) TimerEvent: {}
+[6.424004] (-) TimerEvent: {}
+[6.528894] (-) TimerEvent: {}
+[6.632661] (-) TimerEvent: {}
+[6.733183] (-) TimerEvent: {}
+[6.834115] (-) TimerEvent: {}
+[6.936679] (-) TimerEvent: {}
+[7.037302] (-) TimerEvent: {}
+[7.141646] (-) TimerEvent: {}
+[7.242175] (-) TimerEvent: {}
+[7.344553] (-) TimerEvent: {}
+[7.447835] (-) TimerEvent: {}
+[7.552194] (-) TimerEvent: {}
+[7.654278] (-) TimerEvent: {}
+[7.755060] (-) TimerEvent: {}
+[7.860099] (-) TimerEvent: {}
+[7.963648] (-) TimerEvent: {}
+[8.064129] (-) TimerEvent: {}
+[8.166835] (-) TimerEvent: {}
+[8.267507] (-) TimerEvent: {}
+[8.372252] (-) TimerEvent: {}
+[8.474594] (-) TimerEvent: {}
+[8.578653] (-) TimerEvent: {}
+[8.679136] (-) TimerEvent: {}
+[8.779678] (-) TimerEvent: {}
+[8.881729] (-) TimerEvent: {}
+[8.982311] (-) TimerEvent: {}
+[9.085090] (-) TimerEvent: {}
+[9.187615] (-) TimerEvent: {}
+[9.288688] (-) TimerEvent: {}
+[9.389894] (-) TimerEvent: {}
+[9.493739] (-) TimerEvent: {}
+[9.594615] (-) TimerEvent: {}
+[9.695169] (-) TimerEvent: {}
+[9.795678] (-) TimerEvent: {}
+[9.898525] (-) TimerEvent: {}
+[10.000979] (-) TimerEvent: {}
+[10.103732] (-) TimerEvent: {}
+[10.213717] (-) TimerEvent: {}
+[10.314206] (-) TimerEvent: {}
+[10.414760] (-) TimerEvent: {}
+[10.515262] (-) TimerEvent: {}
+[10.616620] (-) TimerEvent: {}
+[10.720858] (-) TimerEvent: {}
+[10.822427] (-) TimerEvent: {}
+[10.925767] (-) TimerEvent: {}
+[11.026284] (-) TimerEvent: {}
+[11.127075] (-) TimerEvent: {}
+[11.229647] (-) TimerEvent: {}
+[11.330633] (-) TimerEvent: {}
+[11.434574] (-) TimerEvent: {}
+[11.535162] (-) TimerEvent: {}
+[11.638804] (-) TimerEvent: {}
+[11.740448] (-) TimerEvent: {}
+[11.842030] (-) TimerEvent: {}
+[11.943219] (-) TimerEvent: {}
+[12.046815] (-) TimerEvent: {}
+[12.147388] (-) TimerEvent: {}
+[12.248008] (-) TimerEvent: {}
+[12.352006] (-) TimerEvent: {}
+[12.452823] (-) TimerEvent: {}
+[12.554200] (-) TimerEvent: {}
+[12.655442] (-) TimerEvent: {}
+[12.758722] (-) TimerEvent: {}
+[12.862150] (-) TimerEvent: {}
+[12.962674] (-) TimerEvent: {}
+[13.063212] (-) TimerEvent: {}
+[13.163870] (-) TimerEvent: {}
+[13.264466] (-) TimerEvent: {}
+[13.368269] (-) TimerEvent: {}
+[13.468968] (-) TimerEvent: {}
+[13.575757] (-) TimerEvent: {}
+[13.676313] (-) TimerEvent: {}
+[13.777369] (-) TimerEvent: {}
+[13.879424] (-) TimerEvent: {}
+[13.979956] (-) TimerEvent: {}
+[14.082479] (-) TimerEvent: {}
+[14.183656] (-) TimerEvent: {}
+[14.286413] (-) TimerEvent: {}
+[14.391940] (-) TimerEvent: {}
+[14.494684] (-) TimerEvent: {}
+[14.595775] (-) TimerEvent: {}
+[14.697634] (-) TimerEvent: {}
+[14.798777] (-) TimerEvent: {}
+[14.899627] (-) TimerEvent: {}
+[15.000742] (-) TimerEvent: {}
+[15.105727] (-) TimerEvent: {}
+[15.207519] (-) TimerEvent: {}
+[15.310840] (-) TimerEvent: {}
+[15.411389] (-) TimerEvent: {}
+[15.512083] (-) TimerEvent: {}
+[15.612960] (-) TimerEvent: {}
+[15.717352] (-) TimerEvent: {}
+[15.818858] (-) TimerEvent: {}
+[15.919433] (-) TimerEvent: {}
+[16.021360] (-) TimerEvent: {}
+[16.122721] (-) TimerEvent: {}
+[16.225370] (-) TimerEvent: {}
+[16.327503] (-) TimerEvent: {}
+[16.431705] (-) TimerEvent: {}
+[16.532487] (-) TimerEvent: {}
+[16.634812] (-) TimerEvent: {}
+[16.735794] (-) TimerEvent: {}
+[16.837427] (-) TimerEvent: {}
+[16.941072] (-) TimerEvent: {}
+[17.042643] (-) TimerEvent: {}
+[17.143398] (-) TimerEvent: {}
+[17.244750] (-) TimerEvent: {}
+[17.345305] (-) TimerEvent: {}
+[17.446263] (-) TimerEvent: {}
+[17.550213] (-) TimerEvent: {}
+[17.650912] (-) TimerEvent: {}
+[17.751411] (-) TimerEvent: {}
+[17.852695] (-) TimerEvent: {}
+[17.955409] (-) TimerEvent: {}
+[18.056085] (-) TimerEvent: {}
+[18.158716] (-) TimerEvent: {}
+[18.259633] (-) TimerEvent: {}
+[18.362687] (-) TimerEvent: {}
+[18.463205] (-) TimerEvent: {}
+[18.563732] (-) TimerEvent: {}
+[18.664231] (-) TimerEvent: {}
+[18.764782] (-) TimerEvent: {}
+[18.866103] (-) TimerEvent: {}
+[18.967434] (-) TimerEvent: {}
+[19.068898] (-) TimerEvent: {}
+[19.170243] (-) TimerEvent: {}
+[19.270860] (-) TimerEvent: {}
+[19.372957] (-) TimerEvent: {}
+[19.473590] (-) TimerEvent: {}
+[19.577911] (-) TimerEvent: {}
+[19.678410] (-) TimerEvent: {}
+[19.778993] (-) TimerEvent: {}
+[19.879554] (-) TimerEvent: {}
+[19.980217] (-) TimerEvent: {}
+[20.081250] (-) TimerEvent: {}
+[20.181936] (-) TimerEvent: {}
+[20.282699] (-) TimerEvent: {}
+[20.383352] (-) TimerEvent: {}
+[20.485470] (-) TimerEvent: {}
+[20.586043] (-) TimerEvent: {}
+[20.686591] (-) TimerEvent: {}
+[20.787200] (-) TimerEvent: {}
+[20.890008] (-) TimerEvent: {}
+[20.990501] (-) TimerEvent: {}
+[21.091516] (-) TimerEvent: {}
+[21.194128] (-) TimerEvent: {}
+[21.295682] (-) TimerEvent: {}
+[21.396264] (-) TimerEvent: {}
+[21.496797] (-) TimerEvent: {}
+[21.597216] (-) TimerEvent: {}
+[21.697834] (-) TimerEvent: {}
+[21.798423] (-) TimerEvent: {}
+[21.899013] (-) TimerEvent: {}
+[21.999638] (-) TimerEvent: {}
+[22.100128] (-) TimerEvent: {}
+[22.200816] (-) TimerEvent: {}
+[22.301658] (-) TimerEvent: {}
+[22.402116] (-) TimerEvent: {}
+[22.502699] (-) TimerEvent: {}
+[22.603216] (-) TimerEvent: {}
+[22.703651] (-) TimerEvent: {}
+[22.804126] (-) TimerEvent: {}
+[22.904544] (-) TimerEvent: {}
+[23.005175] (-) TimerEvent: {}
+[23.105632] (-) TimerEvent: {}
+[23.206274] (-) TimerEvent: {}
+[23.307211] (-) TimerEvent: {}
+[23.408327] (-) TimerEvent: {}
+[23.509169] (-) TimerEvent: {}
+[23.609814] (-) TimerEvent: {}
+[23.712080] (-) TimerEvent: {}
+[23.813060] (-) TimerEvent: {}
+[23.914761] (-) TimerEvent: {}
+[24.015216] (-) TimerEvent: {}
+[24.115696] (-) TimerEvent: {}
+[24.216684] (-) TimerEvent: {}
+[24.318780] (-) TimerEvent: {}
+[24.421093] (-) TimerEvent: {}
+[24.523681] (-) TimerEvent: {}
+[24.624362] (-) TimerEvent: {}
+[24.725595] (-) TimerEvent: {}
+[24.832734] (-) TimerEvent: {}
+[24.933481] (-) TimerEvent: {}
+[25.035113] (-) TimerEvent: {}
+[25.136618] (-) TimerEvent: {}
+[25.237143] (-) TimerEvent: {}
+[25.337818] (-) TimerEvent: {}
+[25.439712] (-) TimerEvent: {}
+[25.540959] (-) TimerEvent: {}
+[25.644442] (-) TimerEvent: {}
+[25.746100] (-) TimerEvent: {}
+[25.846781] (-) TimerEvent: {}
+[25.947513] (-) TimerEvent: {}
+[26.048960] (-) TimerEvent: {}
+[26.152283] (-) TimerEvent: {}
+[26.253964] (-) TimerEvent: {}
+[26.354467] (-) TimerEvent: {}
+[26.455725] (-) TimerEvent: {}
+[26.558464] (-) TimerEvent: {}
+[26.660666] (-) TimerEvent: {}
+[26.762671] (-) TimerEvent: {}
+[26.865526] (-) TimerEvent: {}
+[26.968781] (-) TimerEvent: {}
+[27.069855] (-) TimerEvent: {}
+[27.173922] (-) TimerEvent: {}
+[27.274654] (-) TimerEvent: {}
+[27.375263] (-) TimerEvent: {}
+[27.476329] (-) TimerEvent: {}
+[27.581972] (-) TimerEvent: {}
+[27.682531] (-) TimerEvent: {}
+[27.786190] (-) TimerEvent: {}
+[27.887622] (-) TimerEvent: {}
+[27.989896] (-) TimerEvent: {}
+[28.090518] (-) TimerEvent: {}
+[28.193735] (-) TimerEvent: {}
+[28.294316] (-) TimerEvent: {}
+[28.394817] (-) TimerEvent: {}
+[28.495694] (-) TimerEvent: {}
+[28.597076] (-) TimerEvent: {}
+[28.698551] (-) TimerEvent: {}
+[28.800200] (-) TimerEvent: {}
+[28.900930] (-) TimerEvent: {}
+[29.001616] (-) TimerEvent: {}
+[29.105033] (-) TimerEvent: {}
+[29.207012] (-) TimerEvent: {}
+[29.313382] (-) TimerEvent: {}
+[29.416947] (-) TimerEvent: {}
+[29.518302] (-) TimerEvent: {}
+[29.619156] (-) TimerEvent: {}
+[29.719941] (-) TimerEvent: {}
+[29.824866] (-) TimerEvent: {}
+[29.926238] (-) TimerEvent: {}
+[30.027913] (-) TimerEvent: {}
+[30.130721] (-) TimerEvent: {}
+[30.231301] (-) TimerEvent: {}
+[30.332701] (-) TimerEvent: {}
+[30.434444] (-) TimerEvent: {}
+[30.535533] (-) TimerEvent: {}
+[30.640609] (-) TimerEvent: {}
+[30.745808] (-) TimerEvent: {}
+[30.849770] (-) TimerEvent: {}
+[30.953682] (-) TimerEvent: {}
+[31.054172] (-) TimerEvent: {}
+[31.154678] (-) TimerEvent: {}
+[31.255282] (-) TimerEvent: {}
+[31.355874] (-) TimerEvent: {}
+[31.456411] (-) TimerEvent: {}
+[31.558759] (-) TimerEvent: {}
+[31.661287] (-) TimerEvent: {}
+[31.764131] (-) TimerEvent: {}
+[31.868406] (-) TimerEvent: {}
+[31.973549] (-) TimerEvent: {}
+[32.045252] (arduino_cpp_examples) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable moveit_interface\x1b[0m\n'}
+[32.073714] (-) TimerEvent: {}
+[32.174328] (-) TimerEvent: {}
+[32.279068] (-) TimerEvent: {}
+[32.380723] (-) TimerEvent: {}
+[32.481470] (-) TimerEvent: {}
+[32.582332] (-) TimerEvent: {}
+[32.682853] (-) TimerEvent: {}
+[32.786935] (-) TimerEvent: {}
+[32.887858] (-) TimerEvent: {}
+[32.988332] (-) TimerEvent: {}
+[33.089826] (-) TimerEvent: {}
+[33.192894] (-) TimerEvent: {}
+[33.296889] (-) TimerEvent: {}
+[33.398021] (-) TimerEvent: {}
+[33.442628] (arduino_cpp_examples) StdoutLine: {'line': b'[ 50%] Built target moveit_interface\n'}
+[33.498270] (-) TimerEvent: {}
+[33.530548] (arduino_cpp_examples) StdoutLine: {'line': b'[ 58%] Built target simple_action_server\n'}
+[33.598461] (-) TimerEvent: {}
+[33.623156] (arduino_cpp_examples) StdoutLine: {'line': b'[ 66%] Built target simple_lifecycle_node\n'}
+[33.698814] (-) TimerEvent: {}
+[33.708722] (arduino_cpp_examples) StdoutLine: {'line': b'[ 75%] Built target simple_service_client\n'}
+[33.802734] (-) TimerEvent: {}
+[33.828130] (arduino_cpp_examples) StdoutLine: {'line': b'[ 83%] Built target simple_service_server\n'}
+[33.902861] (-) TimerEvent: {}
+[33.913668] (arduino_cpp_examples) StdoutLine: {'line': b'[ 91%] Built target simple_parameter\n'}
+[33.986540] (arduino_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[34.003200] (-) TimerEvent: {}
+[34.006721] (arduino_cpp_examples) CommandEnded: {'returncode': 0}
+[34.010721] (arduino_cpp_examples) JobProgress: {'identifier': 'arduino_cpp_examples', 'progress': 'install'}
+[34.026881] (arduino_cpp_examples) Command: {'cmd': ['/home/albert/.local/bin/cmake', '--install', '/home/albert/umov_ws/build/arduino_cpp_examples'], 'cwd': '/home/albert/umov_ws/build/arduino_cpp_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'albert'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/albert/umov_ws/install/arduinobot_msgs/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_visual_tools/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_core/lib:/home/albert/ws_moveit2/install/moveit_ros_control_interface/lib:/home/albert/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/albert/ws_moveit2/install/moveit_setup_assistant/lib:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_controllers/lib:/home/albert/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_framework/lib:/home/albert/ws_moveit2/install/moveit_servo/lib:/home/albert/ws_moveit2/install/moveit_ros_visualization/lib:/home/albert/ws_moveit2/install/moveit_hybrid_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/albert/ws_moveit2/install/moveit_ros_perception/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/home/albert/ws_moveit2/install/moveit_planners_ompl/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/albert/ws_moveit2/install/moveit_planners_chomp/lib:/home/albert/ws_moveit2/install/moveit_kinematics/lib:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/albert/ws_moveit2/install/chomp_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/home/albert/ws_moveit2/install/srdfdom/lib:/home/albert/ws_moveit2/install/rviz_marker_tools/lib:/home/albert/ws_moveit2/install/rosparam_shortcuts/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/albert/umov_ws/install/arduinobot_remote/lib:/home/albert/umov_ws/install/arduino_cpp_examples/lib:/home/albert/umov_ws/install/arduinobot_controller/lib:/home/albert/udem2_ws/install/final_project_cpp/lib:/home/albert/udem2_ws/install/robot_interfaces/lib:/home/albert/udem2_ws/install/components_cpp/lib:/home/albert/udem_ws/install/my_robot_interfaces/lib:/home/albert/bcdc_ws/install/aggiebot_msgs/lib:/home/albert/bcdc_ws/install/agbot_msgs/lib:/home/albert/arduinobot_ws/install/arduinobot_remote/lib:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples/lib:/home/albert/arduinobot_ws/install/arduinobot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/albert'), ('OLDPWD', '/home/albert'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2298'), ('SYSTEMD_EXEC_PID', '2480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '296416'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/albert/umov_ws/install:/home/albert/udem2_ws/install:/home/albert/bcdc_ws/install:/home/albert/ws_moveit2/install:/home/albert/unav_ws/install:/home/albert/udem_ws/install:/home/albert/arduinobot_ws/install:/home/albert/ag_arm_ws/install:/home/albert/rad_ws/install:/home/albert/dev_ws/install:/home/albert/ag_car_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albert'), ('JOURNAL_STREAM', '8:14334'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albert'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/home/albert/ag_car_ws/agbot_description/models:/home/albert/ag_car_ws/agbot_description/worlds:/home/albert/ag_car_ws/agbot_description/models/basic_agbot_description'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/albert/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/home/albert/Downloads/Install_Files/Doxygen/doxygen-1.10.0/bin:/home/albert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/albert-humble:@/tmp/.ICE-unix/2450,unix/albert-humble:/tmp/.ICE-unix/2450'), ('INVOCATION_ID', 'fdb9362c81ea49e2bb82ff884448ded5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.48BEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '001'), ('AMENT_PREFIX_PATH', '/home/albert/umov_ws/install/MoveitAssistant:/home/albert/ag_arm_ws/install/arm_setup_moveit:/home/albert/ag_arm_ws/install/arm_moveit:/home/albert/ag_arm_ws/install/arm_description:/home/albert/ag_arm_ws/install/arm_cpp:/home/albert/ag_arm_ws/install/arm_controller:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/albert/ws_moveit2/install/moveit_runtime:/home/albert/ws_moveit2/install/moveit2_tutorials:/home/albert/ws_moveit2/install/moveit:/home/albert/ws_moveit2/install/moveit_planners:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner:/home/albert/ws_moveit2/install/moveit_visual_tools:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization:/home/albert/ws_moveit2/install/moveit_task_constructor_demo:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities:/home/albert/ws_moveit2/install/moveit_task_constructor_core:/home/albert/ws_moveit2/install/moveit_ros_control_interface:/home/albert/ws_moveit2/install/moveit_plugins:/home/albert/ws_moveit2/install/moveit_simple_controller_manager:/home/albert/ws_moveit2/install/moveit_setup_assistant:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins:/home/albert/ws_moveit2/install/moveit_setup_core_plugins:/home/albert/ws_moveit2/install/moveit_setup_controllers:/home/albert/ws_moveit2/install/moveit_setup_app_plugins:/home/albert/ws_moveit2/install/moveit_setup_framework:/home/albert/ws_moveit2/install/moveit_servo:/home/albert/ws_moveit2/install/moveit_ros:/home/albert/ws_moveit2/install/moveit_ros_visualization:/home/albert/ws_moveit2/install/moveit_hybrid_planning:/home/albert/ws_moveit2/install/moveit_ros_planning_interface:/home/albert/ws_moveit2/install/moveit_ros_benchmarks:/home/albert/ws_moveit2/install/moveit_ros_warehouse:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction:/home/albert/ws_moveit2/install/moveit_ros_perception:/home/albert/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/albert/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/albert/ws_moveit2/install/moveit_ros_move_group:/home/albert/ws_moveit2/install/moveit_planners_ompl:/home/albert/ws_moveit2/install/moveit_ros_planning:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/albert/ws_moveit2/install/moveit_planners_chomp:/home/albert/ws_moveit2/install/moveit_kinematics:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/albert/ws_moveit2/install/chomp_motion_planner:/home/albert/ws_moveit2/install/moveit_core:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/srdfdom:/home/albert/ws_moveit2/install/rviz_marker_tools:/home/albert/ws_moveit2/install/rosparam_shortcuts:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs:/home/albert/ws_moveit2/install/moveit_resources_prbt_support:/home/albert/ws_moveit2/install/moveit_resources:/home/albert/ws_moveit2/install/moveit_resources_pr2_description:/home/albert/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_panda_description:/home/albert/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_fanuc_description:/home/albert/ws_moveit2/install/moveit_common:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/description:/home/albert/umov_ws/install/arduinobot_utils:/home/albert/umov_ws/install/arduinobot_remote:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/umov_ws/install/arduino_cpp_examples:/home/albert/umov_ws/install/arduinobot_msgs:/home/albert/umov_ws/install/arduinobot_moveit:/home/albert/umov_ws/install/arduinobot_firmware:/home/albert/umov_ws/install/arduinobot_controller:/home/albert/umov_ws/install/arduinobot_bringup:/home/albert/unav_ws/install/turtlebot3_fake_node:/home/albert/unav_ws/install/robot_bringup:/home/albert/unav_ws/install/nav2_robot_description:/home/albert/udem2_ws/install/robot_bringup:/home/albert/udem2_ws/install/my_robot_bringup:/home/albert/udem2_ws/install/lifecycle_cpp:/home/albert/udem2_ws/install/final_project_cpp:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/actions_cpp:/home/albert/udem2_ws/install/robot_interfaces:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/executors_cpp:/home/albert/udem2_ws/install/components_py:/home/albert/udem2_ws/install/components_cpp:/home/albert/udem_ws/install/my_robot_bringup:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/my_cpp_pkg:/home/albert/udem_ws/install/my_robot_interfaces:/home/albert/udem_ws/install/my_robot_description:/home/albert/udem_ws/install/lifecycle_py:/home/albert/udem_ws/install/lifecycle_cpp:/home/albert/bcdc_ws/install/aggiebot_cpp:/home/albert/bcdc_ws/install/aggiebot_msgs:/home/albert/bcdc_ws/install/aggiebot_description:/home/albert/bcdc_ws/install/aggiebot_controller:/home/albert/bcdc_ws/install/aggiebot_bringup:/home/albert/bcdc_ws/install/aggiebot_arm_moveit:/home/albert/bcdc_ws/install/aggiebot_arm_description:/home/albert/bcdc_ws/install/aggiebot_arm_controller:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_setup_moveit:/home/albert/bcdc_ws/install/agbot_py:/home/albert/bcdc_ws/install/agbot_cpp:/home/albert/bcdc_ws/install/agbot_msgs:/home/albert/bcdc_ws/install/agbot_moveit:/home/albert/bcdc_ws/install/agbot_description:/home/albert/bcdc_ws/install/agbot_controller:/home/albert/bcdc_ws/install/agbot_bringup:/home/albert/bcdc_ws/install/agbot_arm_controller:/home/albert/arduinobot_ws/install/arduinobot_utils:/home/albert/arduinobot_ws/install/arduinobot_remote:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples:/home/albert/arduinobot_ws/install/arduinobot_msgs:/home/albert/arduinobot_ws/install/arduinobot_moveit_setup:/home/albert/arduinobot_ws/install/arduinobot_moveit:/home/albert/arduinobot_ws/install/arduinobot_description:/home/albert/arduinobot_ws/install/arduinobot_controller:/home/albert/rad_ws/install/agbot_full_nav2:/home/albert/rad_ws/install/agbot_full_msgs:/home/albert/rad_ws/install/agbot_full_moveit_setup:/home/albert/rad_ws/install/agbot_full_moveit:/home/albert/rad_ws/install/agbot_full_description:/home/albert/rad_ws/install/agbot_full_cpp:/home/albert/rad_ws/install/agbot_full_controller:/home/albert/rad_ws/install/agbot_full_cartogropher:/home/albert/dev_ws/install/my_bot:/home/albert/ag_car_ws/install/car_nav2:/home/albert/ag_car_ws/install/car_description:/home/albert/ag_car_ws/install/car_controller:/home/albert/ag_car_ws/install/car_cartographer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:479e57e0-a589-4e66-b351-6afc6c552d4c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/albert/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albert/umov_ws/build/arduino_cpp_examples'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/albert/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/albert/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/albert/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/albert/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/albert/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/home/albert/umov_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages:/home/albert/umov_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages:/home/albert/umov_ws/install/arduino_py_examples/lib/python3.10/site-packages:/home/albert/umov_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:/home/albert/umov_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages:/home/albert/udem2_ws/install/actions_py/lib/python3.10/site-packages:/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages:/home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages:/home/albert/udem2_ws/install/components_py/lib/python3.10/site-packages:/home/albert/udem_ws/install/turtlesim_catcher/lib/python3.10/site-packages:/home/albert/udem_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/albert/udem_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/albert/udem_ws/install/lifecycle_py/lib/python3.10/site-packages:/home/albert/bcdc_ws/install/aggiebot_msgs/local/lib/python3.10/dist-packages:/home/albert/bcdc_ws/install/agbot_teleop/lib/python3.10/site-packages:/home/albert/bcdc_ws/install/agbot_py/lib/python3.10/site-packages:/home/albert/bcdc_ws/install/agbot_msgs/local/lib/python3.10/dist-packages:/home/albert/arduinobot_ws/install/arduinobot_utils/local/lib/python3.10/dist-packages:/home/albert/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages:/home/albert/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/albert/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:/home/albert/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/albert/umov_ws/install/arduinobot_msgs:/home/albert/umov_ws/install/MoveitAssistant:/home/albert/ag_arm_ws/install/arm_setup_moveit:/home/albert/ag_arm_ws/install/arm_moveit:/home/albert/ag_arm_ws/install/arm_description:/home/albert/ag_arm_ws/install/arm_cpp:/home/albert/ag_arm_ws/install/arm_controller:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/albert/ws_moveit2/install/moveit_runtime:/home/albert/ws_moveit2/install/moveit2_tutorials:/home/albert/ws_moveit2/install/moveit:/home/albert/ws_moveit2/install/moveit_planners:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner:/home/albert/ws_moveit2/install/moveit_visual_tools:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization:/home/albert/ws_moveit2/install/moveit_task_constructor_demo:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities:/home/albert/ws_moveit2/install/moveit_task_constructor_core:/home/albert/ws_moveit2/install/moveit_ros_control_interface:/home/albert/ws_moveit2/install/moveit_plugins:/home/albert/ws_moveit2/install/moveit_simple_controller_manager:/home/albert/ws_moveit2/install/moveit_setup_assistant:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins:/home/albert/ws_moveit2/install/moveit_setup_core_plugins:/home/albert/ws_moveit2/install/moveit_setup_controllers:/home/albert/ws_moveit2/install/moveit_setup_app_plugins:/home/albert/ws_moveit2/install/moveit_setup_framework:/home/albert/ws_moveit2/install/moveit_servo:/home/albert/ws_moveit2/install/moveit_ros:/home/albert/ws_moveit2/install/moveit_ros_visualization:/home/albert/ws_moveit2/install/moveit_hybrid_planning:/home/albert/ws_moveit2/install/moveit_ros_planning_interface:/home/albert/ws_moveit2/install/moveit_ros_benchmarks:/home/albert/ws_moveit2/install/moveit_ros_warehouse:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction:/home/albert/ws_moveit2/install/moveit_ros_perception:/home/albert/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/albert/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/albert/ws_moveit2/install/moveit_ros_move_group:/home/albert/ws_moveit2/install/moveit_planners_ompl:/home/albert/ws_moveit2/install/moveit_ros_planning:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/albert/ws_moveit2/install/moveit_planners_chomp:/home/albert/ws_moveit2/install/moveit_kinematics:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/albert/ws_moveit2/install/chomp_motion_planner:/home/albert/ws_moveit2/install/moveit_core:/home/albert/ws_moveit2/install/srdfdom:/home/albert/ws_moveit2/install/rviz_marker_tools:/home/albert/ws_moveit2/install/rosparam_shortcuts:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs:/home/albert/ws_moveit2/install/moveit_resources_prbt_support:/home/albert/ws_moveit2/install/moveit_resources:/home/albert/ws_moveit2/install/moveit_resources_pr2_description:/home/albert/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_panda_description:/home/albert/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_fanuc_description:/home/albert/ws_moveit2/install/moveit_common:/home/albert/umov_ws/install/description:/home/albert/umov_ws/install/arduinobot_utils:/home/albert/umov_ws/install/arduinobot_remote:/home/albert/umov_ws/install/arduino_cpp_examples:/home/albert/umov_ws/install/arduinobot_moveit:/home/albert/umov_ws/install/arduinobot_firmware:/home/albert/umov_ws/install/arduinobot_controller:/home/albert/umov_ws/install/arduinobot_bringup:/home/albert/unav_ws/install/turtlebot3_fake_node:/home/albert/unav_ws/install/robot_bringup:/home/albert/unav_ws/install/nav2_robot_description:/home/albert/udem2_ws/install/robot_bringup:/home/albert/udem2_ws/install/my_robot_bringup:/home/albert/udem2_ws/install/lifecycle_cpp:/home/albert/udem2_ws/install/final_project_cpp:/home/albert/udem2_ws/install/actions_cpp:/home/albert/udem2_ws/install/robot_interfaces:/home/albert/udem2_ws/install/executors_cpp:/home/albert/udem2_ws/install/components_cpp:/home/albert/udem_ws/install/my_robot_bringup:/home/albert/udem_ws/install/my_cpp_pkg:/home/albert/udem_ws/install/my_robot_interfaces:/home/albert/udem_ws/install/my_robot_description:/home/albert/udem_ws/install/lifecycle_cpp:/home/albert/bcdc_ws/install/aggiebot_cpp:/home/albert/bcdc_ws/install/aggiebot_msgs:/home/albert/bcdc_ws/install/aggiebot_description:/home/albert/bcdc_ws/install/aggiebot_controller:/home/albert/bcdc_ws/install/aggiebot_bringup:/home/albert/bcdc_ws/install/aggiebot_arm_moveit:/home/albert/bcdc_ws/install/aggiebot_arm_description:/home/albert/bcdc_ws/install/aggiebot_arm_controller:/home/albert/bcdc_ws/install/agbot_setup_moveit:/home/albert/bcdc_ws/install/agbot_cpp:/home/albert/bcdc_ws/install/agbot_msgs:/home/albert/bcdc_ws/install/agbot_moveit:/home/albert/bcdc_ws/install/agbot_description:/home/albert/bcdc_ws/install/agbot_controller:/home/albert/bcdc_ws/install/agbot_bringup:/home/albert/bcdc_ws/install/agbot_arm_controller:/home/albert/arduinobot_ws/install/arduinobot_utils:/home/albert/arduinobot_ws/install/arduinobot_remote:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples:/home/albert/arduinobot_ws/install/arduinobot_msgs:/home/albert/arduinobot_ws/install/arduinobot_moveit_setup:/home/albert/arduinobot_ws/install/arduinobot_moveit:/home/albert/arduinobot_ws/install/arduinobot_description:/home/albert/arduinobot_ws/install/arduinobot_controller:/home/albert/rad_ws/install/agbot_full_nav2:/home/albert/rad_ws/install/agbot_full_msgs:/home/albert/rad_ws/install/agbot_full_moveit_setup:/home/albert/rad_ws/install/agbot_full_moveit:/home/albert/rad_ws/install/agbot_full_description:/home/albert/rad_ws/install/agbot_full_cpp:/home/albert/rad_ws/install/agbot_full_controller:/home/albert/rad_ws/install/agbot_full_cartogropher:/home/albert/dev_ws/install/my_bot:/home/albert/ag_car_ws/install/car_nav2:/home/albert/ag_car_ws/install/car_description:/home/albert/ag_car_ws/install/car_controller:/home/albert/ag_car_ws/install/car_cartographer:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble')]), 'shell': False}
+[34.042953] (arduino_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.044076] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_action_server_node\n'}
+[34.047608] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_action_client_node\n'}
+[34.049110] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_publisher\n'}
+[34.050292] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_subscriber\n'}
+[34.053340] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_parameter\n'}
+[34.054477] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_service_server\n'}
+[34.056404] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_service_client\n'}
+[34.057823] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_moveit_interface\n'}
+[34.059332] (arduino_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/moveit_interface\n'}
+[34.062380] (arduino_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/moveit_interface" to ""\n'}
+[34.064409] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_lifecycle_node\n'}
+[34.065952] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/libsimple_action_server.so\n'}
+[34.068422] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/lib/libsimple_action_client.so\n'}
+[34.069510] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduino_cpp_examples\n'}
+[34.069996] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduino_cpp_examples\n'}
+[34.070291] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.sh\n'}
+[34.072148] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[34.072459] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.sh\n'}
+[34.072695] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.dsv\n'}
+[34.072918] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.bash\n'}
+[34.073169] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.sh\n'}
+[34.073411] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.zsh\n'}
+[34.073682] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.dsv\n'}
+[34.073934] (arduino_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.dsv\n'}
+[34.074152] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/ament_index/resource_index/packages/arduino_cpp_examples\n'}
+[34.074414] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/ament_index/resource_index/rclcpp_components/arduino_cpp_examples\n'}
+[34.076538] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig.cmake\n'}
+[34.078549] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig-version.cmake\n'}
+[34.078843] (arduino_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/albert/umov_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.xml\n'}
+[34.081972] (arduino_cpp_examples) CommandEnded: {'returncode': 0}
+[34.105284] (-) TimerEvent: {}
+[34.171691] (arduino_cpp_examples) JobEnded: {'identifier': 'arduino_cpp_examples', 'rc': 0}
+[34.175021] (-) EventReactorShutdown: {}

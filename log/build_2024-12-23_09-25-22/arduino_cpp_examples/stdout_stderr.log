@@ -1,0 +1,16 @@
+[  8%] Built target simple_publisher
+[ 16%] Built target simple_action_server_node
+[ 25%] Built target simple_action_client
+[ 33%] Built target simple_action_client_node
+[ 41%] Built target simple_moveit_interface
+[ 45%] [32mBuilding CXX object CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o[0m
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:[m[K In function ‘[01m[Kvoid move_robot(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:28:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+   28 |     else[01;31m[K:[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:40:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+   40 |     else[01;31m[K:[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/moveit_interface.dir/build.make:76: CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/moveit_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

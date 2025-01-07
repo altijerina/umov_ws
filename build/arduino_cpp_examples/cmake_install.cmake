@@ -174,7 +174,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_service_server")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_service_server"
-         OLD_RPATH "/opt/ros/humble/lib:/home/albert/umov_ws/install/arduinobot_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/albert/umov_ws/install/arduino_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_service_server")
@@ -198,7 +198,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_service_client")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_service_client"
-         OLD_RPATH "/opt/ros/humble/lib:/home/albert/umov_ws/install/arduinobot_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/albert/umov_ws/install/arduino_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_service_client")
@@ -222,7 +222,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_moveit_interface")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_moveit_interface"
-         OLD_RPATH "/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/home/albert/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/opt/ros/humble/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/albert/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/simple_moveit_interface")
@@ -232,6 +232,30 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   include("/home/albert/umov_ws/build/arduino_cpp_examples/CMakeFiles/simple_moveit_interface.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/moveit_interface" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/moveit_interface")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/moveit_interface"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples" TYPE EXECUTABLE FILES "/home/albert/umov_ws/build/arduino_cpp_examples/moveit_interface")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/moveit_interface" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/moveit_interface")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/moveit_interface"
+         OLD_RPATH "/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/opt/ros/humble/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/albert/ws_moveit2/install/srdfdom/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arduino_cpp_examples/moveit_interface")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/albert/umov_ws/build/arduino_cpp_examples/CMakeFiles/moveit_interface.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -270,7 +294,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_action_server.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_action_server.so"
-         OLD_RPATH "/home/albert/umov_ws/install/arduinobot_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/albert/umov_ws/install/arduino_msgs/lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_action_server.so")
@@ -293,7 +317,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_action_client.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_action_client.so"
-         OLD_RPATH "/home/albert/umov_ws/install/arduinobot_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/albert/umov_ws/install/arduino_msgs/lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_action_client.so")

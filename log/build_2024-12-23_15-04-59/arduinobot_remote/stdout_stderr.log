@@ -1,0 +1,154 @@
+[  0%] Built target ament_cmake_python_copy_arduinobot_remote
+[ 50%] Built target task_server_node
+[ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+running egg_info
+writing arduinobot_remote.egg-info/PKG-INFO
+writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+writing top-level names to arduinobot_remote.egg-info/top_level.txt
+reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:32:66:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kthis[m[K’
+   32 | eit::planning_interface::MoveGroupInterface arm_move_group_([01;31m[Kthis[m[K, "arm");
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:32:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kthis[m[K’
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:33:70:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kthis[m[K’
+   33 | :planning_interface::MoveGroupInterface gripper_move_group_([01;31m[Kthis[m[K, "gripper");
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:33:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kthis[m[K’
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse arduinobot_remote::TaskServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:52:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Karduinobot_remote::TaskServer::arm_move_group_[m[K’ from type ‘[01m[Kmoveit::planning_interface::MoveGroupInterface (arduinobot_remote::TaskServer::)(int)[m[K’ to type ‘[01m[Kbool[m[K’
+   52 |     if (arm_move_group_[01;31m[K)[m[K{
+      |                        [01;31m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:53:7:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::arm_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   53 |       [01;31m[Karm_move_group_[m[K->stop();
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:55:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Karduinobot_remote::TaskServer::gripper_move_group_[m[K’ from type ‘[01m[Kmoveit::planning_interface::MoveGroupInterface (arduinobot_remote::TaskServer::)(int)[m[K’ to type ‘[01m[Kbool[m[K’
+   55 |     if (gripper_move_group_[01;31m[K)[m[K{
+      |                            [01;31m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:56:7:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::gripper_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   56 |       [01;31m[Kgripper_move_group_[m[K->stop();
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_remote::TaskServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:72:9:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Karduinobot_remote::TaskServer::arm_move_group_[m[K’ from type ‘[01m[Kmoveit::planning_interface::MoveGroupInterface (arduinobot_remote::TaskServer::)(int)[m[K’ to type ‘[01m[Kbool[m[K’
+   72 |     if(![01;31m[Karm_move_group_[m[K){
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:72:9:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:80:9:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Karduinobot_remote::TaskServer::gripper_move_group_[m[K’ from type ‘[01m[Kmoveit::planning_interface::MoveGroupInterface (arduinobot_remote::TaskServer::)(int)[m[K’ to type ‘[01m[Kbool[m[K’
+   80 |     if(![01;31m[Kgripper_move_group_[m[K){
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:80:9:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:132:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::arm_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  132 |     [01;31m[Karm_move_group_[m[K->setJointValueTarget(arm_joint_goal_);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:133:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::gripper_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  133 |     [01;31m[Kgripper_move_group_[m[K->setJointValueTarget(gripper_joint_goal_);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:136:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::arm_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  136 |     [01;31m[Karm_move_group_[m[K->setStartState(*arm_move_group_->getCurrentState());
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:136:37:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::arm_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  136 |     arm_move_group_->setStartState(*[01;31m[Karm_move_group_[m[K->getCurrentState());
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:137:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::gripper_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  137 |     [01;31m[Kgripper_move_group_[m[K->setStartState(*gripper_move_group_->getCurrentState());
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:137:41:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::gripper_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  137 |     gripper_move_group_->setStartState(*[01;31m[Kgripper_move_group_[m[K->getCurrentState());
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:142:30:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::arm_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  142 |     bool arm_within_bounds = [01;31m[Karm_move_group_[m[K->areJointValuesWithinBounds(arm_group_->getCurrentState()->getJointModelGroup(arm_move_group_->getName())->getVariableNames())
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:142:74:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_group_[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_move_group_[m[K’?
+  142 | within_bounds = arm_move_group_->areJointValuesWithinBounds([01;31m[Karm_group_[m[K->getCurrentState()->getJointModelGroup(arm_move_group_->getName())->getVariableNames())
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+      |                                                             [32m[Karm_move_group_[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:142:124:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::arm_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  142 | hinBounds(arm_group_->getCurrentState()->getJointModelGroup([01;31m[Karm_move_group_[m[K->getName())->getVariableNames())
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:153:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_within_bounds[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_within_bounds[m[K’?
+  153 |     if (![01;31m[Kgripper_within_bounds[m[K)
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |          [32m[Karm_within_bounds[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:164:30:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::arm_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  164 |     bool arm_plan_success = ([01;31m[Karm_move_group_[m[K->plan(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:165:34:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::gripper_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  165 |     bool gripper_plan_success = ([01;31m[Kgripper_move_group_[m[K->plan(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:169:37:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::arm_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  169 |       bool arm_execution_success = ([01;31m[Karm_move_group_[m[K->execute(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:187:36:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface arduinobot_remote::TaskServer::gripper_move_group_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  187 |       bool gripper_plan_success = ([01;31m[Kgripper_move_group_[m[K->execute(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {const char (&)[4]}; _Tp = moveit::planning_interface::MoveGroupInterface][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {const char (&)[4]}; _Tp = moveit::planning_interface::MoveGroupInterface; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<moveit::planning_interface::MoveGroupInterface>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[4]}; _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {const char (&)[4]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {const char (&)[4]}; _Tp = moveit::planning_interface::MoveGroupInterface; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {const char (&)[4]}; _Tp = moveit::planning_interface::MoveGroupInterface][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {const char (&)[4]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Args = {const char (&)[4]}][m[K’
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:73:94:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [4])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:5[m[K:
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:159:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  159 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {const char (&)[8]}; _Tp = moveit::planning_interface::MoveGroupInterface][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {const char (&)[8]}; _Tp = moveit::planning_interface::MoveGroupInterface; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<moveit::planning_interface::MoveGroupInterface>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[8]}; _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {const char (&)[8]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {const char (&)[8]}; _Tp = moveit::planning_interface::MoveGroupInterface; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {const char (&)[8]}; _Tp = moveit::planning_interface::MoveGroupInterface][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {const char (&)[8]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Args = {const char (&)[8]}][m[K’
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:81:98:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [8])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:5[m[K:
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:159:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  159 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

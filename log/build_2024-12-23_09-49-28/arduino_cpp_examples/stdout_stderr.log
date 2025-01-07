@@ -1,0 +1,39 @@
+[  8%] Built target simple_service_server
+[ 16%] Built target simple_parameter
+[ 25%] Built target simple_service_client
+[ 33%] Built target simple_action_server_node
+[ 41%] Built target simple_lifecycle_node
+[ 50%] Built target simple_publisher
+[ 58%] Built target simple_subscriber
+[ 66%] Built target simple_action_server
+[ 75%] Built target simple_action_client_node
+[ 83%] Built target simple_action_client
+[ 91%] Built target simple_moveit_interface
+[ 95%] [32mBuilding CXX object CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o[0m
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:[m[K In function ‘[01m[Kvoid move_robot(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:29:10:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_witin_bounds[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_within_bounds[m[K’?
+   29 |     if (![01;31m[Karm_witin_bounds[m[K)
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |          [32m[Karm_within_bounds[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:64:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kbool[m[K’
+   64 |         arm_move_group.execute(arm_plan)
+      |                                         [01;31m[K^[m[K
+      |                                         [32m[K;[m[K
+   65 |         [32m[Kbool[m[K arm_execution_success = (arm_move_group.execute(arm_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+      |         [32m[K~~~~[m[K                             
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:66:13:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_execution_success[m[K’ was not declared in this scope
+   66 |         if ([01;31m[Karm_execution_success[m[K)
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:89:132:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   89 |         bool gripper_execution_success = (gripper_move_group.execute(gripper_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                                    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:2[m[K:
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:26:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karm_within_bounds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     bool [01;35m[Karm_within_bounds[m[K = (arm_joint_goal.size() == arm_move_group.getActiveJoints().size());
+      |          [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_interface.dir/build.make:76: CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/moveit_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

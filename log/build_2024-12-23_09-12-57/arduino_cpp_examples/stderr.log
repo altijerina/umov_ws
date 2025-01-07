@@ -1,0 +1,7 @@
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:[m[K In function ‘[01m[Kvoid move_robot(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:19:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karm_within_bounds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   19 |     bool [01;35m[Karm_within_bounds[m[K = arm_move_group.setJointValueTarget(arm_joint_goal);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:20:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgripper_within_bounds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   20 |     bool [01;35m[Kgripper_within_bounds[m[K = gripper_move_group.setJointValueTarget(gripper_joint_goal);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K

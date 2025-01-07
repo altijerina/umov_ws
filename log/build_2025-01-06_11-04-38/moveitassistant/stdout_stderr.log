@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/albert/umov_ws/src/moveitassistant/CMakeLists.txt" does not match the source "/home/albert/umov_ws/src/moveitAssistant/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

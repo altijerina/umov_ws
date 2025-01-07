@@ -1,0 +1,5 @@
+/usr/bin/ld: /home/albert/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5: undefined reference to `warehouse_ros::DatabaseLoader::~DatabaseLoader()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_moveit_interface.dir/build.make:357: simple_moveit_interface] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/simple_moveit_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

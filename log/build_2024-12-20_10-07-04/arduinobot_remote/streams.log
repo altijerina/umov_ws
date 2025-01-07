@@ -1,0 +1,389 @@
+[0.612s] Invoking command in '/home/albert/umov_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/albert/umov_ws/install/arduinobot_msgs:/home/albert/umov_ws/install/MoveitAssistant:/home/albert/ag_arm_ws/install/arm_setup_moveit:/home/albert/ag_arm_ws/install/arm_moveit:/home/albert/ag_arm_ws/install/arm_description:/home/albert/ag_arm_ws/install/arm_cpp:/home/albert/ag_arm_ws/install/arm_controller:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/albert/ws_moveit2/install/moveit_runtime:/home/albert/ws_moveit2/install/moveit2_tutorials:/home/albert/ws_moveit2/install/moveit:/home/albert/ws_moveit2/install/moveit_planners:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner:/home/albert/ws_moveit2/install/moveit_visual_tools:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization:/home/albert/ws_moveit2/install/moveit_task_constructor_demo:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities:/home/albert/ws_moveit2/install/moveit_task_constructor_core:/home/albert/ws_moveit2/install/moveit_ros_control_interface:/home/albert/ws_moveit2/install/moveit_plugins:/home/albert/ws_moveit2/install/moveit_simple_controller_manager:/home/albert/ws_moveit2/install/moveit_setup_assistant:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins:/home/albert/ws_moveit2/install/moveit_setup_core_plugins:/home/albert/ws_moveit2/install/moveit_setup_controllers:/home/albert/ws_moveit2/install/moveit_setup_app_plugins:/home/albert/ws_moveit2/install/moveit_setup_framework:/home/albert/ws_moveit2/install/moveit_servo:/home/albert/ws_moveit2/install/moveit_ros:/home/albert/ws_moveit2/install/moveit_ros_visualization:/home/albert/ws_moveit2/install/moveit_hybrid_planning:/home/albert/ws_moveit2/install/moveit_ros_planning_interface:/home/albert/ws_moveit2/install/moveit_ros_benchmarks:/home/albert/ws_moveit2/install/moveit_ros_warehouse:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction:/home/albert/ws_moveit2/install/moveit_ros_perception:/home/albert/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/albert/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/albert/ws_moveit2/install/moveit_ros_move_group:/home/albert/ws_moveit2/install/moveit_planners_ompl:/home/albert/ws_moveit2/install/moveit_ros_planning:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/albert/ws_moveit2/install/moveit_planners_chomp:/home/albert/ws_moveit2/install/moveit_kinematics:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/albert/ws_moveit2/install/chomp_motion_planner:/home/albert/ws_moveit2/install/moveit_core:/home/albert/ws_moveit2/install/srdfdom:/home/albert/ws_moveit2/install/rviz_marker_tools:/home/albert/ws_moveit2/install/rosparam_shortcuts:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs:/home/albert/ws_moveit2/install/moveit_resources_prbt_support:/home/albert/ws_moveit2/install/moveit_resources:/home/albert/ws_moveit2/install/moveit_resources_pr2_description:/home/albert/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_panda_description:/home/albert/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_fanuc_description:/home/albert/ws_moveit2/install/moveit_common:/home/albert/umov_ws/install/description:/home/albert/umov_ws/install/arduinobot_utils:/home/albert/umov_ws/install/arduinobot_remote:/home/albert/umov_ws/install/arduino_cpp_examples:/home/albert/umov_ws/install/arduinobot_moveit:/home/albert/umov_ws/install/arduinobot_firmware:/home/albert/umov_ws/install/arduinobot_controller:/home/albert/umov_ws/install/arduinobot_bringup:/home/albert/unav_ws/install/turtlebot3_fake_node:/home/albert/unav_ws/install/robot_bringup:/home/albert/unav_ws/install/nav2_robot_description:/home/albert/udem2_ws/install/robot_bringup:/home/albert/udem2_ws/install/my_robot_bringup:/home/albert/udem2_ws/install/lifecycle_cpp:/home/albert/udem2_ws/install/final_project_cpp:/home/albert/udem2_ws/install/actions_cpp:/home/albert/udem2_ws/install/robot_interfaces:/home/albert/udem2_ws/install/executors_cpp:/home/albert/udem2_ws/install/components_cpp:/home/albert/udem_ws/install/my_robot_bringup:/home/albert/udem_ws/install/my_cpp_pkg:/home/albert/udem_ws/install/my_robot_interfaces:/home/albert/udem_ws/install/my_robot_description:/home/albert/udem_ws/install/lifecycle_cpp:/home/albert/bcdc_ws/install/aggiebot_cpp:/home/albert/bcdc_ws/install/aggiebot_msgs:/home/albert/bcdc_ws/install/aggiebot_description:/home/albert/bcdc_ws/install/aggiebot_controller:/home/albert/bcdc_ws/install/aggiebot_bringup:/home/albert/bcdc_ws/install/aggiebot_arm_moveit:/home/albert/bcdc_ws/install/aggiebot_arm_description:/home/albert/bcdc_ws/install/aggiebot_arm_controller:/home/albert/bcdc_ws/install/agbot_setup_moveit:/home/albert/bcdc_ws/install/agbot_cpp:/home/albert/bcdc_ws/install/agbot_msgs:/home/albert/bcdc_ws/install/agbot_moveit:/home/albert/bcdc_ws/install/agbot_description:/home/albert/bcdc_ws/install/agbot_controller:/home/albert/bcdc_ws/install/agbot_bringup:/home/albert/bcdc_ws/install/agbot_arm_controller:/home/albert/arduinobot_ws/install/arduinobot_utils:/home/albert/arduinobot_ws/install/arduinobot_remote:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples:/home/albert/arduinobot_ws/install/arduinobot_msgs:/home/albert/arduinobot_ws/install/arduinobot_moveit_setup:/home/albert/arduinobot_ws/install/arduinobot_moveit:/home/albert/arduinobot_ws/install/arduinobot_description:/home/albert/arduinobot_ws/install/arduinobot_controller:/home/albert/rad_ws/install/agbot_full_nav2:/home/albert/rad_ws/install/agbot_full_msgs:/home/albert/rad_ws/install/agbot_full_moveit_setup:/home/albert/rad_ws/install/agbot_full_moveit:/home/albert/rad_ws/install/agbot_full_description:/home/albert/rad_ws/install/agbot_full_cpp:/home/albert/rad_ws/install/agbot_full_controller:/home/albert/rad_ws/install/agbot_full_cartogropher:/home/albert/dev_ws/install/my_bot:/home/albert/ag_car_ws/install/car_nav2:/home/albert/ag_car_ws/install/car_description:/home/albert/ag_car_ws/install/car_controller:/home/albert/ag_car_ws/install/car_cartographer:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/albert/umov_ws/install/arduinobot_msgs/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_visual_tools/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_core/lib:/home/albert/ws_moveit2/install/moveit_ros_control_interface/lib:/home/albert/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/albert/ws_moveit2/install/moveit_setup_assistant/lib:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_controllers/lib:/home/albert/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_framework/lib:/home/albert/ws_moveit2/install/moveit_servo/lib:/home/albert/ws_moveit2/install/moveit_ros_visualization/lib:/home/albert/ws_moveit2/install/moveit_hybrid_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/albert/ws_moveit2/install/moveit_ros_perception/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/home/albert/ws_moveit2/install/moveit_planners_ompl/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/albert/ws_moveit2/install/moveit_planners_chomp/lib:/home/albert/ws_moveit2/install/moveit_kinematics/lib:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/albert/ws_moveit2/install/chomp_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/home/albert/ws_moveit2/install/srdfdom/lib:/home/albert/ws_moveit2/install/rviz_marker_tools/lib:/home/albert/ws_moveit2/install/rosparam_shortcuts/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/albert/umov_ws/install/arduinobot_remote/lib:/home/albert/umov_ws/install/arduino_cpp_examples/lib:/home/albert/umov_ws/install/arduinobot_controller/lib:/home/albert/udem2_ws/install/final_project_cpp/lib:/home/albert/udem2_ws/install/robot_interfaces/lib:/home/albert/udem2_ws/install/components_cpp/lib:/home/albert/udem_ws/install/my_robot_interfaces/lib:/home/albert/bcdc_ws/install/aggiebot_msgs/lib:/home/albert/bcdc_ws/install/agbot_msgs/lib:/home/albert/arduinobot_ws/install/arduinobot_remote/lib:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples/lib:/home/albert/arduinobot_ws/install/arduinobot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_remote -- -j8 -l8
+[0.645s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.034s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.100s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.106s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.119s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.318s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.341s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.426s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.581s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.668s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.721s] -- Found arduinobot_msgs: 0.0.0 (/home/albert/umov_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[1.761s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/albert/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[1.785s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread
+[2.219s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread
+[2.355s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.368s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.422s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem
+[2.533s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.609s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.841s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono
+[2.923s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options
+[2.995s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread
+[3.076s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[3.293s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.458s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.459s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/albert/umov_ws/src/arduinobot_remote/include>
+[3.459s] -- Configured cppcheck exclude dirs and/or files: 
+[3.460s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.461s] -- Added test 'lint_cmake' to check CMake code style
+[3.461s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.463s] -- Added test 'uncrustify' to check C / C++ code style
+[3.463s] -- Configured uncrustify additional arguments: 
+[3.464s] -- Added test 'xmllint' to check XML markup files
+[3.465s] -- Configuring done (2.8s)
+[3.547s] -- Generating done (0.1s)
+[3.563s] -- Build files have been written to: /home/albert/umov_ws/build/arduinobot_remote
+[3.646s] [  0%] Built target ament_cmake_python_copy_arduinobot_remote
+[3.649s] [ 50%] Built target task_server_node
+[3.679s] [ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[4.646s] running egg_info
+[4.647s] writing arduinobot_remote.egg-info/PKG-INFO
+[4.648s] writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+[4.648s] writing top-level names to arduinobot_remote.egg-info/top_level.txt
+[4.653s] reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[4.654s] writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[4.696s] [ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[12.259s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In constructor ‘[01m[Karduinobot_remote::TaskServer::TaskServer(const rclcpp::NodeOptions&)[m[K’:
+[12.260s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:23:32:[m[K [01;31m[Kerror: [m[K‘[01m[KcancelCallback[m[K’ is not a member of ‘[01m[Karduinobot_remote::TaskServer[m[K’
+[12.260s]    23 |         std::bind(&TaskServer::[01;31m[KcancelCallback[m[K, this, _1),
+[12.260s]       |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[12.270s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.270s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.271s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.272s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.272s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse arduinobot_remote::TaskServer::goalCallback(const GoalUUID&, std::shared_ptr<const arduinobot_msgs::action::ArduinobotTask_Goal_<std::allocator<void> > >)[m[K’:
+[12.272s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:38:74:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [41][m[K’ and ‘[01m[Kconst _task_number_type[m[K’ {aka ‘[01m[Kconst int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+[12.272s]    38 | et_logger(), [32m[K"Received goal request with task_number: "[m[K [01;31m[K<<[m[K [34m[Kgoal->task_number[m[K);
+[12.272s]       |              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~[m[K
+[12.273s]       |              [32m[K|[m[K                                                   [34m[K|[m[K
+[12.273s]       |              [32m[Kconst char [41][m[K                                     [34m[Kconst _task_number_type {aka const int}[m[K
+[12.273s] 
+[12.276s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse arduinobot_remote::TaskServer::candelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[12.276s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:49:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[12.276s]    49 |     [01;31m[K}[m[K
+[12.276s]       |     [01;31m[K^[m[K
+[12.276s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:52:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[12.276s]    52 |     [01;31m[K}[m[K
+[12.276s]       |     [01;31m[K^[m[K
+[12.277s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:54:43:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp_action::CancelResponse[m[K’ to ‘[01m[Krclcpp_action::GoalResponse[m[K’ in return
+[12.277s]    54 |     return rclcpp_action::CancelResponse::[01;31m[KACCEPT[m[K;
+[12.277s]       |                                           [01;31m[K^~~~~~[m[K
+[12.288s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_remote::TaskServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[12.288s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_move_group[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_move_group_[m[K’?
+[12.289s]    67 |     if(![01;31m[Karm_move_group[m[K){
+[12.289s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[12.289s]       |         [32m[Karm_move_group_[m[K
+[12.299s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:70:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_move_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kgripper_move_group_[m[K’?
+[12.299s]    70 |     if(![01;31m[Kgripper_move_group[m[K){
+[12.299s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.299s]       |         [32m[Kgripper_move_group_[m[K
+[12.309s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:119:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kagripper_move_group_[m[K’
+[12.309s]   119 |     [01;31m[Kagripper_move_group_[m[K->setStartState(*gripper_move_group_->getCurrentState())
+[12.309s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.309s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:122:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[KsetJointValueTarget[m[K’
+[12.309s]   122 |     bool gripper_within_bounds = gripper_move_group_.[01;31m[KsetJointValueTarget[m[K(gripper_joint_goal_);
+[12.309s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[12.333s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:124:10:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_within_bounds[m[K’ was not declared in this scope; did you mean ‘[01m[Kgripper_within_bounds[m[K’?
+[12.333s]   124 |     if (![01;31m[Karm_within_bounds[m[K)
+[12.334s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[12.334s]       |          [32m[Kgripper_within_bounds[m[K
+[12.336s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.338s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.338s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:126:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[12.338s]   126 |       RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "ARM Target joint position outside of limits.");
+[12.338s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[12.339s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[12.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.340s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.341s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.341s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[12.341s]       |                 [01;36m[K^~~~~~[m[K
+[12.341s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.343s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.343s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:126:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[12.343s]   126 |       RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "ARM Target joint position outside of limits.");
+[12.343s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[12.343s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[12.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.345s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.346s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.346s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[12.346s]       |                 [01;36m[K^~~~~~[m[K
+[12.346s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.348s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.348s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:126:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.349s]   126 |       [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "ARM Target joint position outside of limits.");
+[12.349s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[12.349s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:126:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.349s]   126 |       [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "ARM Target joint position outside of limits.");
+[12.349s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[12.350s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:126:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.350s]   126 |       [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "ARM Target joint position outside of limits.");
+[12.350s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[12.350s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.352s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.353s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:126:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[12.353s]   126 |       RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "ARM Target joint position outside of limits.");
+[12.353s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[12.353s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[12.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.355s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.355s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.355s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[12.356s]       |                 [01;36m[K^~~~~~[m[K
+[12.356s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.358s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.358s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:126:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[12.358s]   126 |       RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "ARM Target joint position outside of limits.");
+[12.359s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[12.359s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[12.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.361s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.361s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.361s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[12.361s]       |                 [01;36m[K^~~~~~[m[K
+[12.362s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.364s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.364s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:132:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[12.364s]   132 |       RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "GRIPPER Target joint position outside of limits.");
+[12.364s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[12.364s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[12.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.368s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.368s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.368s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[12.368s]       |                 [01;36m[K^~~~~~[m[K
+[12.368s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.370s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.370s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:132:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[12.371s]   132 |       RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "GRIPPER Target joint position outside of limits.");
+[12.371s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[12.371s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[12.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.373s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.373s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.373s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[12.373s]       |                 [01;36m[K^~~~~~[m[K
+[12.374s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.374s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.375s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.375s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.375s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:132:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.376s]   132 |       [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "GRIPPER Target joint position outside of limits.");
+[12.376s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[12.376s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:132:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.376s]   132 |       [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "GRIPPER Target joint position outside of limits.");
+[12.376s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[12.376s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:132:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.376s]   132 |       [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "GRIPPER Target joint position outside of limits.");
+[12.377s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[12.377s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.379s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.379s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:132:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[12.379s]   132 |       RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "GRIPPER Target joint position outside of limits.");
+[12.379s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[12.380s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[12.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.381s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.381s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.381s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[12.382s]       |                 [01;36m[K^~~~~~[m[K
+[12.382s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.383s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.384s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:132:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[12.384s]   132 |       RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "GRIPPER Target joint position outside of limits.");
+[12.384s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[12.384s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[12.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.386s]                  from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[12.386s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.386s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[12.386s]       |                 [01;36m[K^~~~~~[m[K
+[12.387s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:145:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_move_group[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_move_group_[m[K’?
+[12.387s]   145 |         [01;31m[Karm_move_group[m[K.move();
+[12.387s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[12.387s]       |         [32m[Karm_move_group_[m[K
+[12.387s] [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:156:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_move_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kgripper_move_group_[m[K’?
+[12.387s]   156 |         [01;31m[Kgripper_move_group[m[K.move();
+[12.387s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.388s]       |         [32m[Kgripper_move_group_[m[K
+[18.778s] gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+[18.779s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+[18.779s] gmake: *** [Makefile:146: all] Error 2
+[18.782s] Invoked command in '/home/albert/umov_ws/build/arduinobot_remote' returned '2': CMAKE_PREFIX_PATH=/home/albert/umov_ws/install/arduinobot_msgs:/home/albert/umov_ws/install/MoveitAssistant:/home/albert/ag_arm_ws/install/arm_setup_moveit:/home/albert/ag_arm_ws/install/arm_moveit:/home/albert/ag_arm_ws/install/arm_description:/home/albert/ag_arm_ws/install/arm_cpp:/home/albert/ag_arm_ws/install/arm_controller:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/albert/ws_moveit2/install/moveit_runtime:/home/albert/ws_moveit2/install/moveit2_tutorials:/home/albert/ws_moveit2/install/moveit:/home/albert/ws_moveit2/install/moveit_planners:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner:/home/albert/ws_moveit2/install/moveit_visual_tools:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization:/home/albert/ws_moveit2/install/moveit_task_constructor_demo:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities:/home/albert/ws_moveit2/install/moveit_task_constructor_core:/home/albert/ws_moveit2/install/moveit_ros_control_interface:/home/albert/ws_moveit2/install/moveit_plugins:/home/albert/ws_moveit2/install/moveit_simple_controller_manager:/home/albert/ws_moveit2/install/moveit_setup_assistant:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins:/home/albert/ws_moveit2/install/moveit_setup_core_plugins:/home/albert/ws_moveit2/install/moveit_setup_controllers:/home/albert/ws_moveit2/install/moveit_setup_app_plugins:/home/albert/ws_moveit2/install/moveit_setup_framework:/home/albert/ws_moveit2/install/moveit_servo:/home/albert/ws_moveit2/install/moveit_ros:/home/albert/ws_moveit2/install/moveit_ros_visualization:/home/albert/ws_moveit2/install/moveit_hybrid_planning:/home/albert/ws_moveit2/install/moveit_ros_planning_interface:/home/albert/ws_moveit2/install/moveit_ros_benchmarks:/home/albert/ws_moveit2/install/moveit_ros_warehouse:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction:/home/albert/ws_moveit2/install/moveit_ros_perception:/home/albert/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/albert/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/albert/ws_moveit2/install/moveit_ros_move_group:/home/albert/ws_moveit2/install/moveit_planners_ompl:/home/albert/ws_moveit2/install/moveit_ros_planning:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/albert/ws_moveit2/install/moveit_planners_chomp:/home/albert/ws_moveit2/install/moveit_kinematics:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/albert/ws_moveit2/install/chomp_motion_planner:/home/albert/ws_moveit2/install/moveit_core:/home/albert/ws_moveit2/install/srdfdom:/home/albert/ws_moveit2/install/rviz_marker_tools:/home/albert/ws_moveit2/install/rosparam_shortcuts:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs:/home/albert/ws_moveit2/install/moveit_resources_prbt_support:/home/albert/ws_moveit2/install/moveit_resources:/home/albert/ws_moveit2/install/moveit_resources_pr2_description:/home/albert/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_panda_description:/home/albert/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_fanuc_description:/home/albert/ws_moveit2/install/moveit_common:/home/albert/umov_ws/install/description:/home/albert/umov_ws/install/arduinobot_utils:/home/albert/umov_ws/install/arduinobot_remote:/home/albert/umov_ws/install/arduino_cpp_examples:/home/albert/umov_ws/install/arduinobot_moveit:/home/albert/umov_ws/install/arduinobot_firmware:/home/albert/umov_ws/install/arduinobot_controller:/home/albert/umov_ws/install/arduinobot_bringup:/home/albert/unav_ws/install/turtlebot3_fake_node:/home/albert/unav_ws/install/robot_bringup:/home/albert/unav_ws/install/nav2_robot_description:/home/albert/udem2_ws/install/robot_bringup:/home/albert/udem2_ws/install/my_robot_bringup:/home/albert/udem2_ws/install/lifecycle_cpp:/home/albert/udem2_ws/install/final_project_cpp:/home/albert/udem2_ws/install/actions_cpp:/home/albert/udem2_ws/install/robot_interfaces:/home/albert/udem2_ws/install/executors_cpp:/home/albert/udem2_ws/install/components_cpp:/home/albert/udem_ws/install/my_robot_bringup:/home/albert/udem_ws/install/my_cpp_pkg:/home/albert/udem_ws/install/my_robot_interfaces:/home/albert/udem_ws/install/my_robot_description:/home/albert/udem_ws/install/lifecycle_cpp:/home/albert/bcdc_ws/install/aggiebot_cpp:/home/albert/bcdc_ws/install/aggiebot_msgs:/home/albert/bcdc_ws/install/aggiebot_description:/home/albert/bcdc_ws/install/aggiebot_controller:/home/albert/bcdc_ws/install/aggiebot_bringup:/home/albert/bcdc_ws/install/aggiebot_arm_moveit:/home/albert/bcdc_ws/install/aggiebot_arm_description:/home/albert/bcdc_ws/install/aggiebot_arm_controller:/home/albert/bcdc_ws/install/agbot_setup_moveit:/home/albert/bcdc_ws/install/agbot_cpp:/home/albert/bcdc_ws/install/agbot_msgs:/home/albert/bcdc_ws/install/agbot_moveit:/home/albert/bcdc_ws/install/agbot_description:/home/albert/bcdc_ws/install/agbot_controller:/home/albert/bcdc_ws/install/agbot_bringup:/home/albert/bcdc_ws/install/agbot_arm_controller:/home/albert/arduinobot_ws/install/arduinobot_utils:/home/albert/arduinobot_ws/install/arduinobot_remote:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples:/home/albert/arduinobot_ws/install/arduinobot_msgs:/home/albert/arduinobot_ws/install/arduinobot_moveit_setup:/home/albert/arduinobot_ws/install/arduinobot_moveit:/home/albert/arduinobot_ws/install/arduinobot_description:/home/albert/arduinobot_ws/install/arduinobot_controller:/home/albert/rad_ws/install/agbot_full_nav2:/home/albert/rad_ws/install/agbot_full_msgs:/home/albert/rad_ws/install/agbot_full_moveit_setup:/home/albert/rad_ws/install/agbot_full_moveit:/home/albert/rad_ws/install/agbot_full_description:/home/albert/rad_ws/install/agbot_full_cpp:/home/albert/rad_ws/install/agbot_full_controller:/home/albert/rad_ws/install/agbot_full_cartogropher:/home/albert/dev_ws/install/my_bot:/home/albert/ag_car_ws/install/car_nav2:/home/albert/ag_car_ws/install/car_description:/home/albert/ag_car_ws/install/car_controller:/home/albert/ag_car_ws/install/car_cartographer:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/albert/umov_ws/install/arduinobot_msgs/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_visual_tools/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_core/lib:/home/albert/ws_moveit2/install/moveit_ros_control_interface/lib:/home/albert/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/albert/ws_moveit2/install/moveit_setup_assistant/lib:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_controllers/lib:/home/albert/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_framework/lib:/home/albert/ws_moveit2/install/moveit_servo/lib:/home/albert/ws_moveit2/install/moveit_ros_visualization/lib:/home/albert/ws_moveit2/install/moveit_hybrid_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/albert/ws_moveit2/install/moveit_ros_perception/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/home/albert/ws_moveit2/install/moveit_planners_ompl/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/albert/ws_moveit2/install/moveit_planners_chomp/lib:/home/albert/ws_moveit2/install/moveit_kinematics/lib:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/albert/ws_moveit2/install/chomp_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/home/albert/ws_moveit2/install/srdfdom/lib:/home/albert/ws_moveit2/install/rviz_marker_tools/lib:/home/albert/ws_moveit2/install/rosparam_shortcuts/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/albert/umov_ws/install/arduinobot_remote/lib:/home/albert/umov_ws/install/arduino_cpp_examples/lib:/home/albert/umov_ws/install/arduinobot_controller/lib:/home/albert/udem2_ws/install/final_project_cpp/lib:/home/albert/udem2_ws/install/robot_interfaces/lib:/home/albert/udem2_ws/install/components_cpp/lib:/home/albert/udem_ws/install/my_robot_interfaces/lib:/home/albert/bcdc_ws/install/aggiebot_msgs/lib:/home/albert/bcdc_ws/install/agbot_msgs/lib:/home/albert/arduinobot_ws/install/arduinobot_remote/lib:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples/lib:/home/albert/arduinobot_ws/install/arduinobot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_remote -- -j8 -l8

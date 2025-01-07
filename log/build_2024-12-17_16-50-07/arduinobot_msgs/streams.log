@@ -1,0 +1,23 @@
+[0.195s] Invoking command in '/home/albert/umov_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_msgs -- -j8 -l8
+[0.345s] [  1%] Built target arduinobot_msgs__cpp
+[0.345s] [  1%] Built target ament_cmake_python_copy_arduinobot_msgs
+[0.345s] [ 12%] Built target arduinobot_msgs__rosidl_generator_c
+[0.420s] [ 23%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[0.448s] [ 34%] Built target arduinobot_msgs__rosidl_typesupport_c
+[0.455s] [ 49%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.455s] [ 60%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[0.455s] [ 68%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[0.458s] [ 79%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[0.510s] [ 79%] Built target arduinobot_msgs
+[0.604s] [ 80%] Built target arduinobot_msgs__py
+[0.638s] [ 90%] Built target arduinobot_msgs__rosidl_generator_py
+[0.721s] [ 93%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.723s] [ 96%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.729s] [100%] Built target arduinobot_msgs__rosidl_typesupport_c__pyext
+[1.425s] running egg_info
+[1.426s] writing arduinobot_msgs.egg-info/PKG-INFO
+[1.427s] writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+[1.427s] writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+[1.434s] reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[1.436s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[1.496s] [100%] Built target ament_cmake_python_build_arduinobot_msgs_egg

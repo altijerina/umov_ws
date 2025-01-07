@@ -1,0 +1,17 @@
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:38:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   38 |     moveit::planning_interface::MoveGroupInterface arm_move_group[34m[K([m[K...[01;31m[K,[m[K "arm");
+      |                                                                  [34m[K~[m[K   [01;31m[K^[m[K
+      |                                                                      [32m[K)[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:38:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   38 |     moveit::planning_interface::MoveGroupInterface arm_move_group(..., [01;31m[K"arm"[m[K);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:39:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   39 |     moveit::planning_interface::MoveGroupInterface gripper_move_group[34m[K([m[K...[01;31m[K,[m[K "gripper");
+      |                                                                      [34m[K~[m[K   [01;31m[K^[m[K
+      |                                                                          [32m[K)[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:39:76:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   39 |     moveit::planning_interface::MoveGroupInterface gripper_move_group(..., [01;31m[K"gripper"[m[K);
+      |                                                                            [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

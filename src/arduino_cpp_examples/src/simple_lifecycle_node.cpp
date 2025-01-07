@@ -21,6 +21,7 @@ public:
     rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn on_configure(const rclcpp_lifecycle::State &)
     {
         sub_ = create_subscription<std_msgs::msg::String>("chatter", 10, std::bind(&SimpleLifecycleNode::msgCallback, this, _1));
+        
         RCLCPP_INFO(get_logger(), "Lifecycle node on_configure() called.");
         return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
     }

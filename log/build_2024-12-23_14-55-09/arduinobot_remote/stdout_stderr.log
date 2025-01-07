@@ -1,0 +1,69 @@
+[  0%] Built target ament_cmake_python_copy_arduinobot_remote
+[ 50%] Built target task_server_node
+[ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+running egg_info
+writing arduinobot_remote.egg-info/PKG-INFO
+writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+writing top-level names to arduinobot_remote.egg-info/top_level.txt
+reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_remote::TaskServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:71:61:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ is not a member of ‘[01m[Kmoveit::core[m[K’; did you mean ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’?
+   71 |       auto arm_move_group_ = std::make_shared<moveit::core::[01;31m[KMoveGroupInterface[m[K>("arm");
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:5[m[K:
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:80:42:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ declared here
+   80 | class MOVEIT_MOVE_GROUP_INTERFACE_EXPORT [01;36m[KMoveGroupInterface[m[K
+      |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:71:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(const char [4])[m[K’
+   71 | o arm_move_group_ = [01;31m[Kstd::make_shared<moveit::core::MoveGroupInterface>("arm")[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:71:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 | o arm_move_group_ = [01;31m[Kstd::make_shared<moveit::core::MoveGroupInterface>("arm")[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:79:65:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ is not a member of ‘[01m[Kmoveit::core[m[K’; did you mean ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’?
+   79 |       auto gripper_move_group_ = std::make_shared<moveit::core::[01;31m[KMoveGroupInterface[m[K>("gripper");
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:5[m[K:
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:80:42:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ declared here
+   80 | class MOVEIT_MOVE_GROUP_INTERFACE_EXPORT [01;36m[KMoveGroupInterface[m[K
+      |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:79:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(const char [8])[m[K’
+   79 | er_move_group_ = [01;31m[Kstd::make_shared<moveit::core::MoveGroupInterface>("gripper")[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:79:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 | er_move_group_ = [01;31m[Kstd::make_shared<moveit::core::MoveGroupInterface>("gripper")[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:140:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::MoveGroupInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’} has no member named ‘[01m[KareJointValuesWithinBounds[m[K’
+  140 |     bool arm_within_bounds = arm_move_group_->[01;31m[KareJointValuesWithinBounds[m[K(arm_group_->getCurrentState()->getJointModelGroup(arm_move_group_->getName())->getVariableNames())
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:140:74:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_group_[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_move_group_[m[K’?
+  140 | ol arm_within_bounds = arm_move_group_->areJointValuesWithinBounds([01;31m[Karm_group_[m[K->getCurrentState()->getJointModelGroup(arm_move_group_->getName())->getVariableNames())
+      |                                                                    [01;31m[K^~~~~~~~~~[m[K
+      |                                                                    [32m[Karm_move_group_[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:151:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_within_bounds[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_within_bounds[m[K’?
+  151 |     if (![01;31m[Kgripper_within_bounds[m[K)
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |          [32m[Karm_within_bounds[m[K
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

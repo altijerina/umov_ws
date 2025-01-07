@@ -1,0 +1,5 @@
+  File "/home/albert/umov_ws/install/arduino_py_examples/lib/python3.10/site-packages/arduino_py_examples/simple_moveit_interface.py", line 4
+    import moveit.planning import MoveItPy
+                           ^^^^^^
+SyntaxError: invalid syntax
+

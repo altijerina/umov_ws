@@ -17,18 +17,18 @@ def generate_launch_description():
     arduinobot_description_share = get_package_prefix('description')
     gazebo_ros_dir = get_package_share_directory('gazebo_ros')
     
-   
-    model_arg = DeclareLaunchArgument(name='model', default_value=os.path.join(
-                                        arduinobot_description, 'urdf', 'arduinobot.urdf.xacro'
-                                        ),
-                                      description='Absolute path to robot urdf file'
+
+    model_arg = DeclareLaunchArgument(  
+            name='model', 
+            default_value=os.path.join(arduinobot_description, 'urdf', 'arduino.urdf.xacro'),
+            description='Absolute path to robot urdf file'
     )    
     
     model_path = os.path.join(arduinobot_description, "models")
     model_path += pathsep + os.path.join(arduinobot_description_share, "share")
     
     env_var = SetEnvironmentVariable("GAZEBO_MODEL_PATH", model_path)    
-   
+
     robot_description = ParameterValue(Command(['xacro ', LaunchConfiguration('model')]),
                                        value_type=str)
     
@@ -36,24 +36,12 @@ def generate_launch_description():
         package="robot_state_publisher",
         executable="robot_state_publisher",
         name="robot_state_publisher",
-        parameters=[{"robot_description": robot_description},
-                    {"use_sim_time": True}]
+        parameters=[
+            {"robot_description": robot_description},
+            {"use_sim_time": True}
+            ]
     )     
-    
-    # joint_state_publisher_node = Node(
-    #     package="joint_state_publisher_gui",
-    #     executable="joint_state_publisher_gui",
-    #     name="joint_state_publisher"        
-    # )
-    
-    # rviz_node = Node(
-    #     package="rviz2",
-    #     executable="rviz2",
-    #     name="rviz2",
-    #     output="screen",
-    #     arguments=["-d", os.path.join(get_package_share_directory("description"), "rviz", "display.rviz")]
-    # )      
-    
+
     start_gazebo_server = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(gazebo_ros_dir, 'launch', 'gzserver.launch.py')
@@ -66,14 +54,16 @@ def generate_launch_description():
         )
     )
     
-    spawn_robot = Node(package='gazebo_ros', 
-                       executable='spawn_entity.py',
-                       arguments=['-entity', 
-                                  'arduinobot', 
-                                  '-topic', 
-                                  'robot_description',
-                                  ],
-                       output='screen'
+    spawn_robot = Node(
+        package='gazebo_ros', 
+        executable='spawn_entity.py',
+        arguments=[
+            '-entity', 
+            'arduino', 
+            '-topic', 
+            'robot_description',
+            ],
+        output='screen'
     )
 
     return LaunchDescription([
@@ -82,7 +72,5 @@ def generate_launch_description():
         start_gazebo_server,
         start_gazebo_client,         
         robot_state_publisher_node,                
-        # joint_state_publisher_node,               
-        # rviz_node,
         spawn_robot
     ])

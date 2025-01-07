@@ -1,6 +1,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 
+
 #include <memory>
 
 
@@ -9,8 +10,8 @@ void move_robot(const std::shared_ptr<rclcpp::Node> node)
     auto arm_move_group = moveit::planning_interface::MoveGroupInterface(node, "arm");
     auto gripper_move_group = moveit::planning_interface::MoveGroupInterface(node, "gripper");
 
-    std::vector<double> arm_joint_goal {1.57, 1.35, 0.0};
-    std::vector<double> gripper_joint_goal {-0.7, 0.7};
+    std::vector<double> arm_joint_goal {1.0, 0.0, 0.0, 0.0};
+    std::vector<double> gripper_joint_goal {-0.70, 0.70};
 
     bool arm_within_bounds = arm_move_group.setJointValueTarget(arm_joint_goal);
     bool gripper_within_bounds = gripper_move_group.setJointValueTarget(gripper_joint_goal);
@@ -19,14 +20,14 @@ void move_robot(const std::shared_ptr<rclcpp::Node> node)
     {
         RCLCPP_WARN(rclcpp::get_logger("rclcpp"),
                     "ARM Target joint position outside of limits.");
-        // return;
+        return;
     }
 
     if (!gripper_within_bounds)
     {
         RCLCPP_WARN(rclcpp::get_logger("rclcpp"),
                     "GRIPPER Target joint position outside of limits.");
-        // return;
+        return;
     }    
 
     moveit::planning_interface::MoveGroupInterface::Plan arm_plan;
@@ -45,7 +46,7 @@ void move_robot(const std::shared_ptr<rclcpp::Node> node)
     {
         RCLCPP_ERROR(rclcpp::get_logger("rclcpp"),
                      "Arm planner failed!");
-        // return;
+        return;
     }    
     
     
@@ -59,7 +60,7 @@ void move_robot(const std::shared_ptr<rclcpp::Node> node)
     {
         RCLCPP_ERROR(rclcpp::get_logger("rclcpp"),
                      "Gripper planner failed!");
-        // return;
+        return;
     }
 }
 
@@ -70,7 +71,6 @@ int main(int argc, char **argv)
 
   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("simple_moveit_interface");
   move_robot(node);
-  
-  rclcpp::spin(node);
   rclcpp::shutdown();
+  return 0;
 }

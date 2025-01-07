@@ -1,0 +1,287 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'arduinobot_remote']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['arduinobot_remote'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x749379d57490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x749379ea83d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x749379ea83d0>>, mixin_verb=('build',))
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.540s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/albert/umov_ws'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extension 'ros'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extensions ['cmake', 'python']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extension 'cmake'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extension 'python'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(CAD of Robot) by extension 'python_setup_py'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extension 'ros'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extensions ['cmake', 'python']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extension 'cmake'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extension 'python'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(STL 3D Print) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extensions ['cmake', 'python']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extension 'cmake'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extension 'python'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extensions ['python_setup_py']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(STL Gazebo) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'ros'
+[0.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_cpp_examples' with type 'ros.ament_cmake' and name 'arduino_cpp_examples'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'ros'
+[0.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_py_examples' with type 'ros.ament_python' and name 'arduino_py_examples'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_bringup' with type 'ros.ament_cmake' and name 'arduinobot_bringup'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ros'
+[0.585s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_controller' with type 'ros.ament_cmake' and name 'arduinobot_controller'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'ros'
+[0.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_firmware' with type 'ros.ament_cmake' and name 'arduinobot_firmware'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_moveit' with type 'ros.ament_cmake' and name 'arduinobot_moveit'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_msgs' with type 'ros.ament_cmake' and name 'arduinobot_msgs'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_remote' with type 'ros.ament_cmake' and name 'arduinobot_remote'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_utils' with type 'ros.ament_cmake' and name 'arduinobot_utils'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ros'
+[0.596s] DEBUG:colcon.colcon_core.package_identification:Package 'src/description' with type 'ros.ament_cmake' and name 'description'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveitAssistant) by extension 'ros'
+[0.598s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveitAssistant' with type 'ros.ament_cmake' and name 'MoveitAssistant'
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduinobot_bringup' in 'src/arduinobot_bringup'
+[0.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduinobot_controller' in 'src/arduinobot_controller'
+[0.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduinobot_firmware' in 'src/arduinobot_firmware'
+[0.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduinobot_moveit' in 'src/arduinobot_moveit'
+[0.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduinobot_msgs' in 'src/arduinobot_msgs'
+[0.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'description' in 'src/description'
+[0.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'MoveitAssistant' in 'src/moveitAssistant'
+[0.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduino_cpp_examples' in 'src/arduino_cpp_examples'
+[0.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduino_py_examples' in 'src/arduino_py_examples'
+[0.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduinobot_utils' in 'src/arduinobot_utils'
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.645s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/albert/umov_ws/install
+[0.647s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/albert/udem2_ws/install
+[0.648s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/albert/bcdc_ws/install
+[0.651s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/albert/ws_moveit2/install
+[0.652s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/albert/unav_ws/install
+[0.653s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/albert/udem_ws/install
+[0.654s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/albert/arduinobot_ws/install
+[0.656s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/albert/ag_arm_ws/install
+[0.656s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/albert/rad_ws/install
+[0.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/albert/dev_ws/install
+[0.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/albert/ag_car_ws/install
+[0.660s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 436 installed packages in /opt/ros/humble
+[0.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_target' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_clean_cache' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_clean_first' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_force_configure' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'ament_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'catkin_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.758s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_remote' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/albert/umov_ws/build/arduinobot_remote', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/albert/umov_ws/install/arduinobot_remote', 'merge_install': False, 'path': '/home/albert/umov_ws/src/arduinobot_remote', 'symlink_install': False, 'test_result_base': None}
+[0.758s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.760s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.760s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/albert/umov_ws/src/arduinobot_remote' with build type 'ament_cmake'
+[0.760s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/albert/umov_ws/src/arduinobot_remote'
+[0.766s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.766s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.766s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/umov_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/albert/umov_ws/install/arduinobot_msgs:/home/albert/umov_ws/install/arduinobot_moveit:/home/albert/umov_ws/install/arduinobot_firmware:/home/albert/ag_arm_ws/install/arm_setup_moveit:/home/albert/ag_arm_ws/install/arm_moveit:/home/albert/ag_arm_ws/install/arm_description:/home/albert/ag_arm_ws/install/arm_cpp:/home/albert/ag_arm_ws/install/arm_controller:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/albert/ws_moveit2/install/moveit_runtime:/home/albert/ws_moveit2/install/moveit2_tutorials:/home/albert/ws_moveit2/install/moveit:/home/albert/ws_moveit2/install/moveit_planners:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner:/home/albert/ws_moveit2/install/moveit_visual_tools:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization:/home/albert/ws_moveit2/install/moveit_task_constructor_demo:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities:/home/albert/ws_moveit2/install/moveit_task_constructor_core:/home/albert/ws_moveit2/install/moveit_ros_control_interface:/home/albert/ws_moveit2/install/moveit_plugins:/home/albert/ws_moveit2/install/moveit_simple_controller_manager:/home/albert/ws_moveit2/install/moveit_setup_assistant:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins:/home/albert/ws_moveit2/install/moveit_setup_core_plugins:/home/albert/ws_moveit2/install/moveit_setup_controllers:/home/albert/ws_moveit2/install/moveit_setup_app_plugins:/home/albert/ws_moveit2/install/moveit_setup_framework:/home/albert/ws_moveit2/install/moveit_servo:/home/albert/ws_moveit2/install/moveit_ros:/home/albert/ws_moveit2/install/moveit_ros_visualization:/home/albert/ws_moveit2/install/moveit_hybrid_planning:/home/albert/ws_moveit2/install/moveit_ros_planning_interface:/home/albert/ws_moveit2/install/moveit_ros_benchmarks:/home/albert/ws_moveit2/install/moveit_ros_warehouse:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction:/home/albert/ws_moveit2/install/moveit_ros_perception:/home/albert/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/albert/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/albert/ws_moveit2/install/moveit_ros_move_group:/home/albert/ws_moveit2/install/moveit_planners_ompl:/home/albert/ws_moveit2/install/moveit_ros_planning:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/albert/ws_moveit2/install/moveit_planners_chomp:/home/albert/ws_moveit2/install/moveit_kinematics:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/albert/ws_moveit2/install/chomp_motion_planner:/home/albert/ws_moveit2/install/moveit_core:/home/albert/ws_moveit2/install/srdfdom:/home/albert/ws_moveit2/install/rviz_marker_tools:/home/albert/ws_moveit2/install/rosparam_shortcuts:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs:/home/albert/ws_moveit2/install/moveit_resources_prbt_support:/home/albert/ws_moveit2/install/moveit_resources:/home/albert/ws_moveit2/install/moveit_resources_pr2_description:/home/albert/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_panda_description:/home/albert/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_fanuc_description:/home/albert/ws_moveit2/install/moveit_common:/home/albert/umov_ws/install/MoveitAssistant:/home/albert/umov_ws/install/description:/home/albert/umov_ws/install/arduinobot_utils:/home/albert/umov_ws/install/arduinobot_remote:/home/albert/umov_ws/install/arduino_cpp_examples:/home/albert/umov_ws/install/arduinobot_controller:/home/albert/umov_ws/install/arduinobot_bringup:/home/albert/unav_ws/install/turtlebot3_fake_node:/home/albert/unav_ws/install/robot_bringup:/home/albert/unav_ws/install/nav2_robot_description:/home/albert/udem2_ws/install/robot_bringup:/home/albert/udem2_ws/install/my_robot_bringup:/home/albert/udem2_ws/install/lifecycle_cpp:/home/albert/udem2_ws/install/final_project_cpp:/home/albert/udem2_ws/install/actions_cpp:/home/albert/udem2_ws/install/robot_interfaces:/home/albert/udem2_ws/install/executors_cpp:/home/albert/udem2_ws/install/components_cpp:/home/albert/udem_ws/install/my_robot_bringup:/home/albert/udem_ws/install/my_cpp_pkg:/home/albert/udem_ws/install/my_robot_interfaces:/home/albert/udem_ws/install/my_robot_description:/home/albert/udem_ws/install/lifecycle_cpp:/home/albert/bcdc_ws/install/aggiebot_cpp:/home/albert/bcdc_ws/install/aggiebot_msgs:/home/albert/bcdc_ws/install/aggiebot_description:/home/albert/bcdc_ws/install/aggiebot_controller:/home/albert/bcdc_ws/install/aggiebot_bringup:/home/albert/bcdc_ws/install/aggiebot_arm_moveit:/home/albert/bcdc_ws/install/aggiebot_arm_description:/home/albert/bcdc_ws/install/aggiebot_arm_controller:/home/albert/bcdc_ws/install/agbot_setup_moveit:/home/albert/bcdc_ws/install/agbot_cpp:/home/albert/bcdc_ws/install/agbot_msgs:/home/albert/bcdc_ws/install/agbot_moveit:/home/albert/bcdc_ws/install/agbot_description:/home/albert/bcdc_ws/install/agbot_controller:/home/albert/bcdc_ws/install/agbot_bringup:/home/albert/bcdc_ws/install/agbot_arm_controller:/home/albert/arduinobot_ws/install/arduinobot_utils:/home/albert/arduinobot_ws/install/arduinobot_remote:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples:/home/albert/arduinobot_ws/install/arduinobot_msgs:/home/albert/arduinobot_ws/install/arduinobot_moveit_setup:/home/albert/arduinobot_ws/install/arduinobot_moveit:/home/albert/arduinobot_ws/install/arduinobot_description:/home/albert/arduinobot_ws/install/arduinobot_controller:/home/albert/rad_ws/install/agbot_full_nav2:/home/albert/rad_ws/install/agbot_full_msgs:/home/albert/rad_ws/install/agbot_full_moveit_setup:/home/albert/rad_ws/install/agbot_full_moveit:/home/albert/rad_ws/install/agbot_full_description:/home/albert/rad_ws/install/agbot_full_cpp:/home/albert/rad_ws/install/agbot_full_controller:/home/albert/rad_ws/install/agbot_full_cartogropher:/home/albert/dev_ws/install/my_bot:/home/albert/ag_car_ws/install/car_nav2:/home/albert/ag_car_ws/install/car_description:/home/albert/ag_car_ws/install/car_controller:/home/albert/ag_car_ws/install/car_cartographer:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/albert/umov_ws/install/arduinobot_msgs/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_visual_tools/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_core/lib:/home/albert/ws_moveit2/install/moveit_ros_control_interface/lib:/home/albert/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/albert/ws_moveit2/install/moveit_setup_assistant/lib:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_controllers/lib:/home/albert/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_framework/lib:/home/albert/ws_moveit2/install/moveit_servo/lib:/home/albert/ws_moveit2/install/moveit_ros_visualization/lib:/home/albert/ws_moveit2/install/moveit_hybrid_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/albert/ws_moveit2/install/moveit_ros_perception/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/home/albert/ws_moveit2/install/moveit_planners_ompl/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/albert/ws_moveit2/install/moveit_planners_chomp/lib:/home/albert/ws_moveit2/install/moveit_kinematics/lib:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/albert/ws_moveit2/install/chomp_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/home/albert/ws_moveit2/install/srdfdom/lib:/home/albert/ws_moveit2/install/rviz_marker_tools/lib:/home/albert/ws_moveit2/install/rosparam_shortcuts/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/albert/umov_ws/install/arduinobot_remote/lib:/home/albert/umov_ws/install/arduino_cpp_examples/lib:/home/albert/umov_ws/install/arduinobot_controller/lib:/home/albert/udem2_ws/install/final_project_cpp/lib:/home/albert/udem2_ws/install/robot_interfaces/lib:/home/albert/udem2_ws/install/components_cpp/lib:/home/albert/udem_ws/install/my_robot_interfaces/lib:/home/albert/bcdc_ws/install/aggiebot_msgs/lib:/home/albert/bcdc_ws/install/agbot_msgs/lib:/home/albert/arduinobot_ws/install/arduinobot_remote/lib:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples/lib:/home/albert/arduinobot_ws/install/arduinobot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_remote -- -j8 -l8
+[9.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_remote)
+[9.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/umov_ws/build/arduinobot_remote' returned '2': CMAKE_PREFIX_PATH=/home/albert/umov_ws/install/arduinobot_msgs:/home/albert/umov_ws/install/arduinobot_moveit:/home/albert/umov_ws/install/arduinobot_firmware:/home/albert/ag_arm_ws/install/arm_setup_moveit:/home/albert/ag_arm_ws/install/arm_moveit:/home/albert/ag_arm_ws/install/arm_description:/home/albert/ag_arm_ws/install/arm_cpp:/home/albert/ag_arm_ws/install/arm_controller:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/albert/ws_moveit2/install/moveit_runtime:/home/albert/ws_moveit2/install/moveit2_tutorials:/home/albert/ws_moveit2/install/moveit:/home/albert/ws_moveit2/install/moveit_planners:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner:/home/albert/ws_moveit2/install/moveit_visual_tools:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization:/home/albert/ws_moveit2/install/moveit_task_constructor_demo:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities:/home/albert/ws_moveit2/install/moveit_task_constructor_core:/home/albert/ws_moveit2/install/moveit_ros_control_interface:/home/albert/ws_moveit2/install/moveit_plugins:/home/albert/ws_moveit2/install/moveit_simple_controller_manager:/home/albert/ws_moveit2/install/moveit_setup_assistant:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins:/home/albert/ws_moveit2/install/moveit_setup_core_plugins:/home/albert/ws_moveit2/install/moveit_setup_controllers:/home/albert/ws_moveit2/install/moveit_setup_app_plugins:/home/albert/ws_moveit2/install/moveit_setup_framework:/home/albert/ws_moveit2/install/moveit_servo:/home/albert/ws_moveit2/install/moveit_ros:/home/albert/ws_moveit2/install/moveit_ros_visualization:/home/albert/ws_moveit2/install/moveit_hybrid_planning:/home/albert/ws_moveit2/install/moveit_ros_planning_interface:/home/albert/ws_moveit2/install/moveit_ros_benchmarks:/home/albert/ws_moveit2/install/moveit_ros_warehouse:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction:/home/albert/ws_moveit2/install/moveit_ros_perception:/home/albert/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/albert/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/albert/ws_moveit2/install/moveit_ros_move_group:/home/albert/ws_moveit2/install/moveit_planners_ompl:/home/albert/ws_moveit2/install/moveit_ros_planning:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/albert/ws_moveit2/install/moveit_planners_chomp:/home/albert/ws_moveit2/install/moveit_kinematics:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/albert/ws_moveit2/install/chomp_motion_planner:/home/albert/ws_moveit2/install/moveit_core:/home/albert/ws_moveit2/install/srdfdom:/home/albert/ws_moveit2/install/rviz_marker_tools:/home/albert/ws_moveit2/install/rosparam_shortcuts:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs:/home/albert/ws_moveit2/install/moveit_resources_prbt_support:/home/albert/ws_moveit2/install/moveit_resources:/home/albert/ws_moveit2/install/moveit_resources_pr2_description:/home/albert/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_panda_description:/home/albert/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/albert/ws_moveit2/install/moveit_resources_fanuc_description:/home/albert/ws_moveit2/install/moveit_common:/home/albert/umov_ws/install/MoveitAssistant:/home/albert/umov_ws/install/description:/home/albert/umov_ws/install/arduinobot_utils:/home/albert/umov_ws/install/arduinobot_remote:/home/albert/umov_ws/install/arduino_cpp_examples:/home/albert/umov_ws/install/arduinobot_controller:/home/albert/umov_ws/install/arduinobot_bringup:/home/albert/unav_ws/install/turtlebot3_fake_node:/home/albert/unav_ws/install/robot_bringup:/home/albert/unav_ws/install/nav2_robot_description:/home/albert/udem2_ws/install/robot_bringup:/home/albert/udem2_ws/install/my_robot_bringup:/home/albert/udem2_ws/install/lifecycle_cpp:/home/albert/udem2_ws/install/final_project_cpp:/home/albert/udem2_ws/install/actions_cpp:/home/albert/udem2_ws/install/robot_interfaces:/home/albert/udem2_ws/install/executors_cpp:/home/albert/udem2_ws/install/components_cpp:/home/albert/udem_ws/install/my_robot_bringup:/home/albert/udem_ws/install/my_cpp_pkg:/home/albert/udem_ws/install/my_robot_interfaces:/home/albert/udem_ws/install/my_robot_description:/home/albert/udem_ws/install/lifecycle_cpp:/home/albert/bcdc_ws/install/aggiebot_cpp:/home/albert/bcdc_ws/install/aggiebot_msgs:/home/albert/bcdc_ws/install/aggiebot_description:/home/albert/bcdc_ws/install/aggiebot_controller:/home/albert/bcdc_ws/install/aggiebot_bringup:/home/albert/bcdc_ws/install/aggiebot_arm_moveit:/home/albert/bcdc_ws/install/aggiebot_arm_description:/home/albert/bcdc_ws/install/aggiebot_arm_controller:/home/albert/bcdc_ws/install/agbot_setup_moveit:/home/albert/bcdc_ws/install/agbot_cpp:/home/albert/bcdc_ws/install/agbot_msgs:/home/albert/bcdc_ws/install/agbot_moveit:/home/albert/bcdc_ws/install/agbot_description:/home/albert/bcdc_ws/install/agbot_controller:/home/albert/bcdc_ws/install/agbot_bringup:/home/albert/bcdc_ws/install/agbot_arm_controller:/home/albert/arduinobot_ws/install/arduinobot_utils:/home/albert/arduinobot_ws/install/arduinobot_remote:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples:/home/albert/arduinobot_ws/install/arduinobot_msgs:/home/albert/arduinobot_ws/install/arduinobot_moveit_setup:/home/albert/arduinobot_ws/install/arduinobot_moveit:/home/albert/arduinobot_ws/install/arduinobot_description:/home/albert/arduinobot_ws/install/arduinobot_controller:/home/albert/rad_ws/install/agbot_full_nav2:/home/albert/rad_ws/install/agbot_full_msgs:/home/albert/rad_ws/install/agbot_full_moveit_setup:/home/albert/rad_ws/install/agbot_full_moveit:/home/albert/rad_ws/install/agbot_full_description:/home/albert/rad_ws/install/agbot_full_cpp:/home/albert/rad_ws/install/agbot_full_controller:/home/albert/rad_ws/install/agbot_full_cartogropher:/home/albert/dev_ws/install/my_bot:/home/albert/ag_car_ws/install/car_nav2:/home/albert/ag_car_ws/install/car_description:/home/albert/ag_car_ws/install/car_controller:/home/albert/ag_car_ws/install/car_cartographer:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/albert/umov_ws/install/arduinobot_msgs/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/albert/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_visual_tools/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_core/lib:/home/albert/ws_moveit2/install/moveit_ros_control_interface/lib:/home/albert/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/albert/ws_moveit2/install/moveit_setup_assistant/lib:/home/albert/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_controllers/lib:/home/albert/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/albert/ws_moveit2/install/moveit_setup_framework/lib:/home/albert/ws_moveit2/install/moveit_servo/lib:/home/albert/ws_moveit2/install/moveit_ros_visualization/lib:/home/albert/ws_moveit2/install/moveit_hybrid_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/albert/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/albert/ws_moveit2/install/moveit_ros_warehouse/lib:/home/albert/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/albert/ws_moveit2/install/moveit_ros_perception/lib:/home/albert/ws_moveit2/install/moveit_ros_move_group/lib:/home/albert/ws_moveit2/install/moveit_planners_ompl/lib:/home/albert/ws_moveit2/install/moveit_ros_planning/lib:/home/albert/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/albert/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/albert/ws_moveit2/install/moveit_planners_chomp/lib:/home/albert/ws_moveit2/install/moveit_kinematics/lib:/home/albert/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/albert/ws_moveit2/install/chomp_motion_planner/lib:/home/albert/ws_moveit2/install/moveit_core/lib:/home/albert/ws_moveit2/install/srdfdom/lib:/home/albert/ws_moveit2/install/rviz_marker_tools/lib:/home/albert/ws_moveit2/install/rosparam_shortcuts/lib:/home/albert/ws_moveit2/install/moveit_task_constructor_msgs/lib:/home/albert/umov_ws/install/arduinobot_remote/lib:/home/albert/umov_ws/install/arduino_cpp_examples/lib:/home/albert/umov_ws/install/arduinobot_controller/lib:/home/albert/udem2_ws/install/final_project_cpp/lib:/home/albert/udem2_ws/install/robot_interfaces/lib:/home/albert/udem2_ws/install/components_cpp/lib:/home/albert/udem_ws/install/my_robot_interfaces/lib:/home/albert/bcdc_ws/install/aggiebot_msgs/lib:/home/albert/bcdc_ws/install/agbot_msgs/lib:/home/albert/arduinobot_ws/install/arduinobot_remote/lib:/home/albert/arduinobot_ws/install/arduinobot_cpp_examples/lib:/home/albert/arduinobot_ws/install/arduinobot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduinobot_remote -- -j8 -l8
+[9.509s] Level 1:colcon.colcon_core.environment:checking '/home/albert/umov_ws/install/arduinobot_remote' for CMake module files
+[9.509s] Level 1:colcon.colcon_core.environment:checking '/home/albert/umov_ws/install/arduinobot_remote' for CMake config files
+[9.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_remote', 'cmake_prefix_path')
+[9.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.ps1'
+[9.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.dsv'
+[9.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.sh'
+[9.512s] Level 1:colcon.colcon_core.environment:checking '/home/albert/umov_ws/install/arduinobot_remote/lib'
+[9.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_remote', 'ld_library_path_lib')
+[9.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.ps1'
+[9.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.dsv'
+[9.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.sh'
+[9.514s] Level 1:colcon.colcon_core.environment:checking '/home/albert/umov_ws/install/arduinobot_remote/bin'
+[9.515s] Level 1:colcon.colcon_core.environment:checking '/home/albert/umov_ws/install/arduinobot_remote/lib/pkgconfig/arduinobot_remote.pc'
+[9.515s] Level 1:colcon.colcon_core.environment:checking '/home/albert/umov_ws/install/arduinobot_remote/lib/python3.10/site-packages'
+[9.515s] Level 1:colcon.colcon_core.environment:checking '/home/albert/umov_ws/install/arduinobot_remote/bin'
+[9.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/package.ps1'
+[9.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/package.dsv'
+[9.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/package.sh'
+[9.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/package.bash'
+[9.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/umov_ws/install/arduinobot_remote/share/arduinobot_remote/package.zsh'
+[9.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/umov_ws/install/arduinobot_remote/share/colcon-core/packages/arduinobot_remote)
+[9.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[9.531s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.537s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.537s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.537s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.548s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/umov_ws/install/local_setup.ps1'
+[9.549s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/albert/umov_ws/install/_local_setup_util_ps1.py'
+[9.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/umov_ws/install/setup.ps1'
+[9.559s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/umov_ws/install/local_setup.sh'
+[9.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/albert/umov_ws/install/_local_setup_util_sh.py'
+[9.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/umov_ws/install/setup.sh'
+[9.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/umov_ws/install/local_setup.bash'
+[9.567s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/umov_ws/install/setup.bash'
+[9.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/umov_ws/install/local_setup.zsh'
+[9.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/umov_ws/install/setup.zsh'

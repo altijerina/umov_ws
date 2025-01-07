@@ -276,6 +276,32 @@ simple_lifecycle_node/fast:
 .PHONY : simple_lifecycle_node/fast
 
 #=============================================================================
+# Target rules for targets named simple_moveit_interface
+
+# Build rule for target.
+simple_moveit_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_moveit_interface
+.PHONY : simple_moveit_interface
+
+# fast build rule for target.
+simple_moveit_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/build
+.PHONY : simple_moveit_interface/fast
+
+#=============================================================================
+# Target rules for targets named moveit_interface
+
+# Build rule for target.
+moveit_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveit_interface
+.PHONY : moveit_interface
+
+# fast build rule for target.
+moveit_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_interface.dir/build.make CMakeFiles/moveit_interface.dir/build
+.PHONY : moveit_interface/fast
+
+#=============================================================================
 # Target rules for targets named simple_action_server
 
 # Build rule for target.
@@ -327,19 +353,6 @@ simple_action_client_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client_node.dir/build.make CMakeFiles/simple_action_client_node.dir/build
 .PHONY : simple_action_client_node/fast
 
-#=============================================================================
-# Target rules for targets named simple_moveit_interface
-
-# Build rule for target.
-simple_moveit_interface: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_moveit_interface
-.PHONY : simple_moveit_interface
-
-# fast build rule for target.
-simple_moveit_interface/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/build
-.PHONY : simple_moveit_interface/fast
-
 rclcpp_components/node_main_simple_action_client_node.o: rclcpp_components/node_main_simple_action_client_node.cpp.o
 .PHONY : rclcpp_components/node_main_simple_action_client_node.o
 
@@ -387,6 +400,30 @@ rclcpp_components/node_main_simple_action_server_node.s: rclcpp_components/node_
 rclcpp_components/node_main_simple_action_server_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server_node.dir/build.make CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.s
 .PHONY : rclcpp_components/node_main_simple_action_server_node.cpp.s
+
+src/moveit_interface.o: src/moveit_interface.cpp.o
+.PHONY : src/moveit_interface.o
+
+# target to build an object file
+src/moveit_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_interface.dir/build.make CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o
+.PHONY : src/moveit_interface.cpp.o
+
+src/moveit_interface.i: src/moveit_interface.cpp.i
+.PHONY : src/moveit_interface.i
+
+# target to preprocess a source file
+src/moveit_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_interface.dir/build.make CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.i
+.PHONY : src/moveit_interface.cpp.i
+
+src/moveit_interface.s: src/moveit_interface.cpp.s
+.PHONY : src/moveit_interface.s
+
+# target to generate assembly for a file
+src/moveit_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_interface.dir/build.make CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.s
+.PHONY : src/moveit_interface.cpp.s
 
 src/simple_action_client.o: src/simple_action_client.cpp.o
 .PHONY : src/simple_action_client.o
@@ -619,6 +656,7 @@ help:
 	@echo "... test"
 	@echo "... arduino_cpp_examples_uninstall"
 	@echo "... uninstall"
+	@echo "... moveit_interface"
 	@echo "... simple_action_client"
 	@echo "... simple_action_client_node"
 	@echo "... simple_action_server"
@@ -636,6 +674,9 @@ help:
 	@echo "... rclcpp_components/node_main_simple_action_server_node.o"
 	@echo "... rclcpp_components/node_main_simple_action_server_node.i"
 	@echo "... rclcpp_components/node_main_simple_action_server_node.s"
+	@echo "... src/moveit_interface.o"
+	@echo "... src/moveit_interface.i"
+	@echo "... src/moveit_interface.s"
 	@echo "... src/simple_action_client.o"
 	@echo "... src/simple_action_client.i"
 	@echo "... src/simple_action_client.s"

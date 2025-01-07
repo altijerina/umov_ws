@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
-from arduinobot_msgs.action import Fibonacci
+from arduino_msgs.action import Fibonacci
 
 
 class SimpleActionClient(Node):

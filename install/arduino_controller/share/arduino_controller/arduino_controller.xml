@@ -1,0 +1,10 @@
+<library path="arduino_controller">
+    <class name="arduino_controller/ArduinoInterface"
+           type="arduino_controller::ArduinoInterface"
+           base_class_type="hardware_interface::SystemInterface"
+    >
+        <description>
+            arduino Hardware Interface
+        </description>
+    </class>
+</library>

@@ -11,11 +11,13 @@
 
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
-  <depend>arduinobot_msgs</depend>
+  <depend>arduino_msgs</depend>
   <depend>rclcpp_action</depend>
   <depend>rclcpp_components</depend>
-  <depend>moveit_ros_planning_interface</depend>
   <depend>rclcpp_lifecycle</depend>
+
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>geometry_msgs</depend>
   
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

@@ -1,0 +1,46 @@
+[  0%] Built target ament_cmake_python_copy_arduinobot_remote
+[ 50%] Built target task_server_node
+[ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+running egg_info
+writing arduinobot_remote.egg-info/PKG-INFO
+writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+writing top-level names to arduinobot_remote.egg-info/top_level.txt
+reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In constructor ‘[01m[Karduinobot_remote::TaskServer::TaskServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:23:32:[m[K [01;31m[Kerror: [m[K‘[01m[KcancelCallback[m[K’ is not a member of ‘[01m[Karduinobot_remote::TaskServer[m[K’
+   23 |         std::bind(&TaskServer::[01;31m[KcancelCallback[m[K, this, _1),
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse arduinobot_remote::TaskServer::goalCallback(const GoalUUID&, std::shared_ptr<const arduinobot_msgs::action::ArduinobotTask_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:38:74:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [41][m[K’ and ‘[01m[Kconst _task_number_type[m[K’ {aka ‘[01m[Kconst int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+   38 | et_logger(), [32m[K"Received goal request with task_number: "[m[K [01;31m[K<<[m[K [34m[Kgoal->task_number[m[K);
+      |              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~[m[K
+      |              [32m[K|[m[K                                                   [34m[K|[m[K
+      |              [32m[Kconst char [41][m[K                                     [34m[Kconst _task_number_type {aka const int}[m[K
+
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse arduinobot_remote::TaskServer::candelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:49:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   49 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:52:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   52 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:54:43:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp_action::CancelResponse[m[K’ to ‘[01m[Krclcpp_action::GoalResponse[m[K’ in return
+   54 |     return rclcpp_action::CancelResponse::[01;31m[KACCEPT[m[K;
+      |                                           [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,6 +1,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <rclcpp_action/rclcpp_action.hpp>
-#include <arduinobot_msgs/action/fibonacci.hpp>
+#include <arduino_msgs/action/fibonacci.hpp>
 #include <rclcpp_components/register_node_macro.hpp>
 
 #include <memory>
@@ -9,19 +9,19 @@ using namespace std::chrono_literals;
 using namespace std::placeholders;
 
 
-namespace arduinobot_cpp_examples
+namespace arduino_cpp_examples
 {
 class SimpleActionClient : public rclcpp::Node
 {
 public:
     explicit SimpleActionClient(const rclcpp::NodeOptions& options) : Node("simple_action_client", options)
     {
-        client_ = rclcpp_action::create_client<arduinobot_msgs::action::Fibonacci>(this, "fibonacci");
+        client_ = rclcpp_action::create_client<arduino_msgs::action::Fibonacci>(this, "fibonacci");
         timer_ = create_wall_timer(1s, std::bind(&SimpleActionClient::timerCallback, this));
     }
 
 private:
-    rclcpp_action::Client<arduinobot_msgs::action::Fibonacci>::SharedPtr client_ ;
+    rclcpp_action::Client<arduino_msgs::action::Fibonacci>::SharedPtr client_ ;
     rclcpp::TimerBase::SharedPtr timer_ ;
 
     void timerCallback()
@@ -34,11 +34,11 @@ private:
             rclcpp::shutdown();
         }
 
-        auto goal_msg = arduinobot_msgs::action::Fibonacci::Goal();
+        auto goal_msg = arduino_msgs::action::Fibonacci::Goal();
         goal_msg.order = 10;
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sending goal.");
 
-        auto send_goal_options = rclcpp_action::Client<arduinobot_msgs::action::Fibonacci>::SendGoalOptions();
+        auto send_goal_options = rclcpp_action::Client<arduino_msgs::action::Fibonacci>::SendGoalOptions();
         send_goal_options.goal_response_callback = std::bind(&SimpleActionClient::goalCallback, this, _1);
         send_goal_options.feedback_callback = std::bind(&SimpleActionClient::feedbackCallback, this, _1, _2);
         send_goal_options.result_callback = std::bind(&SimpleActionClient::resultCallback, this, _1);
@@ -47,20 +47,20 @@ private:
 
     }
 
-  void goalCallback(const rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::SharedPtr& goal_handle)
-  {
-    if (!goal_handle)
+    void goalCallback(const rclcpp_action::ClientGoalHandle<arduino_msgs::action::Fibonacci>::SharedPtr& goal_handle)
     {
-      RCLCPP_ERROR(get_logger(), "Goal was rejected by server");
+        if (!goal_handle)
+        {
+        RCLCPP_ERROR(get_logger(), "Goal was rejected by server");
+        }
+        else
+        {
+        RCLCPP_INFO(get_logger(), "Goal accepted by server, waiting for result");
+        }
     }
-    else
-    {
-      RCLCPP_INFO(get_logger(), "Goal accepted by server, waiting for result");
-    }
-  }
 
-    void feedbackCallback(const rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::SharedPtr, 
-                          const std::shared_ptr<const arduinobot_msgs::action::Fibonacci::Feedback> feedback)
+    void feedbackCallback(const rclcpp_action::ClientGoalHandle<arduino_msgs::action::Fibonacci>::SharedPtr&, 
+                          const std::shared_ptr<const arduino_msgs::action::Fibonacci::Feedback> feedback)
     {
         std::stringstream ss;
         ss << "Next number in sequence received: ";
@@ -71,7 +71,7 @@ private:
         }
     }
 
-    void resultCallback(const rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::WrappedResult& result)
+    void resultCallback(const rclcpp_action::ClientGoalHandle<arduino_msgs::action::Fibonacci>::WrappedResult& result)
     {
         switch(result.code)
         {
@@ -102,6 +102,6 @@ private:
 
 
 };
-}
+}  // namespace arduino_cpp_examples
 
-RCLCPP_COMPONENTS_REGISTER_NODE (arduinobot_cpp_examples::SimpleActionClient)
+RCLCPP_COMPONENTS_REGISTER_NODE (arduino_cpp_examples::SimpleActionClient)

@@ -448,8 +448,8 @@ arduino_cpp_examples_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 arduino_cpp_examples_SOURCE_DIR:STATIC=/home/albert/umov_ws/src/arduino_cpp_examples
 
-//The directory containing a CMake configuration file for arduinobot_msgs.
-arduinobot_msgs_DIR:PATH=/home/albert/umov_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake
+//The directory containing a CMake configuration file for arduino_msgs.
+arduino_msgs_DIR:PATH=/home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake
 
 //The directory containing a CMake configuration file for boost_atomic.
 boost_atomic_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.74.0
@@ -561,6 +561,9 @@ moveit_core_DIR:PATH=/home/albert/ws_moveit2/install/moveit_core/share/moveit_co
 
 //The directory containing a CMake configuration file for moveit_msgs.
 moveit_msgs_DIR:PATH=/opt/ros/humble/share/moveit_msgs/cmake
+
+//The directory containing a CMake configuration file for moveit_planners.
+moveit_planners_DIR:PATH=/home/albert/ws_moveit2/install/moveit_planners/share/moveit_planners/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_move_group.
 moveit_ros_move_group_DIR:PATH=/home/albert/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake
@@ -734,10 +737,10 @@ sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
 shape_msgs_DIR:PATH=/opt/ros/humble/share/shape_msgs/cmake
 
 //Dependencies for the target
-simple_action_client_LIB_DEPENDS:STATIC=general;arduinobot_msgs::arduinobot_msgs__rosidl_generator_c;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_fastrtps_c;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_fastrtps_cpp;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_introspection_c;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_c;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_introspection_cpp;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_cpp;general;arduinobot_msgs::arduinobot_msgs__rosidl_generator_py;general;rclcpp::rclcpp;general;rclcpp_action::rclcpp_action;general;rclcpp_components::component_manager;
+simple_action_client_LIB_DEPENDS:STATIC=general;arduino_msgs::arduino_msgs__rosidl_generator_c;general;arduino_msgs::arduino_msgs__rosidl_typesupport_fastrtps_c;general;arduino_msgs::arduino_msgs__rosidl_typesupport_fastrtps_cpp;general;arduino_msgs::arduino_msgs__rosidl_typesupport_introspection_c;general;arduino_msgs::arduino_msgs__rosidl_typesupport_c;general;arduino_msgs::arduino_msgs__rosidl_typesupport_introspection_cpp;general;arduino_msgs::arduino_msgs__rosidl_typesupport_cpp;general;arduino_msgs::arduino_msgs__rosidl_generator_py;general;rclcpp::rclcpp;general;rclcpp_action::rclcpp_action;general;rclcpp_components::component_manager;
 
 //Dependencies for the target
-simple_action_server_LIB_DEPENDS:STATIC=general;arduinobot_msgs::arduinobot_msgs__rosidl_generator_c;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_fastrtps_c;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_fastrtps_cpp;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_introspection_c;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_c;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_introspection_cpp;general;arduinobot_msgs::arduinobot_msgs__rosidl_typesupport_cpp;general;arduinobot_msgs::arduinobot_msgs__rosidl_generator_py;general;rclcpp::rclcpp;general;rclcpp_action::rclcpp_action;general;rclcpp_components::component_manager;
+simple_action_server_LIB_DEPENDS:STATIC=general;arduino_msgs::arduino_msgs__rosidl_generator_c;general;arduino_msgs::arduino_msgs__rosidl_typesupport_fastrtps_c;general;arduino_msgs::arduino_msgs__rosidl_typesupport_fastrtps_cpp;general;arduino_msgs::arduino_msgs__rosidl_typesupport_introspection_c;general;arduino_msgs::arduino_msgs__rosidl_typesupport_c;general;arduino_msgs::arduino_msgs__rosidl_typesupport_introspection_cpp;general;arduino_msgs::arduino_msgs__rosidl_typesupport_cpp;general;arduino_msgs::arduino_msgs__rosidl_generator_py;general;rclcpp::rclcpp;general;rclcpp_action::rclcpp_action;general;rclcpp_components::component_manager;
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog

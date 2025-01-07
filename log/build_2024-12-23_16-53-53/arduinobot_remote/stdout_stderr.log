@@ -1,0 +1,132 @@
+[  0%] Built target ament_cmake_python_copy_arduinobot_remote
+[ 50%] Built target task_server_node
+[ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+running egg_info
+writing arduinobot_remote.egg-info/PKG-INFO
+writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+writing top-level names to arduinobot_remote.egg-info/top_level.txt
+reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:39:79:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+   39 |     moveit::planning_interface::MoveGroupInterface arm_move_group(TaskServer, [01;31m[K"arm"[m[K);
+      |                                                                               [01;31m[K^~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:39:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:40:83:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+   40 |     moveit::planning_interface::MoveGroupInterface gripper_move_group(TaskServer, [01;31m[K"gripper"[m[K);
+      |                                                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:40:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse TaskServer::cancel_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_move_group_[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_move_group[m[K’?
+   57 |     if ([01;31m[Karm_move_group_[m[K){
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[Karm_move_group[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_move_group_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgripper_move_group[m[K’?
+   60 |     if ([01;31m[Kgripper_move_group_[m[K){
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kgripper_move_group[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid TaskServer::handle_accepted_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:71:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecute[m[K’ is not a member of ‘[01m[KTaskServer[m[K’
+   71 |         std::thread{ std::bind(&TaskServer::[01;31m[Kexecute[m[K, this, _1), goal_handle}.detach();
+      |                                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:71:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+   71 |         std::thread{ std::bind(&TaskServer::execute, this, _1), goal_handle[01;31m[K}[m[K.detach();
+      |                                                                            [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)[m[K’
+  127 |       [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread(std::thread&&)[m[K’
+  157 |     [01;36m[Kthread[m[K(thread&& __t) noexcept
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread()[m[K’
+  121 |     [01;36m[Kthread[m[K() noexcept = default;
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid TaskServer::execute_goal(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:77:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::arm_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   77 |     [01;31m[Karm_move_group[m[K.setStartStateToCurrentState();
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:78:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::gripper_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   78 |     [01;31m[Kgripper_move_group[m[K.setStartStateToCurrentState();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:123:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::arm_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  123 |     [01;31m[Karm_move_group[m[K.setJointValueTarget(arm_joint_goal);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:124:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::gripper_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  124 |     [01;31m[Kgripper_move_group[m[K.setJointValueTarget(gripper_joint_goal);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:127:31:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_joint_goal[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_joint_goal_[m[K’?
+  127 |     bool arm_within_bounds = ([01;31m[Karm_joint_goal[m[K.size() == arm_move_group.getActiveJoints().size());
+      |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                               [32m[Karm_joint_goal_[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:127:56:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::arm_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  127 |     bool arm_within_bounds = (arm_joint_goal.size() == [01;31m[Karm_move_group[m[K.getActiveJoints().size());
+      |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:127:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KgetActiveJoints[m[K’
+  127 |     bool arm_within_bounds = (arm_joint_goal.size() == arm_move_group.[01;31m[KgetActiveJoints[m[K().size());
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:127:30:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  127 |     bool arm_within_bounds = [01;36m[K([m[Karm_joint_goal.size() == arm_move_group.getActiveJoints().size());
+      |                              [01;36m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:128:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_joint_goal[m[K’ was not declared in this scope; did you mean ‘[01m[Kgripper_joint_goal_[m[K’?
+  128 |     bool gripper_within_bounds = ([01;31m[Kgripper_joint_goal[m[K.size() == gripper_move_group.getActiveJoints().size());
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[Kgripper_joint_goal_[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:128:64:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::gripper_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  128 |     bool gripper_within_bounds = (gripper_joint_goal.size() == [01;31m[Kgripper_move_group[m[K.getActiveJoints().size());
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:128:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KgetActiveJoints[m[K’
+  128 |     bool gripper_within_bounds = (gripper_joint_goal.size() == gripper_move_group.[01;31m[KgetActiveJoints[m[K().size());
+      |                                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:128:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  128 |     bool gripper_within_bounds = [01;36m[K([m[Kgripper_joint_goal.size() == gripper_move_group.getActiveJoints().size());
+      |                                  [01;36m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:159:30:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::arm_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  159 |     bool arm_plan_success = ([01;31m[Karm_move_group[m[K.plan(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:159:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kplan[m[K’
+  159 |     bool arm_plan_success = (arm_move_group.[01;31m[Kplan[m[K(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                             [01;31m[K^~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:159:29:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  159 |     bool arm_plan_success = [01;36m[K([m[Karm_move_group.plan(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                             [01;36m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:172:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::arm_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  172 |     bool arm_execution_success = ([01;31m[Karm_move_group[m[K.execute(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:172:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kexecute[m[K’
+  172 |     bool arm_execution_success = (arm_move_group.[01;31m[Kexecute[m[K(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:172:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  172 |     bool arm_execution_success = [01;36m[K([m[Karm_move_group.execute(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:184:34:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::gripper_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  184 |     bool gripper_plan_success = ([01;31m[Kgripper_move_group[m[K.plan(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:184:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kplan[m[K’
+  184 |     bool gripper_plan_success = (gripper_move_group.[01;31m[Kplan[m[K(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                                     [01;31m[K^~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:184:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  184 |     bool gripper_plan_success = [01;36m[K([m[Kgripper_move_group.plan(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                 [01;36m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:196:39:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface TaskServer::gripper_move_group(TaskServer, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  196 |     bool gripper_execution_success = ([01;31m[Kgripper_move_group[m[K.execute(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:196:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kexecute[m[K’
+  196 |     bool gripper_execution_success = (gripper_move_group.[01;31m[Kexecute[m[K(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:196:38:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  196 |     bool gripper_execution_success = [01;36m[K([m[Kgripper_move_group.execute(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                      [01;36m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:228:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_robot[m[K’ was not declared in this scope
+  228 |     [01;31m[Kmove_robot[m[K(node);
+      |     [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

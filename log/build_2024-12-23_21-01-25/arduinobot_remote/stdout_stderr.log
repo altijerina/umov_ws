@@ -1,0 +1,33 @@
+[  0%] Built target ament_cmake_python_copy_arduinobot_remote
+[ 50%] Built target task_server_node
+[ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+running egg_info
+writing arduinobot_remote.egg-info/PKG-INFO
+writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+writing top-level names to arduinobot_remote.egg-info/top_level.txt
+reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:30:25:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotTaskk[m[K’ was not declared in this scope; did you mean ‘[01m[KRobotTask[m[K’?
+   30 |   rclcpp_action::Server<[01;31m[KRobotTaskk[m[K>::SharedPtr action_server_;
+      |                         [01;31m[K^~~~~~~~~~[m[K
+      |                         [32m[KRobotTask[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:30:35:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |   rclcpp_action::Server<RobotTaskk[01;31m[K>[m[K::SharedPtr action_server_;
+      |                                   [01;31m[K^[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:30:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   30 |   rclcpp_action::Server<RobotTaskk>::[01;31m[KSharedPtr[m[K action_server_;
+      |                                      [01;31m[K^~~~~~~~~[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:30:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+   30 |   rclcpp_action::Server<RobotTaskk>::SharedPtr [01;31m[Kaction_server_[m[K;
+      |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                [32m[Krcl_action_server_t[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In constructor ‘[01m[Karduinobot_remote::TaskServer::TaskServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktask_server_[m[K’?
+   23 |     [01;31m[Kaction_server_[m[K = rclcpp_action::create_server<RobotTask>(
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Ktask_server_[m[K
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

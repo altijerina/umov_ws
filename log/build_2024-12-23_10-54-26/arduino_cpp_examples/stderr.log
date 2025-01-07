@@ -1,0 +1,10 @@
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:[m[K In function ‘[01m[Kvoid move_robot(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:22:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KsatisfiesBounds[m[K’
+   22 |     bool arm_within_bounds = arm_move_group.[01;31m[KsatisfiesBounds[m[K();
+      |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:23:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KsatisfiesBounds[m[K’
+   23 |     bool gripper_within_bounds = gripper_move_group.[01;31m[KsatisfiesBounds[m[K();
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_interface.dir/build.make:76: CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/moveit_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

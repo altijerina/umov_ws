@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from arduino_msgs/action/ArduinoTask.action
+// generated code does not contain a copyright notice
+
+
+module arduino_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct ArduinoTask_Goal {
+      int32 task_number;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct ArduinoTask_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct ArduinoTask_Feedback {
+      int32 percentage;
+    };
+  };
+};

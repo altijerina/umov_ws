@@ -1,0 +1,8 @@
+setup.py
+arduino_remote/__init__.py
+arduino_remote/alexa_interface.py
+arduino_remote/task_server.py
+arduino_remote.egg-info/PKG-INFO
+arduino_remote.egg-info/SOURCES.txt
+arduino_remote.egg-info/dependency_links.txt
+arduino_remote.egg-info/top_level.txt

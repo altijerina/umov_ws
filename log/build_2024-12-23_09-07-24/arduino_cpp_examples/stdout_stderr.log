@@ -1,0 +1,48 @@
+[  8%] Built target simple_publisher
+[ 16%] Built target simple_service_server
+[ 25%] Built target simple_service_client
+[ 33%] Built target simple_subscriber
+[ 41%] Built target simple_parameter
+[ 50%] Built target simple_lifecycle_node
+[ 58%] Built target simple_action_server
+[ 66%] Built target simple_action_server_node
+[ 75%] Built target simple_action_client
+[ 79%] [32mBuilding CXX object CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o[0m
+[ 87%] Built target simple_action_client_node
+[ 95%] Built target simple_moveit_interface
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:[m[K In function ‘[01m[Kvoid move_robot(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_target_positions[m[K’ was not declared in this scope
+   22 |     if (![01;31m[Karm_target_positions[m[K.size() == arm_move_group.getActiveJoints().size())
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:22:38:[m[K [01;35m[Kwarning: [m[Klogical not is only applied to the left hand side of comparison [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wlogical-not-parentheses-Wlogical-not-parentheses]8;;[m[K]
+   22 |     if (!arm_target_positions.size() [01;35m[K==[m[K arm_move_group.getActiveJoints().size())
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:29:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_target_positions[m[K’ was not declared in this scope
+   29 |     if (![01;31m[Kgripper_target_positions[m[K.size() == gripper_move_group.getActiveJoints().size())
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:29:42:[m[K [01;35m[Kwarning: [m[Klogical not is only applied to the left hand side of comparison [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wlogical-not-parentheses-Wlogical-not-parentheses]8;;[m[K]
+   29 |     if (!gripper_target_positions.size() [01;35m[K==[m[K gripper_move_group.getActiveJoints().size())
+      |                                          [01;35m[K^~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:39:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   39 |     bool arm_plan_success = (arm_move_group.plan(arm_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:2[m[K:
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:40:120:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   40 |     bool gripper_plan_success = (gripper_move_group.plan(gripper_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                        [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:2[m[K:
+[01m[K/home/albert/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:19:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karm_within_bounds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   19 |     bool [01;35m[Karm_within_bounds[m[K = arm_move_group.setJointValueTarget(arm_joint_goal);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduino_cpp_examples/src/moveit_interface.cpp:20:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgripper_within_bounds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   20 |     bool [01;35m[Kgripper_within_bounds[m[K = gripper_move_group.setJointValueTarget(gripper_joint_goal);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_interface.dir/build.make:76: CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/moveit_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

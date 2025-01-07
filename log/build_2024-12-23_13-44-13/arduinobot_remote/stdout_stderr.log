@@ -1,0 +1,31 @@
+[ 50%] Built target task_server_node
+[ 50%] Built target ament_cmake_python_copy_arduinobot_remote
+[ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+running egg_info
+writing arduinobot_remote.egg-info/PKG-INFO
+writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+writing top-level names to arduinobot_remote.egg-info/top_level.txt
+reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_remote::TaskServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:162:30:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_move_group[m[K’ was not declared in this scope; did you mean ‘[01m[Karm_move_group_[m[K’?
+  162 |     bool arm_plan_success = ([01;31m[Karm_move_group[m[K.plan(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                              [32m[Karm_move_group_[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:163:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<moveit::planning_interface::MoveGroupInterface>[m[K’ has no member named ‘[01m[Kplan[m[K’
+  163 |     bool gripper_plan_success = (gripper_move_group_.[01;31m[Kplan[m[K(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                                      [01;31m[K^~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:168:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karm_execution_success[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  168 |         bool [01;35m[Karm_execution_success[m[K = (arm_move_group.execute(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:179:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_move_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kgripper_move_group_[m[K’?
+  179 |         bool gripper_plan_success = ([01;31m[Kgripper_move_group[m[K.plan(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[Kgripper_move_group_[m[K
+[01m[K/home/albert/umov_ws/src/arduinobot_remote/src/task_server.cpp:179:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgripper_plan_success[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  179 |         bool [01;35m[Kgripper_plan_success[m[K = (gripper_move_group.plan(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,6 +1,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <memory>
-#include <arduinobot_msgs/srv/add_two_ints.hpp>
+#include <arduino_msgs/srv/add_two_ints.hpp>
 #include <chrono>
 
 using namespace std::chrono_literals;
@@ -12,8 +12,8 @@ class SimpleServiceClient : public rclcpp::Node
 public:
     SimpleServiceClient(int a, int b) : Node("simple_service_client")
     {
-        client_ = create_client<arduinobot_msgs::srv::AddTwoInts>("add_two_ints");
-        auto request = std::make_shared<arduinobot_msgs::srv::AddTwoInts::Request>();
+        client_ = create_client<arduino_msgs::srv::AddTwoInts>("add_two_ints");
+        auto request = std::make_shared<arduino_msgs::srv::AddTwoInts::Request>();
         request->a = a;
         request->b = b;
 
@@ -33,9 +33,9 @@ public:
 
 
 private:
-    rclcpp::Client<arduinobot_msgs::srv::AddTwoInts>::SharedPtr client_;
+    rclcpp::Client<arduino_msgs::srv::AddTwoInts>::SharedPtr client_;
 
-    void responseCallback(rclcpp::Client<arduinobot_msgs::srv::AddTwoInts>::SharedFuture future)
+    void responseCallback(rclcpp::Client<arduino_msgs::srv::AddTwoInts>::SharedFuture future)
     {
         if (future.valid())
         {

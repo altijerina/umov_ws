@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "arduino_msgs__py",
+		"source" : "/home/albert/umov_ws/build/arduino_msgs/arduino_msgs__py"
+	}
+}

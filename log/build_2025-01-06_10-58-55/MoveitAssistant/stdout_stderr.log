@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+WARNING: Package name "MoveitAssistant" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Configuring done (2.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/albert/umov_ws/build/MoveitAssistant
+-- Install configuration: ""
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/ament_index/resource_index/package_run_dependencies/MoveitAssistant
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/ament_index/resource_index/parent_prefix_path/MoveitAssistant
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/environment/ament_prefix_path.sh
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/environment/ament_prefix_path.dsv
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/environment/path.sh
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/environment/path.dsv
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/local_setup.bash
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/local_setup.sh
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/local_setup.zsh
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/local_setup.dsv
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/package.dsv
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/ament_index/resource_index/packages/MoveitAssistant
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/cmake/MoveitAssistantConfig.cmake
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/cmake/MoveitAssistantConfig-version.cmake
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/package.xml
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch/moveit_rviz.launch.py
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch/spawn_controllers.launch.py
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch/move_group.launch.py
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch/warehouse_db.launch.py
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch/demo.launch.py
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch/setup_assistant.launch.py
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/launch/rsp.launch.py
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/joint_limits.yaml
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/ros2_controllers.yaml
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/moveit_controllers.yaml
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/initial_positions.yaml
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/arduinobot.urdf.xacro
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/pilz_cartesian_limits.yaml
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/arduinobot.srdf
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/kinematics.yaml
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/arduinobot.ros2_control.xacro
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/config/moveit.rviz
+-- Installing: /home/albert/umov_ws/install/MoveitAssistant/share/MoveitAssistant/.setup_assistant

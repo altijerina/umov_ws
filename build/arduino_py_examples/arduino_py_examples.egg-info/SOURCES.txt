@@ -9,8 +9,10 @@ setup.py
 ../../build/arduino_py_examples/arduino_py_examples.egg-info/top_level.txt
 ../../build/arduino_py_examples/arduino_py_examples.egg-info/zip-safe
 arduino_py_examples/__init__.py
+arduino_py_examples/moveit_interface.py
 arduino_py_examples/simple_action_client.py
 arduino_py_examples/simple_action_server.py
+arduino_py_examples/simple_lifecycle_node.py
 arduino_py_examples/simple_parameter.py
 arduino_py_examples/simple_publisher.py
 arduino_py_examples/simple_service_client.py

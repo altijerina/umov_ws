@@ -1,0 +1,6 @@
+[  8%] Built target simple_publisher
+[ 16%] Built target simple_action_server_node
+[ 25%] Built target simple_action_client
+[ 33%] Built target simple_action_client_node
+[ 41%] Built target simple_moveit_interface
+[ 45%] [32mBuilding CXX object CMakeFiles/moveit_interface.dir/src/moveit_interface.cpp.o[0m

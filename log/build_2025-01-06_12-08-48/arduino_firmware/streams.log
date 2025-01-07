@@ -1,0 +1,105 @@
+[0.051s] Invoking command in '/home/albert/umov_ws/build/arduino_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/umov_ws/src/arduino_firmware -DCMAKE_INSTALL_PREFIX=/home/albert/umov_ws/install/arduino_firmware
+[0.477s] -- The C compiler identification is GNU 11.4.0
+[0.642s] -- The CXX compiler identification is GNU 11.4.0
+[0.661s] -- Detecting C compiler ABI info
+[0.829s] -- Detecting C compiler ABI info - done
+[0.859s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.859s] -- Detecting C compile features
+[0.860s] -- Detecting C compile features - done
+[0.865s] -- Detecting CXX compiler ABI info
+[1.014s] -- Detecting CXX compiler ABI info - done
+[1.045s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.045s] -- Detecting CXX compile features
+[1.046s] -- Detecting CXX compile features - done
+[1.070s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.757s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.774s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.152s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.228s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.321s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.945s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.996s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.216s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.497s] -- Found Threads: TRUE
+[3.772s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")
+[3.774s] -- Checking for module 'libserial'
+[3.825s] --   Found libserial, version 1.0.0
+[4.201s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.599s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.599s] -- Configured cppcheck include dirs: 
+[4.599s] -- Configured cppcheck exclude dirs and/or files: 
+[4.607s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.615s] -- Added test 'lint_cmake' to check CMake code style
+[4.623s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.632s] -- Added test 'uncrustify' to check C / C++ code style
+[4.633s] -- Configured uncrustify additional arguments: 
+[4.640s] -- Added test 'xmllint' to check XML markup files
+[4.655s] -- Configuring done (4.6s)
+[4.693s] -- Generating done (0.0s)
+[4.706s] -- Build files have been written to: /home/albert/umov_ws/build/arduino_firmware
+[4.723s] Invoked command in '/home/albert/umov_ws/build/arduino_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/umov_ws/src/arduino_firmware -DCMAKE_INSTALL_PREFIX=/home/albert/umov_ws/install/arduino_firmware
+[4.726s] Invoking command in '/home/albert/umov_ws/build/arduino_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduino_firmware -- -j8 -l8
+[4.799s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[4.809s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[4.811s] [ 50%] Built target ament_cmake_python_copy_arduino_firmware
+[5.710s] running egg_info
+[5.711s] creating arduino_firmware.egg-info
+[5.711s] writing arduino_firmware.egg-info/PKG-INFO
+[5.711s] writing dependency_links to arduino_firmware.egg-info/dependency_links.txt
+[5.712s] writing top-level names to arduino_firmware.egg-info/top_level.txt
+[5.712s] writing manifest file 'arduino_firmware.egg-info/SOURCES.txt'
+[5.718s] reading manifest file 'arduino_firmware.egg-info/SOURCES.txt'
+[5.719s] writing manifest file 'arduino_firmware.egg-info/SOURCES.txt'
+[5.771s] [ 50%] Built target ament_cmake_python_build_arduino_firmware_egg
+[16.526s] [ 75%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[17.195s] [ 75%] Built target simple_serial_receiver
+[22.162s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[22.700s] [100%] Built target simple_serial_transmitter
+[23.078s] Invoked command in '/home/albert/umov_ws/build/arduino_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduino_firmware -- -j8 -l8
+[23.081s] Invoking command in '/home/albert/umov_ws/build/arduino_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduino_firmware
+[23.083s] -- Install configuration: ""
+[23.083s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/pythonpath.sh
+[23.083s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/pythonpath.dsv
+[23.084s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info
+[23.084s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[23.090s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[23.090s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[23.090s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[23.090s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware
+[23.091s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver.py
+[23.091s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/__init__.py
+[23.091s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_transmitter.py
+[23.091s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver
+[23.091s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver/simple_serial_receiver.ino
+[23.174s] Listing '/home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware'...
+[23.174s] Compiling '/home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/__init__.py'...
+[23.174s] Listing '/home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver'...
+[23.174s] Compiling '/home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver.py'...
+[23.174s] Compiling '/home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_transmitter.py'...
+[23.181s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_transmitter
+[23.186s] -- Set non-toolchain portion of runtime path of "/home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_transmitter" to ""
+[23.187s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_receiver
+[23.190s] -- Set non-toolchain portion of runtime path of "/home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_receiver" to ""
+[23.190s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_transmitter.py
+[23.190s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_receiver.py
+[23.190s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/ament_index/resource_index/package_run_dependencies/arduino_firmware
+[23.191s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/ament_index/resource_index/parent_prefix_path/arduino_firmware
+[23.191s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/ament_prefix_path.sh
+[23.192s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/ament_prefix_path.dsv
+[23.192s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/path.sh
+[23.192s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/path.dsv
+[23.193s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/local_setup.bash
+[23.193s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/local_setup.sh
+[23.193s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/local_setup.zsh
+[23.193s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/local_setup.dsv
+[23.193s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/package.dsv
+[23.194s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/ament_index/resource_index/packages/arduino_firmware
+[23.194s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/cmake/arduino_firmwareConfig.cmake
+[23.194s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/cmake/arduino_firmwareConfig-version.cmake
+[23.194s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/package.xml
+[23.197s] Invoked command in '/home/albert/umov_ws/build/arduino_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduino_firmware
