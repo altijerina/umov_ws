@@ -49,9 +49,9 @@ static bool _ArduinoTask_Goal__cdr_serialize(
     return false;
   }
   const _ArduinoTask_Goal__ros_msg_type * ros_message = static_cast<const _ArduinoTask_Goal__ros_msg_type *>(untyped_ros_message);
-  // Field name: task_number
+  // Field name: arduino_task_number
   {
-    cdr << ros_message->task_number;
+    cdr << ros_message->arduino_task_number;
   }
 
   return true;
@@ -66,9 +66,9 @@ static bool _ArduinoTask_Goal__cdr_deserialize(
     return false;
   }
   _ArduinoTask_Goal__ros_msg_type * ros_message = static_cast<_ArduinoTask_Goal__ros_msg_type *>(untyped_ros_message);
-  // Field name: task_number
+  // Field name: arduino_task_number
   {
-    cdr >> ros_message->task_number;
+    cdr >> ros_message->arduino_task_number;
   }
 
   return true;
@@ -88,9 +88,9 @@ size_t get_serialized_size_arduino_msgs__action__ArduinoTask_Goal(
   (void)padding;
   (void)wchar_size;
 
-  // field.name task_number
+  // field.name arduino_task_number
   {
-    size_t item_size = sizeof(ros_message->task_number);
+    size_t item_size = sizeof(ros_message->arduino_task_number);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -123,7 +123,7 @@ size_t max_serialized_size_arduino_msgs__action__ArduinoTask_Goal(
   full_bounded = true;
   is_plain = true;
 
-  // member: task_number
+  // member: arduino_task_number
   {
     size_t array_size = 1;
 
@@ -140,7 +140,7 @@ size_t max_serialized_size_arduino_msgs__action__ArduinoTask_Goal(
     using DataType = arduino_msgs__action__ArduinoTask_Goal;
     is_plain =
       (
-      offsetof(DataType, task_number) +
+      offsetof(DataType, arduino_task_number) +
       last_member_size
       ) == ret_val;
   }
@@ -243,9 +243,9 @@ static bool _ArduinoTask_Result__cdr_serialize(
     return false;
   }
   const _ArduinoTask_Result__ros_msg_type * ros_message = static_cast<const _ArduinoTask_Result__ros_msg_type *>(untyped_ros_message);
-  // Field name: success
+  // Field name: arduino_success
   {
-    cdr << (ros_message->success ? true : false);
+    cdr << (ros_message->arduino_success ? true : false);
   }
 
   return true;
@@ -260,11 +260,11 @@ static bool _ArduinoTask_Result__cdr_deserialize(
     return false;
   }
   _ArduinoTask_Result__ros_msg_type * ros_message = static_cast<_ArduinoTask_Result__ros_msg_type *>(untyped_ros_message);
-  // Field name: success
+  // Field name: arduino_success
   {
     uint8_t tmp;
     cdr >> tmp;
-    ros_message->success = tmp ? true : false;
+    ros_message->arduino_success = tmp ? true : false;
   }
 
   return true;
@@ -284,9 +284,9 @@ size_t get_serialized_size_arduino_msgs__action__ArduinoTask_Result(
   (void)padding;
   (void)wchar_size;
 
-  // field.name success
+  // field.name arduino_success
   {
-    size_t item_size = sizeof(ros_message->success);
+    size_t item_size = sizeof(ros_message->arduino_success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -319,7 +319,7 @@ size_t max_serialized_size_arduino_msgs__action__ArduinoTask_Result(
   full_bounded = true;
   is_plain = true;
 
-  // member: success
+  // member: arduino_success
   {
     size_t array_size = 1;
 
@@ -335,7 +335,7 @@ size_t max_serialized_size_arduino_msgs__action__ArduinoTask_Result(
     using DataType = arduino_msgs__action__ArduinoTask_Result;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, arduino_success) +
       last_member_size
       ) == ret_val;
   }
@@ -438,9 +438,9 @@ static bool _ArduinoTask_Feedback__cdr_serialize(
     return false;
   }
   const _ArduinoTask_Feedback__ros_msg_type * ros_message = static_cast<const _ArduinoTask_Feedback__ros_msg_type *>(untyped_ros_message);
-  // Field name: percentage
+  // Field name: arduino_percentage
   {
-    cdr << ros_message->percentage;
+    cdr << ros_message->arduino_percentage;
   }
 
   return true;
@@ -455,9 +455,9 @@ static bool _ArduinoTask_Feedback__cdr_deserialize(
     return false;
   }
   _ArduinoTask_Feedback__ros_msg_type * ros_message = static_cast<_ArduinoTask_Feedback__ros_msg_type *>(untyped_ros_message);
-  // Field name: percentage
+  // Field name: arduino_percentage
   {
-    cdr >> ros_message->percentage;
+    cdr >> ros_message->arduino_percentage;
   }
 
   return true;
@@ -477,9 +477,9 @@ size_t get_serialized_size_arduino_msgs__action__ArduinoTask_Feedback(
   (void)padding;
   (void)wchar_size;
 
-  // field.name percentage
+  // field.name arduino_percentage
   {
-    size_t item_size = sizeof(ros_message->percentage);
+    size_t item_size = sizeof(ros_message->arduino_percentage);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -512,7 +512,7 @@ size_t max_serialized_size_arduino_msgs__action__ArduinoTask_Feedback(
   full_bounded = true;
   is_plain = true;
 
-  // member: percentage
+  // member: arduino_percentage
   {
     size_t array_size = 1;
 
@@ -529,7 +529,7 @@ size_t max_serialized_size_arduino_msgs__action__ArduinoTask_Feedback(
     using DataType = arduino_msgs__action__ArduinoTask_Feedback;
     is_plain =
       (
-      offsetof(DataType, percentage) +
+      offsetof(DataType, arduino_percentage) +
       last_member_size
       ) == ret_val;
   }

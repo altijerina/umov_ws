@@ -1,4 +1,4 @@
-/home/albert/umov_ws/install/arduino_moveit/share/arduino_moveit/launch/moveit.launch.py
+/home/albert/umov_ws/install/arduino_moveit/share/arduino_moveit/launch/arduino_moveit.launch.py
 /home/albert/umov_ws/install/arduino_moveit/share/arduino_moveit/config/planning_python_api.yaml
 /home/albert/umov_ws/install/arduino_moveit/share/arduino_moveit/config/old_arduinobot.srdf
 /home/albert/umov_ws/install/arduino_moveit/share/arduino_moveit/config/joint_limits.yaml

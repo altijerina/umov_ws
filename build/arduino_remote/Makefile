@@ -198,30 +198,30 @@ arduino_remote_uninstall/fast:
 .PHONY : arduino_remote_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named task_server
+# Target rules for targets named arduino_task_server
 
 # Build rule for target.
-task_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task_server
-.PHONY : task_server
+arduino_task_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arduino_task_server
+.PHONY : arduino_task_server
 
 # fast build rule for target.
-task_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server.dir/build.make CMakeFiles/task_server.dir/build
-.PHONY : task_server/fast
+arduino_task_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server.dir/build.make CMakeFiles/arduino_task_server.dir/build
+.PHONY : arduino_task_server/fast
 
 #=============================================================================
-# Target rules for targets named task_server_node
+# Target rules for targets named arduino_task_server_node
 
 # Build rule for target.
-task_server_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task_server_node
-.PHONY : task_server_node
+arduino_task_server_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arduino_task_server_node
+.PHONY : arduino_task_server_node
 
 # fast build rule for target.
-task_server_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server_node.dir/build.make CMakeFiles/task_server_node.dir/build
-.PHONY : task_server_node/fast
+arduino_task_server_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server_node.dir/build.make CMakeFiles/arduino_task_server_node.dir/build
+.PHONY : arduino_task_server_node/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_copy_arduino_remote
@@ -249,53 +249,53 @@ ament_cmake_python_build_arduino_remote_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_arduino_remote_egg.dir/build.make CMakeFiles/ament_cmake_python_build_arduino_remote_egg.dir/build
 .PHONY : ament_cmake_python_build_arduino_remote_egg/fast
 
-rclcpp_components/node_main_task_server_node.o: rclcpp_components/node_main_task_server_node.cpp.o
-.PHONY : rclcpp_components/node_main_task_server_node.o
+rclcpp_components/node_main_arduino_task_server_node.o: rclcpp_components/node_main_arduino_task_server_node.cpp.o
+.PHONY : rclcpp_components/node_main_arduino_task_server_node.o
 
 # target to build an object file
-rclcpp_components/node_main_task_server_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server_node.dir/build.make CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.o
-.PHONY : rclcpp_components/node_main_task_server_node.cpp.o
+rclcpp_components/node_main_arduino_task_server_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server_node.dir/build.make CMakeFiles/arduino_task_server_node.dir/rclcpp_components/node_main_arduino_task_server_node.cpp.o
+.PHONY : rclcpp_components/node_main_arduino_task_server_node.cpp.o
 
-rclcpp_components/node_main_task_server_node.i: rclcpp_components/node_main_task_server_node.cpp.i
-.PHONY : rclcpp_components/node_main_task_server_node.i
+rclcpp_components/node_main_arduino_task_server_node.i: rclcpp_components/node_main_arduino_task_server_node.cpp.i
+.PHONY : rclcpp_components/node_main_arduino_task_server_node.i
 
 # target to preprocess a source file
-rclcpp_components/node_main_task_server_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server_node.dir/build.make CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.i
-.PHONY : rclcpp_components/node_main_task_server_node.cpp.i
+rclcpp_components/node_main_arduino_task_server_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server_node.dir/build.make CMakeFiles/arduino_task_server_node.dir/rclcpp_components/node_main_arduino_task_server_node.cpp.i
+.PHONY : rclcpp_components/node_main_arduino_task_server_node.cpp.i
 
-rclcpp_components/node_main_task_server_node.s: rclcpp_components/node_main_task_server_node.cpp.s
-.PHONY : rclcpp_components/node_main_task_server_node.s
+rclcpp_components/node_main_arduino_task_server_node.s: rclcpp_components/node_main_arduino_task_server_node.cpp.s
+.PHONY : rclcpp_components/node_main_arduino_task_server_node.s
 
 # target to generate assembly for a file
-rclcpp_components/node_main_task_server_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server_node.dir/build.make CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.s
-.PHONY : rclcpp_components/node_main_task_server_node.cpp.s
+rclcpp_components/node_main_arduino_task_server_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server_node.dir/build.make CMakeFiles/arduino_task_server_node.dir/rclcpp_components/node_main_arduino_task_server_node.cpp.s
+.PHONY : rclcpp_components/node_main_arduino_task_server_node.cpp.s
 
-src/task_server.o: src/task_server.cpp.o
-.PHONY : src/task_server.o
+src/arduino_task_server.o: src/arduino_task_server.cpp.o
+.PHONY : src/arduino_task_server.o
 
 # target to build an object file
-src/task_server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server.dir/build.make CMakeFiles/task_server.dir/src/task_server.cpp.o
-.PHONY : src/task_server.cpp.o
+src/arduino_task_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server.dir/build.make CMakeFiles/arduino_task_server.dir/src/arduino_task_server.cpp.o
+.PHONY : src/arduino_task_server.cpp.o
 
-src/task_server.i: src/task_server.cpp.i
-.PHONY : src/task_server.i
+src/arduino_task_server.i: src/arduino_task_server.cpp.i
+.PHONY : src/arduino_task_server.i
 
 # target to preprocess a source file
-src/task_server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server.dir/build.make CMakeFiles/task_server.dir/src/task_server.cpp.i
-.PHONY : src/task_server.cpp.i
+src/arduino_task_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server.dir/build.make CMakeFiles/arduino_task_server.dir/src/arduino_task_server.cpp.i
+.PHONY : src/arduino_task_server.cpp.i
 
-src/task_server.s: src/task_server.cpp.s
-.PHONY : src/task_server.s
+src/arduino_task_server.s: src/arduino_task_server.cpp.s
+.PHONY : src/arduino_task_server.s
 
 # target to generate assembly for a file
-src/task_server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server.dir/build.make CMakeFiles/task_server.dir/src/task_server.cpp.s
-.PHONY : src/task_server.cpp.s
+src/arduino_task_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server.dir/build.make CMakeFiles/arduino_task_server.dir/src/arduino_task_server.cpp.s
+.PHONY : src/arduino_task_server.cpp.s
 
 # Help Target
 help:
@@ -314,14 +314,14 @@ help:
 	@echo "... ament_cmake_python_copy_arduino_remote"
 	@echo "... arduino_remote_uninstall"
 	@echo "... uninstall"
-	@echo "... task_server"
-	@echo "... task_server_node"
-	@echo "... rclcpp_components/node_main_task_server_node.o"
-	@echo "... rclcpp_components/node_main_task_server_node.i"
-	@echo "... rclcpp_components/node_main_task_server_node.s"
-	@echo "... src/task_server.o"
-	@echo "... src/task_server.i"
-	@echo "... src/task_server.s"
+	@echo "... arduino_task_server"
+	@echo "... arduino_task_server_node"
+	@echo "... rclcpp_components/node_main_arduino_task_server_node.o"
+	@echo "... rclcpp_components/node_main_arduino_task_server_node.i"
+	@echo "... rclcpp_components/node_main_arduino_task_server_node.s"
+	@echo "... src/arduino_task_server.o"
+	@echo "... src/arduino_task_server.i"
+	@echo "... src/arduino_task_server.s"
 .PHONY : help
 
 

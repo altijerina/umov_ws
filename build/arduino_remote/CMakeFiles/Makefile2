@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/albert/umov_ws/build/arduino_remote
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/task_server.dir/all
-all: CMakeFiles/task_server_node.dir/all
+all: CMakeFiles/arduino_task_server.dir/all
+all: CMakeFiles/arduino_task_server_node.dir/all
 all: CMakeFiles/ament_cmake_python_build_arduino_remote_egg.dir/all
 .PHONY : all
 
@@ -75,8 +75,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/arduino_remote_uninstall.dir/clean
-clean: CMakeFiles/task_server.dir/clean
-clean: CMakeFiles/task_server_node.dir/clean
+clean: CMakeFiles/arduino_task_server.dir/clean
+clean: CMakeFiles/arduino_task_server_node.dir/clean
 clean: CMakeFiles/ament_cmake_python_copy_arduino_remote.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_arduino_remote_egg.dir/clean
 .PHONY : clean
@@ -134,56 +134,56 @@ CMakeFiles/arduino_remote_uninstall.dir/clean:
 .PHONY : CMakeFiles/arduino_remote_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/task_server.dir
+# Target rules for target CMakeFiles/arduino_task_server.dir
 
 # All Build rule for target.
-CMakeFiles/task_server.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server.dir/build.make CMakeFiles/task_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server.dir/build.make CMakeFiles/task_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/albert/umov_ws/build/arduino_remote/CMakeFiles --progress-num=1,2 "Built target task_server"
-.PHONY : CMakeFiles/task_server.dir/all
+CMakeFiles/arduino_task_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server.dir/build.make CMakeFiles/arduino_task_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server.dir/build.make CMakeFiles/arduino_task_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/albert/umov_ws/build/arduino_remote/CMakeFiles --progress-num=1,2 "Built target arduino_task_server"
+.PHONY : CMakeFiles/arduino_task_server.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/task_server.dir/rule: cmake_check_build_system
+CMakeFiles/arduino_task_server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/albert/umov_ws/build/arduino_remote/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task_server.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arduino_task_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/albert/umov_ws/build/arduino_remote/CMakeFiles 0
-.PHONY : CMakeFiles/task_server.dir/rule
+.PHONY : CMakeFiles/arduino_task_server.dir/rule
 
 # Convenience name for target.
-task_server: CMakeFiles/task_server.dir/rule
-.PHONY : task_server
+arduino_task_server: CMakeFiles/arduino_task_server.dir/rule
+.PHONY : arduino_task_server
 
 # clean rule for target.
-CMakeFiles/task_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server.dir/build.make CMakeFiles/task_server.dir/clean
-.PHONY : CMakeFiles/task_server.dir/clean
+CMakeFiles/arduino_task_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server.dir/build.make CMakeFiles/arduino_task_server.dir/clean
+.PHONY : CMakeFiles/arduino_task_server.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/task_server_node.dir
+# Target rules for target CMakeFiles/arduino_task_server_node.dir
 
 # All Build rule for target.
-CMakeFiles/task_server_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server_node.dir/build.make CMakeFiles/task_server_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server_node.dir/build.make CMakeFiles/task_server_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/albert/umov_ws/build/arduino_remote/CMakeFiles --progress-num=3,4 "Built target task_server_node"
-.PHONY : CMakeFiles/task_server_node.dir/all
+CMakeFiles/arduino_task_server_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server_node.dir/build.make CMakeFiles/arduino_task_server_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server_node.dir/build.make CMakeFiles/arduino_task_server_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/albert/umov_ws/build/arduino_remote/CMakeFiles --progress-num=3,4 "Built target arduino_task_server_node"
+.PHONY : CMakeFiles/arduino_task_server_node.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/task_server_node.dir/rule: cmake_check_build_system
+CMakeFiles/arduino_task_server_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/albert/umov_ws/build/arduino_remote/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task_server_node.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arduino_task_server_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/albert/umov_ws/build/arduino_remote/CMakeFiles 0
-.PHONY : CMakeFiles/task_server_node.dir/rule
+.PHONY : CMakeFiles/arduino_task_server_node.dir/rule
 
 # Convenience name for target.
-task_server_node: CMakeFiles/task_server_node.dir/rule
-.PHONY : task_server_node
+arduino_task_server_node: CMakeFiles/arduino_task_server_node.dir/rule
+.PHONY : arduino_task_server_node
 
 # clean rule for target.
-CMakeFiles/task_server_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_server_node.dir/build.make CMakeFiles/task_server_node.dir/clean
-.PHONY : CMakeFiles/task_server_node.dir/clean
+CMakeFiles/arduino_task_server_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduino_task_server_node.dir/build.make CMakeFiles/arduino_task_server_node.dir/clean
+.PHONY : CMakeFiles/arduino_task_server_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_copy_arduino_remote.dir

@@ -1,0 +1,7 @@
+[01m[K/home/albert/umov_ws/src/arduino_remote/src/arduino_task_server.cpp:[m[K In constructor ‘[01m[Karduino_remote::ArduinoTaskServer::ArduinoTaskServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduino_remote/src/arduino_task_server.cpp:24:68:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_GoalCallback[m[K’ is not a member of ‘[01m[Karduino_remote::ArduinoTaskServer[m[K’
+   24 |         this, "arduino_task_server", std::bind(&ArduinoTaskServer::[01;31m[Karduino_GoalCallback[m[K, this, _1, _2),
+      |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/arduino_task_server.dir/build.make:76: CMakeFiles/arduino_task_server.dir/src/arduino_task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/arduino_task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

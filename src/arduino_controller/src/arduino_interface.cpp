@@ -140,14 +140,14 @@ CallbackReturn ArduinoInterface::on_deactivate(const rclcpp_lifecycle::State & p
     return CallbackReturn::SUCCESS;        
 }
 
-hardware_interface::return_type ArduinoInterface::read(const rclcpp::Time & time, const rclcpp::Duration & period)
+hardware_interface::return_type ArduinoInterface::read(const rclcpp::Time &time, const rclcpp::Duration &period)
 {
     position_states_ = position_commands_;
     return hardware_interface::return_type::OK;
 }
 
 
-hardware_interface::return_type ArduinoInterface::write(const rclcpp::Time & time, const rclcpp::Duration & period)
+hardware_interface::return_type ArduinoInterface::write(const rclcpp::Time &time, const rclcpp::Duration &period)
 {
     if(position_commands_ == prev_position_commands_)
     {
@@ -155,22 +155,26 @@ hardware_interface::return_type ArduinoInterface::write(const rclcpp::Time & tim
     }
 
     std::string msg;
-    int base = static_cast<int>(((position_commands_.at(0) + (M_PI/2)) * 180) / M_PI);
+    // int base = static_cast<int>(((position_commands_.at(0) + (M_PI/2)) * 180) / M_PI);
+    int base = static_cast<int>((position_commands_.at(0) * 180) / M_PI);
     msg.append("b");
     msg.append(compensateZeros(base));
     msg.append(std::to_string(base));
     msg.append(",");
-    int shoulder = 180 - static_cast<int>((((position_commands_.at(1)) + (M_PI/2)) * 180) / M_PI);
+    // int shoulder = 180 - static_cast<int>((((position_commands_.at(1)) + (M_PI/2)) * 180) / M_PI);
+    int shoulder = 180 - static_cast<int>((position_commands_.at(1) * 180) / M_PI);
     msg.append("s");
     msg.append(compensateZeros(shoulder));
     msg.append(std::to_string(shoulder));
     msg.append(",");
-    int elbow = 180 - static_cast<int>((((position_commands_.at(2)) + (M_PI/2)) * 180) / M_PI);
+    // int elbow = 180 - static_cast<int>((((position_commands_.at(2)) + (M_PI/2)) * 180) / M_PI);
+    int elbow = 180 - static_cast<int>((position_commands_.at(2) * 180) / M_PI);
     msg.append("e");
     msg.append(compensateZeros(elbow));
     msg.append(std::to_string(elbow));
     msg.append(",");    
-    int wrist = 180 - static_cast<int>((((position_commands_.at(3)) + (M_PI/2)) * 180) / M_PI);
+    // int wrist = 180 - static_cast<int>((((position_commands_.at(3)) + (M_PI/2)) * 180) / M_PI);
+    int wrist = 180 - static_cast<int>((position_commands_.at(3) * 180) / M_PI);
     msg.append("w");
     msg.append(compensateZeros(wrist));
     msg.append(std::to_string(wrist));

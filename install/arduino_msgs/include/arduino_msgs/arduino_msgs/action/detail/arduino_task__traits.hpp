@@ -25,10 +25,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: task_number
+  // member: arduino_task_number
   {
-    out << "task_number: ";
-    rosidl_generator_traits::value_to_yaml(msg.task_number, out);
+    out << "arduino_task_number: ";
+    rosidl_generator_traits::value_to_yaml(msg.arduino_task_number, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -37,13 +37,13 @@ inline void to_block_style_yaml(
   const ArduinoTask_Goal & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: task_number
+  // member: arduino_task_number
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "task_number: ";
-    rosidl_generator_traits::value_to_yaml(msg.task_number, out);
+    out << "arduino_task_number: ";
+    rosidl_generator_traits::value_to_yaml(msg.arduino_task_number, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -117,10 +117,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: success
+  // member: arduino_success
   {
-    out << "success: ";
-    rosidl_generator_traits::value_to_yaml(msg.success, out);
+    out << "arduino_success: ";
+    rosidl_generator_traits::value_to_yaml(msg.arduino_success, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -129,13 +129,13 @@ inline void to_block_style_yaml(
   const ArduinoTask_Result & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: success
+  // member: arduino_success
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "success: ";
-    rosidl_generator_traits::value_to_yaml(msg.success, out);
+    out << "arduino_success: ";
+    rosidl_generator_traits::value_to_yaml(msg.arduino_success, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -209,10 +209,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: percentage
+  // member: arduino_percentage
   {
-    out << "percentage: ";
-    rosidl_generator_traits::value_to_yaml(msg.percentage, out);
+    out << "arduino_percentage: ";
+    rosidl_generator_traits::value_to_yaml(msg.arduino_percentage, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -221,13 +221,13 @@ inline void to_block_style_yaml(
   const ArduinoTask_Feedback & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: percentage
+  // member: arduino_percentage
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "percentage: ";
-    rosidl_generator_traits::value_to_yaml(msg.percentage, out);
+    out << "arduino_percentage: ";
+    rosidl_generator_traits::value_to_yaml(msg.arduino_percentage, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

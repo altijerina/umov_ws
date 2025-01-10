@@ -1,0 +1,35 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/arduino_controller.dir/src/arduino_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libarduino_controller.so[0m
+[100%] Built target arduino_controller
+-- Install configuration: ""
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/arduino_controller.xml
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/launch
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/launch/arduino_controller.launch.py
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/config
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/config/arduino_controllers.yaml
+-- Installing: /home/albert/umov_ws/install/arduino_controller/lib/libarduino_controller.so
+-- Set non-toolchain portion of runtime path of "/home/albert/umov_ws/install/arduino_controller/lib/libarduino_controller.so" to ""
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/include/include
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/include/include/arduino_controller
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/include/include/arduino_controller/arduino_interface.hpp
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/environment/library_path.sh
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/environment/library_path.dsv
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/ament_index/resource_index/package_run_dependencies/arduino_controller
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/ament_index/resource_index/parent_prefix_path/arduino_controller
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/environment/path.sh
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/environment/path.dsv
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/local_setup.bash
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/local_setup.sh
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/local_setup.zsh
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/local_setup.dsv
+-- Installing: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/package.dsv
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/ament_index/resource_index/packages/arduino_controller
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduino_controller
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/cmake/arduino_controllerConfig.cmake
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/cmake/arduino_controllerConfig-version.cmake
+-- Up-to-date: /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/package.xml

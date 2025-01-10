@@ -21,15 +21,15 @@ namespace action
 namespace builder
 {
 
-class Init_ArduinoTask_Goal_task_number
+class Init_ArduinoTask_Goal_arduino_task_number
 {
 public:
-  Init_ArduinoTask_Goal_task_number()
+  Init_ArduinoTask_Goal_arduino_task_number()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::arduino_msgs::action::ArduinoTask_Goal task_number(::arduino_msgs::action::ArduinoTask_Goal::_task_number_type arg)
+  ::arduino_msgs::action::ArduinoTask_Goal arduino_task_number(::arduino_msgs::action::ArduinoTask_Goal::_arduino_task_number_type arg)
   {
-    msg_.task_number = std::move(arg);
+    msg_.arduino_task_number = std::move(arg);
     return std::move(msg_);
   }
 
@@ -48,7 +48,7 @@ template<>
 inline
 auto build<::arduino_msgs::action::ArduinoTask_Goal>()
 {
-  return arduino_msgs::action::builder::Init_ArduinoTask_Goal_task_number();
+  return arduino_msgs::action::builder::Init_ArduinoTask_Goal_arduino_task_number();
 }
 
 }  // namespace arduino_msgs
@@ -63,15 +63,15 @@ namespace action
 namespace builder
 {
 
-class Init_ArduinoTask_Result_success
+class Init_ArduinoTask_Result_arduino_success
 {
 public:
-  Init_ArduinoTask_Result_success()
+  Init_ArduinoTask_Result_arduino_success()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::arduino_msgs::action::ArduinoTask_Result success(::arduino_msgs::action::ArduinoTask_Result::_success_type arg)
+  ::arduino_msgs::action::ArduinoTask_Result arduino_success(::arduino_msgs::action::ArduinoTask_Result::_arduino_success_type arg)
   {
-    msg_.success = std::move(arg);
+    msg_.arduino_success = std::move(arg);
     return std::move(msg_);
   }
 
@@ -90,7 +90,7 @@ template<>
 inline
 auto build<::arduino_msgs::action::ArduinoTask_Result>()
 {
-  return arduino_msgs::action::builder::Init_ArduinoTask_Result_success();
+  return arduino_msgs::action::builder::Init_ArduinoTask_Result_arduino_success();
 }
 
 }  // namespace arduino_msgs
@@ -105,15 +105,15 @@ namespace action
 namespace builder
 {
 
-class Init_ArduinoTask_Feedback_percentage
+class Init_ArduinoTask_Feedback_arduino_percentage
 {
 public:
-  Init_ArduinoTask_Feedback_percentage()
+  Init_ArduinoTask_Feedback_arduino_percentage()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::arduino_msgs::action::ArduinoTask_Feedback percentage(::arduino_msgs::action::ArduinoTask_Feedback::_percentage_type arg)
+  ::arduino_msgs::action::ArduinoTask_Feedback arduino_percentage(::arduino_msgs::action::ArduinoTask_Feedback::_arduino_percentage_type arg)
   {
-    msg_.percentage = std::move(arg);
+    msg_.arduino_percentage = std::move(arg);
     return std::move(msg_);
   }
 
@@ -132,7 +132,7 @@ template<>
 inline
 auto build<::arduino_msgs::action::ArduinoTask_Feedback>()
 {
-  return arduino_msgs::action::builder::Init_ArduinoTask_Feedback_percentage();
+  return arduino_msgs::action::builder::Init_ArduinoTask_Feedback_arduino_percentage();
 }
 
 }  // namespace arduino_msgs

@@ -17,7 +17,7 @@ arduino_msgs__action__ArduinoTask_Goal__init(arduino_msgs__action__ArduinoTask_G
   if (!msg) {
     return false;
   }
-  // task_number
+  // arduino_task_number
   return true;
 }
 
@@ -27,7 +27,7 @@ arduino_msgs__action__ArduinoTask_Goal__fini(arduino_msgs__action__ArduinoTask_G
   if (!msg) {
     return;
   }
-  // task_number
+  // arduino_task_number
 }
 
 bool
@@ -36,8 +36,8 @@ arduino_msgs__action__ArduinoTask_Goal__are_equal(const arduino_msgs__action__Ar
   if (!lhs || !rhs) {
     return false;
   }
-  // task_number
-  if (lhs->task_number != rhs->task_number) {
+  // arduino_task_number
+  if (lhs->arduino_task_number != rhs->arduino_task_number) {
     return false;
   }
   return true;
@@ -51,8 +51,8 @@ arduino_msgs__action__ArduinoTask_Goal__copy(
   if (!input || !output) {
     return false;
   }
-  // task_number
-  output->task_number = input->task_number;
+  // arduino_task_number
+  output->arduino_task_number = input->arduino_task_number;
   return true;
 }
 
@@ -242,7 +242,7 @@ arduino_msgs__action__ArduinoTask_Result__init(arduino_msgs__action__ArduinoTask
   if (!msg) {
     return false;
   }
-  // success
+  // arduino_success
   return true;
 }
 
@@ -252,7 +252,7 @@ arduino_msgs__action__ArduinoTask_Result__fini(arduino_msgs__action__ArduinoTask
   if (!msg) {
     return;
   }
-  // success
+  // arduino_success
 }
 
 bool
@@ -261,8 +261,8 @@ arduino_msgs__action__ArduinoTask_Result__are_equal(const arduino_msgs__action__
   if (!lhs || !rhs) {
     return false;
   }
-  // success
-  if (lhs->success != rhs->success) {
+  // arduino_success
+  if (lhs->arduino_success != rhs->arduino_success) {
     return false;
   }
   return true;
@@ -276,8 +276,8 @@ arduino_msgs__action__ArduinoTask_Result__copy(
   if (!input || !output) {
     return false;
   }
-  // success
-  output->success = input->success;
+  // arduino_success
+  output->arduino_success = input->arduino_success;
   return true;
 }
 
@@ -467,7 +467,7 @@ arduino_msgs__action__ArduinoTask_Feedback__init(arduino_msgs__action__ArduinoTa
   if (!msg) {
     return false;
   }
-  // percentage
+  // arduino_percentage
   return true;
 }
 
@@ -477,7 +477,7 @@ arduino_msgs__action__ArduinoTask_Feedback__fini(arduino_msgs__action__ArduinoTa
   if (!msg) {
     return;
   }
-  // percentage
+  // arduino_percentage
 }
 
 bool
@@ -486,8 +486,8 @@ arduino_msgs__action__ArduinoTask_Feedback__are_equal(const arduino_msgs__action
   if (!lhs || !rhs) {
     return false;
   }
-  // percentage
-  if (lhs->percentage != rhs->percentage) {
+  // arduino_percentage
+  if (lhs->arduino_percentage != rhs->arduino_percentage) {
     return false;
   }
   return true;
@@ -501,8 +501,8 @@ arduino_msgs__action__ArduinoTask_Feedback__copy(
   if (!input || !output) {
     return false;
   }
-  // percentage
-  output->percentage = input->percentage;
+  // arduino_percentage
+  output->arduino_percentage = input->arduino_percentage;
   return true;
 }
 

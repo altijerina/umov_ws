@@ -50,13 +50,13 @@ bool arduino_msgs__action__arduino_task__goal__convert_from_py(PyObject * _pymsg
     assert(strncmp("arduino_msgs.action._arduino_task.ArduinoTask_Goal", full_classname_dest, 50) == 0);
   }
   arduino_msgs__action__ArduinoTask_Goal * ros_message = _ros_message;
-  {  // task_number
-    PyObject * field = PyObject_GetAttrString(_pymsg, "task_number");
+  {  // arduino_task_number
+    PyObject * field = PyObject_GetAttrString(_pymsg, "arduino_task_number");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->task_number = (int32_t)PyLong_AsLong(field);
+    ros_message->arduino_task_number = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -81,11 +81,11 @@ PyObject * arduino_msgs__action__arduino_task__goal__convert_to_py(void * raw_ro
     }
   }
   arduino_msgs__action__ArduinoTask_Goal * ros_message = (arduino_msgs__action__ArduinoTask_Goal *)raw_ros_message;
-  {  // task_number
+  {  // arduino_task_number
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->task_number);
+    field = PyLong_FromLong(ros_message->arduino_task_number);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "task_number", field);
+      int rc = PyObject_SetAttrString(_pymessage, "arduino_task_number", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
@@ -145,13 +145,13 @@ bool arduino_msgs__action__arduino_task__result__convert_from_py(PyObject * _pym
     assert(strncmp("arduino_msgs.action._arduino_task.ArduinoTask_Result", full_classname_dest, 52) == 0);
   }
   arduino_msgs__action__ArduinoTask_Result * ros_message = _ros_message;
-  {  // success
-    PyObject * field = PyObject_GetAttrString(_pymsg, "success");
+  {  // arduino_success
+    PyObject * field = PyObject_GetAttrString(_pymsg, "arduino_success");
     if (!field) {
       return false;
     }
     assert(PyBool_Check(field));
-    ros_message->success = (Py_True == field);
+    ros_message->arduino_success = (Py_True == field);
     Py_DECREF(field);
   }
 
@@ -176,11 +176,11 @@ PyObject * arduino_msgs__action__arduino_task__result__convert_to_py(void * raw_
     }
   }
   arduino_msgs__action__ArduinoTask_Result * ros_message = (arduino_msgs__action__ArduinoTask_Result *)raw_ros_message;
-  {  // success
+  {  // arduino_success
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->success ? 1 : 0);
+    field = PyBool_FromLong(ros_message->arduino_success ? 1 : 0);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "success", field);
+      int rc = PyObject_SetAttrString(_pymessage, "arduino_success", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
@@ -240,13 +240,13 @@ bool arduino_msgs__action__arduino_task__feedback__convert_from_py(PyObject * _p
     assert(strncmp("arduino_msgs.action._arduino_task.ArduinoTask_Feedback", full_classname_dest, 54) == 0);
   }
   arduino_msgs__action__ArduinoTask_Feedback * ros_message = _ros_message;
-  {  // percentage
-    PyObject * field = PyObject_GetAttrString(_pymsg, "percentage");
+  {  // arduino_percentage
+    PyObject * field = PyObject_GetAttrString(_pymsg, "arduino_percentage");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->percentage = (int32_t)PyLong_AsLong(field);
+    ros_message->arduino_percentage = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -271,11 +271,11 @@ PyObject * arduino_msgs__action__arduino_task__feedback__convert_to_py(void * ra
     }
   }
   arduino_msgs__action__ArduinoTask_Feedback * ros_message = (arduino_msgs__action__ArduinoTask_Feedback *)raw_ros_message;
-  {  // percentage
+  {  // arduino_percentage
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->percentage);
+    field = PyLong_FromLong(ros_message->arduino_percentage);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "percentage", field);
+      int rc = PyObject_SetAttrString(_pymessage, "arduino_percentage", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -1,5 +1,5 @@
-/home/albert/umov_ws/install/arduino_bringup/share/arduino_bringup/launch/real_robot.launch.py
-/home/albert/umov_ws/install/arduino_bringup/share/arduino_bringup/launch/simulated_robot.launch.py
+/home/albert/umov_ws/install/arduino_bringup/share/arduino_bringup/launch/arduino_real_robot.launch.py
+/home/albert/umov_ws/install/arduino_bringup/share/arduino_bringup/launch/arduino_simulated_robot.launch.py
 /home/albert/umov_ws/install/arduino_bringup/share/ament_index/resource_index/package_run_dependencies/arduino_bringup
 /home/albert/umov_ws/install/arduino_bringup/share/ament_index/resource_index/parent_prefix_path/arduino_bringup
 /home/albert/umov_ws/install/arduino_bringup/share/arduino_bringup/environment/ament_prefix_path.sh

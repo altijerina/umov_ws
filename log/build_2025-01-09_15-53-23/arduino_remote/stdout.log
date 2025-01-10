@@ -1,0 +1,10 @@
+[  0%] Built target ament_cmake_python_copy_arduino_remote
+[ 50%] Built target arduino_task_server_node
+[ 75%] [32mBuilding CXX object CMakeFiles/arduino_task_server.dir/src/arduino_task_server.cpp.o[0m
+running egg_info
+writing arduino_remote.egg-info/PKG-INFO
+writing dependency_links to arduino_remote.egg-info/dependency_links.txt
+writing top-level names to arduino_remote.egg-info/top_level.txt
+reading manifest file 'arduino_remote.egg-info/SOURCES.txt'
+writing manifest file 'arduino_remote.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_arduino_remote_egg

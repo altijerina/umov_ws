@@ -1,0 +1,49 @@
+[0.303s] Invoking command in '/home/albert/umov_ws/build/arduino_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ag_arm_ws/install/arm_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduino_firmware -- -j8 -l8
+[0.640s] [  0%] Built target ament_cmake_python_copy_arduino_firmware
+[0.817s] [ 50%] Built target simple_serial_receiver
+[3.133s] running egg_info
+[3.137s] writing arduino_firmware.egg-info/PKG-INFO
+[3.138s] writing dependency_links to arduino_firmware.egg-info/dependency_links.txt
+[3.138s] writing top-level names to arduino_firmware.egg-info/top_level.txt
+[3.159s] reading manifest file 'arduino_firmware.egg-info/SOURCES.txt'
+[3.160s] writing manifest file 'arduino_firmware.egg-info/SOURCES.txt'
+[3.292s] [ 50%] Built target ament_cmake_python_build_arduino_firmware_egg
+[3.404s] [100%] Built target simple_serial_transmitter
+[3.447s] Invoked command in '/home/albert/umov_ws/build/arduino_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ag_arm_ws/install/arm_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduino_firmware -- -j8 -l8
+[3.450s] Invoking command in '/home/albert/umov_ws/build/arduino_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ag_arm_ws/install/arm_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduino_firmware
+[3.486s] -- Install configuration: ""
+[3.487s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/pythonpath.sh
+[3.487s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/pythonpath.dsv
+[3.487s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info
+[3.487s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.488s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[3.489s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[3.491s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.497s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware
+[3.497s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver.py
+[3.497s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/__init__.py
+[3.498s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_transmitter.py
+[3.498s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver
+[3.498s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver/simple_serial_receiver.ino
+[3.837s] Listing '/home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware'...
+[3.837s] Listing '/home/albert/umov_ws/install/arduino_firmware/local/lib/python3.10/dist-packages/arduino_firmware/simple_serial_receiver'...
+[3.869s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_transmitter
+[3.870s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_receiver
+[3.870s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_transmitter.py
+[3.870s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/lib/arduino_firmware/simple_serial_receiver.py
+[3.870s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/ament_index/resource_index/package_run_dependencies/arduino_firmware
+[3.875s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/ament_index/resource_index/parent_prefix_path/arduino_firmware
+[3.881s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/ament_prefix_path.sh
+[3.881s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/ament_prefix_path.dsv
+[3.881s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/path.sh
+[3.881s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/environment/path.dsv
+[3.882s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/local_setup.bash
+[3.882s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/local_setup.sh
+[3.882s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/local_setup.zsh
+[3.883s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/local_setup.dsv
+[3.883s] -- Installing: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/package.dsv
+[3.884s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/ament_index/resource_index/packages/arduino_firmware
+[3.901s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/cmake/arduino_firmwareConfig.cmake
+[3.901s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/cmake/arduino_firmwareConfig-version.cmake
+[3.902s] -- Up-to-date: /home/albert/umov_ws/install/arduino_firmware/share/arduino_firmware/package.xml
+[3.929s] Invoked command in '/home/albert/umov_ws/build/arduino_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ag_arm_ws/install/arm_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduino_firmware

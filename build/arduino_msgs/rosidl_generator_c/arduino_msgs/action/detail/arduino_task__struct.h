@@ -20,7 +20,7 @@ extern "C"
 /// Struct defined in action/ArduinoTask in the package arduino_msgs.
 typedef struct arduino_msgs__action__ArduinoTask_Goal
 {
-  int32_t task_number;
+  int32_t arduino_task_number;
 } arduino_msgs__action__ArduinoTask_Goal;
 
 // Struct for a sequence of arduino_msgs__action__ArduinoTask_Goal.
@@ -39,7 +39,7 @@ typedef struct arduino_msgs__action__ArduinoTask_Goal__Sequence
 /// Struct defined in action/ArduinoTask in the package arduino_msgs.
 typedef struct arduino_msgs__action__ArduinoTask_Result
 {
-  bool success;
+  bool arduino_success;
 } arduino_msgs__action__ArduinoTask_Result;
 
 // Struct for a sequence of arduino_msgs__action__ArduinoTask_Result.
@@ -58,7 +58,7 @@ typedef struct arduino_msgs__action__ArduinoTask_Result__Sequence
 /// Struct defined in action/ArduinoTask in the package arduino_msgs.
 typedef struct arduino_msgs__action__ArduinoTask_Feedback
 {
-  int32_t percentage;
+  int32_t arduino_percentage;
 } arduino_msgs__action__ArduinoTask_Feedback;
 
 // Struct for a sequence of arduino_msgs__action__ArduinoTask_Feedback.

@@ -55,11 +55,11 @@ class ArduinoTask_Goal(metaclass=Metaclass_ArduinoTask_Goal):
     """Message class 'ArduinoTask_Goal'."""
 
     __slots__ = [
-        '_task_number',
+        '_arduino_task_number',
     ]
 
     _fields_and_field_types = {
-        'task_number': 'int32',
+        'arduino_task_number': 'int32',
     }
 
     SLOT_TYPES = (
@@ -70,7 +70,7 @@ class ArduinoTask_Goal(metaclass=Metaclass_ArduinoTask_Goal):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.task_number = kwargs.get('task_number', int())
+        self.arduino_task_number = kwargs.get('arduino_task_number', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -101,7 +101,7 @@ class ArduinoTask_Goal(metaclass=Metaclass_ArduinoTask_Goal):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.task_number != other.task_number:
+        if self.arduino_task_number != other.arduino_task_number:
             return False
         return True
 
@@ -111,19 +111,19 @@ class ArduinoTask_Goal(metaclass=Metaclass_ArduinoTask_Goal):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def task_number(self):
-        """Message field 'task_number'."""
-        return self._task_number
+    def arduino_task_number(self):
+        """Message field 'arduino_task_number'."""
+        return self._arduino_task_number
 
-    @task_number.setter
-    def task_number(self, value):
+    @arduino_task_number.setter
+    def arduino_task_number(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'task_number' field must be of type 'int'"
+                "The 'arduino_task_number' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'task_number' field must be an integer in [-2147483648, 2147483647]"
-        self._task_number = value
+                "The 'arduino_task_number' field must be an integer in [-2147483648, 2147483647]"
+        self._arduino_task_number = value
 
 
 # Import statements for member types
@@ -180,11 +180,11 @@ class ArduinoTask_Result(metaclass=Metaclass_ArduinoTask_Result):
     """Message class 'ArduinoTask_Result'."""
 
     __slots__ = [
-        '_success',
+        '_arduino_success',
     ]
 
     _fields_and_field_types = {
-        'success': 'boolean',
+        'arduino_success': 'boolean',
     }
 
     SLOT_TYPES = (
@@ -195,7 +195,7 @@ class ArduinoTask_Result(metaclass=Metaclass_ArduinoTask_Result):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.success = kwargs.get('success', bool())
+        self.arduino_success = kwargs.get('arduino_success', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -226,7 +226,7 @@ class ArduinoTask_Result(metaclass=Metaclass_ArduinoTask_Result):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.success != other.success:
+        if self.arduino_success != other.arduino_success:
             return False
         return True
 
@@ -236,17 +236,17 @@ class ArduinoTask_Result(metaclass=Metaclass_ArduinoTask_Result):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def success(self):
-        """Message field 'success'."""
-        return self._success
+    def arduino_success(self):
+        """Message field 'arduino_success'."""
+        return self._arduino_success
 
-    @success.setter
-    def success(self, value):
+    @arduino_success.setter
+    def arduino_success(self, value):
         if __debug__:
             assert \
                 isinstance(value, bool), \
-                "The 'success' field must be of type 'bool'"
-        self._success = value
+                "The 'arduino_success' field must be of type 'bool'"
+        self._arduino_success = value
 
 
 # Import statements for member types
@@ -303,11 +303,11 @@ class ArduinoTask_Feedback(metaclass=Metaclass_ArduinoTask_Feedback):
     """Message class 'ArduinoTask_Feedback'."""
 
     __slots__ = [
-        '_percentage',
+        '_arduino_percentage',
     ]
 
     _fields_and_field_types = {
-        'percentage': 'int32',
+        'arduino_percentage': 'int32',
     }
 
     SLOT_TYPES = (
@@ -318,7 +318,7 @@ class ArduinoTask_Feedback(metaclass=Metaclass_ArduinoTask_Feedback):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.percentage = kwargs.get('percentage', int())
+        self.arduino_percentage = kwargs.get('arduino_percentage', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -349,7 +349,7 @@ class ArduinoTask_Feedback(metaclass=Metaclass_ArduinoTask_Feedback):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.percentage != other.percentage:
+        if self.arduino_percentage != other.arduino_percentage:
             return False
         return True
 
@@ -359,19 +359,19 @@ class ArduinoTask_Feedback(metaclass=Metaclass_ArduinoTask_Feedback):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def percentage(self):
-        """Message field 'percentage'."""
-        return self._percentage
+    def arduino_percentage(self):
+        """Message field 'arduino_percentage'."""
+        return self._arduino_percentage
 
-    @percentage.setter
-    def percentage(self, value):
+    @arduino_percentage.setter
+    def arduino_percentage(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'percentage' field must be of type 'int'"
+                "The 'arduino_percentage' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'percentage' field must be an integer in [-2147483648, 2147483647]"
-        self._percentage = value
+                "The 'arduino_percentage' field must be an integer in [-2147483648, 2147483647]"
+        self._arduino_percentage = value
 
 
 # Import statements for member types

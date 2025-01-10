@@ -38,7 +38,7 @@ struct ArduinoTask_Goal_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->task_number = 0l;
+      this->arduino_task_number = 0l;
     }
   }
 
@@ -48,20 +48,20 @@ struct ArduinoTask_Goal_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->task_number = 0l;
+      this->arduino_task_number = 0l;
     }
   }
 
   // field types and members
-  using _task_number_type =
+  using _arduino_task_number_type =
     int32_t;
-  _task_number_type task_number;
+  _arduino_task_number_type arduino_task_number;
 
   // setters for named parameter idiom
-  Type & set__task_number(
+  Type & set__arduino_task_number(
     const int32_t & _arg)
   {
-    this->task_number = _arg;
+    this->arduino_task_number = _arg;
     return *this;
   }
 
@@ -107,7 +107,7 @@ struct ArduinoTask_Goal_
   // comparison operators
   bool operator==(const ArduinoTask_Goal_ & other) const
   {
-    if (this->task_number != other.task_number) {
+    if (this->arduino_task_number != other.arduino_task_number) {
       return false;
     }
     return true;
@@ -152,7 +152,7 @@ struct ArduinoTask_Result_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->success = false;
+      this->arduino_success = false;
     }
   }
 
@@ -162,20 +162,20 @@ struct ArduinoTask_Result_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->success = false;
+      this->arduino_success = false;
     }
   }
 
   // field types and members
-  using _success_type =
+  using _arduino_success_type =
     bool;
-  _success_type success;
+  _arduino_success_type arduino_success;
 
   // setters for named parameter idiom
-  Type & set__success(
+  Type & set__arduino_success(
     const bool & _arg)
   {
-    this->success = _arg;
+    this->arduino_success = _arg;
     return *this;
   }
 
@@ -221,7 +221,7 @@ struct ArduinoTask_Result_
   // comparison operators
   bool operator==(const ArduinoTask_Result_ & other) const
   {
-    if (this->success != other.success) {
+    if (this->arduino_success != other.arduino_success) {
       return false;
     }
     return true;
@@ -266,7 +266,7 @@ struct ArduinoTask_Feedback_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->percentage = 0l;
+      this->arduino_percentage = 0l;
     }
   }
 
@@ -276,20 +276,20 @@ struct ArduinoTask_Feedback_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->percentage = 0l;
+      this->arduino_percentage = 0l;
     }
   }
 
   // field types and members
-  using _percentage_type =
+  using _arduino_percentage_type =
     int32_t;
-  _percentage_type percentage;
+  _arduino_percentage_type arduino_percentage;
 
   // setters for named parameter idiom
-  Type & set__percentage(
+  Type & set__arduino_percentage(
     const int32_t & _arg)
   {
-    this->percentage = _arg;
+    this->arduino_percentage = _arg;
     return *this;
   }
 
@@ -335,7 +335,7 @@ struct ArduinoTask_Feedback_
   // comparison operators
   bool operator==(const ArduinoTask_Feedback_ & other) const
   {
-    if (this->percentage != other.percentage) {
+    if (this->arduino_percentage != other.arduino_percentage) {
       return false;
     }
     return true;

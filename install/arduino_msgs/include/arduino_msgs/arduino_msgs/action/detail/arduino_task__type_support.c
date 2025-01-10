@@ -33,14 +33,14 @@ void arduino_msgs__action__ArduinoTask_Goal__rosidl_typesupport_introspection_c_
 
 static rosidl_typesupport_introspection_c__MessageMember arduino_msgs__action__ArduinoTask_Goal__rosidl_typesupport_introspection_c__ArduinoTask_Goal_message_member_array[1] = {
   {
-    "task_number",  // name
+    "arduino_task_number",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(arduino_msgs__action__ArduinoTask_Goal, task_number),  // bytes offset in struct
+    offsetof(arduino_msgs__action__ArduinoTask_Goal, arduino_task_number),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -121,14 +121,14 @@ void arduino_msgs__action__ArduinoTask_Result__rosidl_typesupport_introspection_
 
 static rosidl_typesupport_introspection_c__MessageMember arduino_msgs__action__ArduinoTask_Result__rosidl_typesupport_introspection_c__ArduinoTask_Result_message_member_array[1] = {
   {
-    "success",  // name
+    "arduino_success",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(arduino_msgs__action__ArduinoTask_Result, success),  // bytes offset in struct
+    offsetof(arduino_msgs__action__ArduinoTask_Result, arduino_success),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -209,14 +209,14 @@ void arduino_msgs__action__ArduinoTask_Feedback__rosidl_typesupport_introspectio
 
 static rosidl_typesupport_introspection_c__MessageMember arduino_msgs__action__ArduinoTask_Feedback__rosidl_typesupport_introspection_c__ArduinoTask_Feedback_message_member_array[1] = {
   {
-    "percentage",  // name
+    "arduino_percentage",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(arduino_msgs__action__ArduinoTask_Feedback, percentage),  // bytes offset in struct
+    offsetof(arduino_msgs__action__ArduinoTask_Feedback, arduino_percentage),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

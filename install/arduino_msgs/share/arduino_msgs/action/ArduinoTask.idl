@@ -8,17 +8,17 @@ module arduino_msgs {
     @verbatim (language="comment", text=
       "Goal")
     struct ArduinoTask_Goal {
-      int32 task_number;
+      int32 arduino_task_number;
     };
     @verbatim (language="comment", text=
       "Result")
     struct ArduinoTask_Result {
-      boolean success;
+      boolean arduino_success;
     };
     @verbatim (language="comment", text=
       "Feedback")
     struct ArduinoTask_Feedback {
-      int32 percentage;
+      int32 arduino_percentage;
     };
   };
 };

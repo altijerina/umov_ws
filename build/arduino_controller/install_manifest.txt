@@ -1,5 +1,5 @@
 /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/arduino_controller.xml
-/home/albert/umov_ws/install/arduino_controller/share/arduino_controller/launch/controller.launch.py
+/home/albert/umov_ws/install/arduino_controller/share/arduino_controller/launch/arduino_controller.launch.py
 /home/albert/umov_ws/install/arduino_controller/share/arduino_controller/config/arduino_controllers.yaml
 /home/albert/umov_ws/install/arduino_controller/lib/libarduino_controller.so
 /home/albert/umov_ws/install/arduino_controller/include/include/arduino_controller/arduino_interface.hpp

@@ -1,6 +1,6 @@
-/home/albert/umov_ws/install/description/share/description/launch/gazebo.launch.py
+/home/albert/umov_ws/install/description/share/description/launch/arduino_gazebo.launch.py
 /home/albert/umov_ws/install/description/share/description/launch/orig_gazebo.launch.py
-/home/albert/umov_ws/install/description/share/description/launch/display.launch.py
+/home/albert/umov_ws/install/description/share/description/launch/arduino_display.launch.py
 /home/albert/umov_ws/install/description/share/description/meshes/right_finger.STL
 /home/albert/umov_ws/install/description/share/description/meshes/triangular_link.STL
 /home/albert/umov_ws/install/description/share/description/meshes/round_plate.STL

@@ -1,0 +1,8 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[01m[K/home/albert/umov_ws/src/arduino_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid arduino_remote::ArduinoTaskServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduino_msgs::action::ArduinoTask> >)[m[K’:
+[01m[K/home/albert/umov_ws/src/arduino_remote/src/task_server.cpp:164:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct arduino_msgs::action::ArduinoTask_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct arduino_msgs::action::ArduinoTask_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+  164 |     result->[01;31m[Ksuccess[m[K = true;
+      |             [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

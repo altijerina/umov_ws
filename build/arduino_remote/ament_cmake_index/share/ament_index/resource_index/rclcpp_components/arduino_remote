@@ -1,1 +1,1 @@
-arduino_remote::TaskServer;lib/libtask_server.so
+arduino_remote::ArduinoTaskServer;lib/libarduino_task_server.so

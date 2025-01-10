@@ -20,21 +20,25 @@ find_package(moveit_planners REQUIRED)
 find_package(moveit_ros_planning REQUIRED)
 
 
-add_library(task_server SHARED src/task_server.cpp)
-target_include_directories(task_server PRIVATE
+add_library(arduino_task_server SHARED src/arduino_task_server.cpp)
+
+target_include_directories(arduino_task_server PRIVATE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-target_compile_definitions(task_server
-  PRIVATE "TASK_SERVER_CPP_BUILDING_DLL")
-ament_target_dependencies(task_server
+
+target_compile_definitions(arduino_task_server
+  PRIVATE "ARDUINO_TASK_SERVER_CPP_BUILDING_DLL")
+
+ament_target_dependencies(arduino_task_server
   "arduino_msgs"
   "rclcpp"
   "rclcpp_action"
   "rclcpp_components"
   "moveit_ros_planning_interface")
-rclcpp_components_register_node(task_server 
-  PLUGIN "arduino_remote::TaskServer" 
-  EXECUTABLE task_server_node
+  
+rclcpp_components_register_node(arduino_task_server 
+  PLUGIN "arduino_remote::ArduinoTaskServer" 
+  EXECUTABLE arduino_task_server_node
 )
 
 ament_python_install_package(${PROJECT_NAME})
@@ -45,15 +49,15 @@ install(
 )
 
 install(TARGETS
-  task_server
+  arduino_task_server
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin
 )
 
 install(PROGRAMS
-  ${PROJECT_NAME}/alexa_interface.py 
-  ${PROJECT_NAME}/task_server.py
+  ${PROJECT_NAME}/arduino_alexa_interface.py 
+  ${PROJECT_NAME}/arduino_task_server.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -1,0 +1,251 @@
+[0.564s] Invoking command in '/home/albert/umov_ws/build/arduino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ag_arm_ws/install/arm_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduino_msgs -- -j8 -l8
+[0.909s] [ 11%] Built target arduino_msgs__rosidl_generator_c
+[1.094s] [ 11%] Built target ament_cmake_python_copy_arduino_msgs
+[1.234s] [ 22%] Built target arduino_msgs__rosidl_typesupport_c
+[3.378s] running egg_info
+[3.384s] writing arduino_msgs.egg-info/PKG-INFO
+[3.385s] writing dependency_links to arduino_msgs.egg-info/dependency_links.txt
+[3.388s] writing top-level names to arduino_msgs.egg-info/top_level.txt
+[3.402s] reading manifest file 'arduino_msgs.egg-info/SOURCES.txt'
+[3.405s] writing manifest file 'arduino_msgs.egg-info/SOURCES.txt'
+[3.542s] [ 22%] Built target ament_cmake_python_build_arduino_msgs_egg
+[3.676s] [ 33%] Built target arduino_msgs__rosidl_typesupport_introspection_c
+[3.827s] [ 44%] Built target arduino_msgs__rosidl_typesupport_fastrtps_c
+[3.912s] [ 46%] Built target arduino_msgs__cpp
+[4.050s] [ 57%] Built target arduino_msgs__rosidl_typesupport_fastrtps_cpp
+[4.208s] [ 68%] Built target arduino_msgs__rosidl_typesupport_cpp
+[4.385s] [ 79%] Built target arduino_msgs__rosidl_typesupport_introspection_cpp
+[4.461s] [ 79%] Built target arduino_msgs
+[4.543s] [ 80%] Built target arduino_msgs__py
+[4.663s] [ 90%] Built target arduino_msgs__rosidl_generator_py
+[4.780s] [ 93%] Built target arduino_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.944s] [ 96%] Built target arduino_msgs__rosidl_typesupport_c__pyext
+[5.035s] [100%] Built target arduino_msgs__rosidl_typesupport_introspection_c__pyext
+[5.056s] Invoked command in '/home/albert/umov_ws/build/arduino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ag_arm_ws/install/arm_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/umov_ws/build/arduino_msgs -- -j8 -l8
+[5.068s] Invoking command in '/home/albert/umov_ws/build/arduino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ag_arm_ws/install/arm_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduino_msgs
+[5.090s] -- Install configuration: ""
+[5.092s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/ament_index/resource_index/rosidl_interfaces/arduino_msgs
+[5.095s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs
+[5.097s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg
+[5.097s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.098s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action
+[5.098s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/arduino_task.h
+[5.099s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/fibonacci.h
+[5.106s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail
+[5.107s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__functions.c
+[5.108s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__struct.h
+[5.109s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__type_support.h
+[5.110s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__struct.h
+[5.112s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__functions.c
+[5.112s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__functions.h
+[5.113s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__functions.h
+[5.113s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__type_support.h
+[5.113s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv
+[5.114s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/quaternion_to_euler.h
+[5.114s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail
+[5.114s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__functions.c
+[5.115s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__functions.h
+[5.115s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__struct.h
+[5.115s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__functions.c
+[5.116s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__functions.c
+[5.116s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__functions.h
+[5.117s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__functions.h
+[5.117s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__type_support.h
+[5.117s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__type_support.h
+[5.117s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__type_support.h
+[5.117s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__struct.h
+[5.118s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__struct.h
+[5.118s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/euler_to_quaternion.h
+[5.118s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/add_two_ints.h
+[5.118s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/environment/library_path.sh
+[5.119s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/environment/library_path.dsv
+[5.119s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_generator_c.so
+[5.120s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs
+[5.121s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg
+[5.122s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.122s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action
+[5.123s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail
+[5.124s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__rosidl_typesupport_fastrtps_c.h
+[5.124s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[5.127s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv
+[5.128s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail
+[5.131s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[5.131s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_c.h
+[5.133s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_c.h
+[5.134s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_fastrtps_c.so
+[5.135s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs
+[5.137s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg
+[5.138s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.138s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action
+[5.139s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/arduino_task.hpp
+[5.139s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/fibonacci.hpp
+[5.139s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail
+[5.141s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__type_support.hpp
+[5.142s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__builder.hpp
+[5.143s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__builder.hpp
+[5.143s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__type_support.hpp
+[5.144s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__struct.hpp
+[5.151s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__struct.hpp
+[5.152s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__traits.hpp
+[5.152s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__traits.hpp
+[5.153s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv
+[5.153s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/euler_to_quaternion.hpp
+[5.153s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail
+[5.154s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__struct.hpp
+[5.154s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__builder.hpp
+[5.154s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__traits.hpp
+[5.155s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__type_support.hpp
+[5.155s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__builder.hpp
+[5.155s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__type_support.hpp
+[5.156s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__traits.hpp
+[5.156s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__builder.hpp
+[5.157s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__traits.hpp
+[5.157s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__struct.hpp
+[5.158s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__struct.hpp
+[5.159s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__type_support.hpp
+[5.159s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/quaternion_to_euler.hpp
+[5.159s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/add_two_ints.hpp
+[5.159s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs
+[5.160s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg
+[5.161s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.161s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action
+[5.162s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail
+[5.162s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__rosidl_typesupport_fastrtps_cpp.hpp
+[5.163s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/dds_fastrtps
+[5.163s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[5.163s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv
+[5.164s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail
+[5.164s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[5.164s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[5.165s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/dds_fastrtps
+[5.165s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[5.165s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.165s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs
+[5.166s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg
+[5.166s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.166s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action
+[5.166s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail
+[5.167s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__type_support.c
+[5.167s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__type_support.c
+[5.167s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[5.168s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__rosidl_typesupport_introspection_c.h
+[5.168s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv
+[5.168s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail
+[5.168s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[5.169s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__type_support.c
+[5.169s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__type_support.c
+[5.169s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__type_support.c
+[5.170s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+[5.170s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+[5.170s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_introspection_c.so
+[5.170s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_c.so
+[5.171s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs
+[5.173s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action
+[5.173s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail
+[5.173s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__type_support.cpp
+[5.174s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__type_support.cpp
+[5.174s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[5.174s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/action/detail/arduino_task__rosidl_typesupport_introspection_cpp.hpp
+[5.175s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv
+[5.175s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail
+[5.175s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_cpp.hpp
+[5.176s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/euler_to_quaternion__type_support.cpp
+[5.176s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__type_support.cpp
+[5.176s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__type_support.cpp
+[5.177s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_cpp.hpp
+[5.177s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/include/arduino_msgs/arduino_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[5.177s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_introspection_cpp.so
+[5.177s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_typesupport_cpp.so
+[5.178s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/environment/pythonpath.sh
+[5.178s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/environment/pythonpath.dsv
+[5.178s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs-0.0.0-py3.10.egg-info
+[5.178s] -- Installing: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.179s] -- Installing: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.179s] -- Installing: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.179s] -- Installing: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.180s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs
+[5.180s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/libarduino_msgs__rosidl_generator_py.so
+[5.180s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/__init__.py
+[5.181s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/action
+[5.181s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/action/__init__.py
+[5.181s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/action/_fibonacci_s.c
+[5.181s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/action/_arduino_task.py
+[5.182s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/action/_arduino_task_s.c
+[5.182s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/action/_fibonacci.py
+[5.182s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/arduino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.183s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/_arduino_msgs_s.ep.rosidl_typesupport_c.c
+[5.183s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/arduino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.183s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/_arduino_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.184s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/arduino_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.185s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/_arduino_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.185s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv
+[5.185s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv/_quaternion_to_euler_s.c
+[5.185s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv/_euler_to_quaternion.py
+[5.186s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv/__init__.py
+[5.186s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv/_quaternion_to_euler.py
+[5.186s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv/_add_two_ints_s.c
+[5.187s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv/_add_two_ints.py
+[5.188s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv/_euler_to_quaternion_s.c
+[5.418s] Listing '/home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs'...
+[5.420s] Listing '/home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/action'...
+[5.422s] Listing '/home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/srv'...
+[5.455s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/arduino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.458s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/arduino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.464s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/local/lib/python3.10/dist-packages/arduino_msgs/arduino_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.468s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/lib/libarduino_msgs__rosidl_generator_py.so
+[5.469s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/AddTwoInts.idl
+[5.474s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/EulerToQuaternion.idl
+[5.479s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/QuaternionToEuler.idl
+[5.486s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/action/Fibonacci.idl
+[5.487s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/action/ArduinoTask.idl
+[5.487s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/AddTwoInts.srv
+[5.488s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/AddTwoInts_Request.msg
+[5.488s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/AddTwoInts_Response.msg
+[5.489s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/EulerToQuaternion.srv
+[5.489s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/EulerToQuaternion_Request.msg
+[5.491s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/EulerToQuaternion_Response.msg
+[5.491s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/QuaternionToEuler.srv
+[5.492s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/QuaternionToEuler_Request.msg
+[5.493s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/srv/QuaternionToEuler_Response.msg
+[5.493s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/action/Fibonacci.action
+[5.494s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/action/ArduinoTask.action
+[5.494s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/ament_index/resource_index/package_run_dependencies/arduino_msgs
+[5.494s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/ament_index/resource_index/parent_prefix_path/arduino_msgs
+[5.495s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/environment/ament_prefix_path.sh
+[5.496s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/environment/ament_prefix_path.dsv
+[5.497s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/environment/path.sh
+[5.502s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/environment/path.dsv
+[5.504s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/local_setup.bash
+[5.505s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/local_setup.sh
+[5.508s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/local_setup.zsh
+[5.509s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/local_setup.dsv
+[5.509s] -- Installing: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/package.dsv
+[5.510s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/ament_index/resource_index/packages/arduino_msgs
+[5.512s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_generator_cExport.cmake
+[5.513s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.513s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.514s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.515s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_generator_cppExport.cmake
+[5.515s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.515s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.516s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.518s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.518s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgs__rosidl_typesupport_cExport.cmake
+[5.519s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.519s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.520s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.520s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgs__rosidl_typesupport_cppExport.cmake
+[5.526s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.527s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_generator_pyExport.cmake
+[5.527s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/export_arduino_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.527s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/rosidl_cmake-extras.cmake
+[5.528s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.528s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.528s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.529s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.529s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.534s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.534s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgsConfig.cmake
+[5.535s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/cmake/arduino_msgsConfig-version.cmake
+[5.536s] -- Up-to-date: /home/albert/umov_ws/install/arduino_msgs/share/arduino_msgs/package.xml
+[5.537s] Invoked command in '/home/albert/umov_ws/build/arduino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ag_arm_ws/install/arm_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/umov_ws/build/arduino_msgs
